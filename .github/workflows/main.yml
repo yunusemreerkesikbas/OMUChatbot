@@ -1,0 +1,27 @@
+name: Create branch for issue
+
+on:
+  issues:
+    types: [opened]
+    labels: [enhancements, bug]
+
+jobs:
+  create_branch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Get issue number
+        id: get_issue_number
+        run: echo "Issue number:${{github.event.number}}"
+
+      - name: Create branch with prefix based on label
+        run: |
+          label=${{ github.event.label.name }}
+          if [[ $label == "bug" ]]; then
+            branch_name="bug/"
+          else
+            branch_name="dev/"  # Change "dev/" to your desired prefix for enhancements
+          fi
+          git branch ${{ branch_name }}-${{ steps.get_issue_number.outputs.issue_number }}
