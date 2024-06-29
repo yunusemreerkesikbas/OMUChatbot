@@ -17,9 +17,10 @@ class _LoginPageState extends State<LoginPage> {
       String? storedEmail = prefs.getString('email');
       String? storedPassword = prefs.getString('password');
 
-      if (_emailController.text == storedEmail && _passwordController.text == storedPassword) {
+      if (_emailController.text == storedEmail &&
+          _passwordController.text == storedPassword) {
         await prefs.setBool('isLoggedIn', true);
-        Navigator.pushReplacementNamed(context, '/chat');
+        Navigator.pushReplacementNamed(context, '/admin');
       } else {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text('Invalid email or password')),
@@ -85,7 +86,8 @@ class _LoginPageState extends State<LoginPage> {
                       validator: (value) {
                         if (value == null || value.isEmpty) {
                           return 'Please enter your email';
-                        } else if (!RegExp(r'^[^@]+@[^@]+\.[^@]+').hasMatch(value)) {
+                        } else if (!RegExp(r'^[^@]+@[^@]+\.[^@]+')
+                            .hasMatch(value)) {
                           return 'Please enter a valid email';
                         }
                         return null;
@@ -115,7 +117,8 @@ class _LoginPageState extends State<LoginPage> {
                       onPressed: _login,
                       child: Text('Login'),
                       style: ElevatedButton.styleFrom(
-                        padding: EdgeInsets.symmetric(horizontal: 50, vertical: 15),
+                        padding:
+                            EdgeInsets.symmetric(horizontal: 50, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),

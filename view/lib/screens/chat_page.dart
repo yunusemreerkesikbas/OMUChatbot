@@ -47,7 +47,8 @@ class _ChatPageState extends State<ChatPage> {
         final jsonResponse = jsonDecode(response.body);
         messages[messages.length - 1]['response'] = jsonResponse['response'];
       } else {
-        messages[messages.length - 1]['response'] = 'Error: ${response.statusCode}';
+        messages[messages.length - 1]['response'] =
+            'Error: ${response.statusCode}';
       }
     });
   }
@@ -56,9 +57,9 @@ class _ChatPageState extends State<ChatPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Chatbot'),
+        title: const Text('Chatbot'),
         centerTitle: true,
-        backgroundColor: Color(0xFF002D72), // OMÜ mavi rengi
+        backgroundColor: const Color(0xFF002D72), // OMÜ mavi rengi
       ),
       body: Center(
         child: Container(
@@ -85,7 +86,7 @@ class _ChatPageState extends State<ChatPage> {
                         itemCount: messages.length + (_isLoading ? 1 : 0),
                         itemBuilder: (context, index) {
                           if (index == messages.length) {
-                            return Center(
+                            return const Center(
                               child: SpinKitThreeBounce(
                                 color: Color(0xFF002D72), // OMÜ mavi rengi
                                 size: 30.0,
@@ -95,10 +96,12 @@ class _ChatPageState extends State<ChatPage> {
                             return Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                _buildMessageBubble(messages[index]['question'], true),
-                                SizedBox(height: 8),
-                                _buildMessageBubble(messages[index]['response'], false),
-                                SizedBox(height: 16),
+                                _buildMessageBubble(
+                                    messages[index]['question'], true),
+                                const SizedBox(height: 8),
+                                _buildMessageBubble(
+                                    messages[index]['response'], false),
+                                const SizedBox(height: 16),
                               ],
                             );
                           }
@@ -120,7 +123,8 @@ class _ChatPageState extends State<ChatPage> {
                               ),
                               filled: true,
                               fillColor: Colors.grey[200],
-                              contentPadding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+                              contentPadding: const EdgeInsets.symmetric(
+                                  vertical: 10.0, horizontal: 20.0),
                             ),
                             onSubmitted: (value) {
                               final question = _controller.text;
@@ -129,10 +133,10 @@ class _ChatPageState extends State<ChatPage> {
                             },
                           ),
                         ),
-                        SizedBox(width: 8),
+                        const SizedBox(width: 8),
                         IconButton(
-                          icon: Icon(Icons.send),
-                          color: Color(0xFF002D72), // OMÜ mavi rengi
+                          icon: const Icon(Icons.send),
+                          color: const Color(0xFF002D72), // OMÜ mavi rengi
                           onPressed: () {
                             final question = _controller.text;
                             _controller.clear();
@@ -157,12 +161,15 @@ class _ChatPageState extends State<ChatPage> {
       child: Container(
         padding: const EdgeInsets.all(12.0),
         margin: const EdgeInsets.symmetric(vertical: 4.0),
-        constraints: BoxConstraints(maxWidth: MediaQuery.of(context).size.width * 0.75),
+        constraints:
+            BoxConstraints(maxWidth: MediaQuery.of(context).size.width * 0.75),
         decoration: BoxDecoration(
-          color: isUser ? Color(0xFF002D72) : Colors.grey[300], // OMÜ mavi rengi
+          color: isUser
+              ? const Color(0xFF002D72)
+              : Colors.grey[300], // OMÜ mavi rengi
           borderRadius: BorderRadius.only(
-            topLeft: Radius.circular(12.0),
-            topRight: Radius.circular(12.0),
+            topLeft: const Radius.circular(12.0),
+            topRight: const Radius.circular(12.0),
             bottomLeft: Radius.circular(isUser ? 12.0 : 0.0),
             bottomRight: Radius.circular(isUser ? 0.0 : 12.0),
           ),
