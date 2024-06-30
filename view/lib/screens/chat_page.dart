@@ -57,12 +57,13 @@ class _ChatPageState extends State<ChatPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Chatbot'),
+        title: const Text('OMÜ Chatbot'),
         centerTitle: true,
         backgroundColor: const Color(0xFF002D72), // OMÜ mavi rengi
       ),
       body: Center(
         child: Container(
+          padding: const EdgeInsets.all(16.0),
           width: 600,
           child: Stack(
             children: [
@@ -70,7 +71,7 @@ class _ChatPageState extends State<ChatPage> {
                 child: Container(
                   alignment: Alignment.center,
                   child: Opacity(
-                    opacity: 0.1,
+                    opacity: 0.05,
                     child: Image.asset(
                       'assets/omu.jpg', // OMÜ logosunun yolu
                     ),
@@ -80,72 +81,33 @@ class _ChatPageState extends State<ChatPage> {
               Column(
                 children: [
                   Expanded(
-                    child: Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: ListView.builder(
-                        itemCount: messages.length + (_isLoading ? 1 : 0),
-                        itemBuilder: (context, index) {
-                          if (index == messages.length) {
-                            return const Center(
-                              child: SpinKitThreeBounce(
-                                color: Color(0xFF002D72), // OMÜ mavi rengi
-                                size: 30.0,
-                              ),
-                            );
-                          } else {
-                            return Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                _buildMessageBubble(
-                                    messages[index]['question'], true),
-                                const SizedBox(height: 8),
-                                _buildMessageBubble(
-                                    messages[index]['response'], false),
-                                const SizedBox(height: 16),
-                              ],
-                            );
-                          }
-                        },
-                      ),
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Row(
-                      children: [
-                        Expanded(
-                          child: TextField(
-                            controller: _controller,
-                            decoration: InputDecoration(
-                              hintText: 'Enter your message',
-                              border: OutlineInputBorder(
-                                borderRadius: BorderRadius.circular(30.0),
-                              ),
-                              filled: true,
-                              fillColor: Colors.grey[200],
-                              contentPadding: const EdgeInsets.symmetric(
-                                  vertical: 10.0, horizontal: 20.0),
+                    child: ListView.builder(
+                      itemCount: messages.length + (_isLoading ? 1 : 0),
+                      itemBuilder: (context, index) {
+                        if (index == messages.length) {
+                          return const Center(
+                            child: SpinKitThreeBounce(
+                              color: Color(0xFF002D72), // OMÜ mavi rengi
+                              size: 30.0,
                             ),
-                            onSubmitted: (value) {
-                              final question = _controller.text;
-                              _controller.clear();
-                              _sendRequest(question);
-                            },
-                          ),
-                        ),
-                        const SizedBox(width: 8),
-                        IconButton(
-                          icon: const Icon(Icons.send),
-                          color: const Color(0xFF002D72), // OMÜ mavi rengi
-                          onPressed: () {
-                            final question = _controller.text;
-                            _controller.clear();
-                            _sendRequest(question);
-                          },
-                        ),
-                      ],
+                          );
+                        } else {
+                          return Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              _buildMessageBubble(
+                                  messages[index]['question'], true),
+                              const SizedBox(height: 8),
+                              _buildMessageBubble(
+                                  messages[index]['response'], false),
+                              const SizedBox(height: 16),
+                            ],
+                          );
+                        }
+                      },
                     ),
                   ),
+                  _buildInputArea(),
                 ],
               ),
             ],
@@ -159,7 +121,7 @@ class _ChatPageState extends State<ChatPage> {
     return Align(
       alignment: isUser ? Alignment.centerRight : Alignment.centerLeft,
       child: Container(
-        padding: const EdgeInsets.all(12.0),
+        padding: const EdgeInsets.all(14.0),
         margin: const EdgeInsets.symmetric(vertical: 4.0),
         constraints:
             BoxConstraints(maxWidth: MediaQuery.of(context).size.width * 0.75),
@@ -181,6 +143,46 @@ class _ChatPageState extends State<ChatPage> {
             fontSize: 16,
           ),
         ),
+      ),
+    );
+  }
+
+  Widget _buildInputArea() {
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Row(
+        children: [
+          Expanded(
+            child: TextField(
+              controller: _controller,
+              decoration: InputDecoration(
+                hintText: 'Mesajınızı giriniz...',
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(30.0),
+                ),
+                filled: true,
+                fillColor: Colors.grey[200],
+                contentPadding: const EdgeInsets.symmetric(
+                    vertical: 10.0, horizontal: 20.0),
+              ),
+              onSubmitted: (value) {
+                final question = _controller.text;
+                _controller.clear();
+                _sendRequest(question);
+              },
+            ),
+          ),
+          const SizedBox(width: 8),
+          IconButton(
+            icon: const Icon(Icons.send),
+            color: const Color(0xFF002D72), // OMÜ mavi rengi
+            onPressed: () {
+              final question = _controller.text;
+              _controller.clear();
+              _sendRequest(question);
+            },
+          ),
+        ],
       ),
     );
   }
