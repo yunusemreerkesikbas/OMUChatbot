@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:view/config/general_config.dart';
 
 class SignupPage extends StatefulWidget {
   @override
@@ -26,17 +27,7 @@ class _SignupPageState extends State<SignupPage> {
     return Scaffold(
       body: Stack(
         children: [
-          Center(
-            child: Container(
-              alignment: Alignment.center,
-              child: Opacity(
-                opacity: 0.1,
-                child: Image.asset(
-                  'assets/omu.jpg', // OMÜ logosunun yolu
-                ),
-              ),
-            ),
-          ),
+          Center(child: GeneralMediaConfig().omuLogo),
           Center(
             child: Container(
               width: 400,
@@ -68,13 +59,7 @@ class _SignupPageState extends State<SignupPage> {
                             icon: const Icon(Icons.arrow_back)),
                       ],
                     ),
-                    const Text(
-                      'OMU Chatbot Signup',
-                      style: TextStyle(
-                        fontSize: 24,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
+                    TextConfig().loginAndSignUpText('OMU Chatbot Signup'),
                     const SizedBox(height: 24),
                     TextFormField(
                       controller: _emailController,
