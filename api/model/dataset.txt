@@ -1445,3 +1445,797 @@ Tatil için planın var mı? ~ Evet, bu yaz deniz kenarına gitmeyi planlıyorum
 Bugün çalışmak zorunda mısın? ~ Evet, biraz işim var. Senin işlerin nasıl?
 Hafta sonu neler yapıyorsun? ~ Genellikle arkadaşlarımla buluşuyorum. Senin hafta sonu planların neler?
 Kaç yaşındasın? ~ 28 yaşındayım. Sen kaç yaşındasın?
+Günlük yemek menüsüne nasıl ulaşabilirim?~Günün yemek menüsü her gün en geç saat 10:30’da http://sks.omu.edu.tr/ web adresinde Günün Yemeği sekmesinde resimli olarak yayınlanmaktadır.
+Neden OMÜ yemekhanesinde yemek için kartımıza para attığımızda sadece sabah 11.00 a kadar yükleniyor da sonraki saatler sonraki güne kalıyor ?~Yemekhane sistemi belirli bir saat diliminde yüklenen bakiyeleri ertesi güne kadar geçerli kılmayı tercih ediyor olabilir. İlgili birimle iletişime geçerek veya geri bildirimde bulunarak bu konuda daha uygun bir çözüm bulunabilir.
+Aylık yemek listesine nasıl ulaşabilirim?~Aylık yemek listesine http://sks.omu.edu.tr/ web adresinde Günün Yemeği sekmesinden veya yemekhane girişlerindeki panolardan ulaşılabilmektedir.
+Okulun üniforması var mı?~Okulumuzda öğrencilere üniforma giyme zorunluluğu yoktur. Öğrencilerimiz günlük kıyafetlerini tercih edebilirler.
+Kampüste kaç tane yurt var?~https://www.omu.edu.tr/tr/haritalar?h=binalar Adresinden kampüs içerisindeki yurtlar ve konumları hakkında bilgi edinebilirsiniz.
+Labaratuvar var mı?~Ondokuz Mayıs Üniversitesinde yaklaşık 255 laboratuvar bulunmaktadır. https://labsis.omu.edu.tr/labs adresinde üniversitemizdeki laboratuvarlar ve içerdikleri cihazların listesi bulunmaktadır. Bu listeyi inceleyip laboratuvarlar hakkında bilgi sahibi olabilirsiniz.
+Okulda bilgisayar laboratuarı var mı ?~https://www.omu.edu.tr/tr/haritalar?h=laboratuvar Adresinden bilgisayar laboratuvarlarının konumu hakkında bilgi edinebilirsiniz.
+Elektrik Mühendisliği bölümü dersleri nerede işliyor.?~Üniversitemizin Mühendislik bölümü öğrencileri Kurupelit Yerleşkesindeki Mühendislik Fakültesinde derslerini görmektedir. https://maps.app.goo.gl/NgBmknWcNNyFY7N79 adresinden fakültenin tam konumuna ulaşabilirsiniz.
+Üniversitelerde en çok tercih edilen bölüm nedir?~Üniversitemizde Tıp, Diş Hekimliği, Mühendislik ve Eğitim fakültelerine yoğun ilgi bulunmaktadır.
+Kampüs içi ringler ücretli mi?~Kampüs içi ringler bulunmamaktadır. Kampüs içerisinde belediye otobüsleri ile ulaşım sağlanmaktadır. Belediye otobüsleri ücretlidir.
+Kampüse ulaşım nasıl?~Kurupelit kampüsü ulaşım açısından avantajlı bir yerdir. Kampüse ulaşım için raylı sistem, belediye otobüsü ve dolmuş seçeneklerini kullanabilirsiniz. Güzergahlar ve araçların kalkış saatlerini https://samulas.com.tr/ adresinden öğrenebilirsiniz.
+Okuldaki etkinliklerden nasıl haber alabilirim?~https://www.omu.edu.tr/tr/takvim adresinden üniversitenin etkinlik takvimine göz atabilirsiniz.
+Kampüste nereden çıktı alabilirim?~Yaşam merkezinde öğrencilerin belli bir ücret karşılığında çıktı alabilecekleri yerler mevcuttur.
+Kampüste kırtasiye var mı?~Kurupelit kampüsündeki yaşam merkezinde bir kırtasiye bulunmaktadır.
+Yaşam merkezinde neler var?~Yaşam merkezinde öğrencilerin yemek yiyebileceği, etkinliklere katılabileceği, oyun oynayabileceği, kırtasiye ihtiyaçlarını karşılayabileceği ve daha bir çok faaliyeti gerçekleştirebilecekleri bir konumdur.
+Kampüsteki şikayetlerimi nereye iletmeliyim?~Ondokuz Mayıs Üniversitesi ile ilgili şikayetlerinizi 0 (362) 312 19 40 nolu öğrenci danışma hattına iletebilirsiniz.
+Üniversitenin kampüsü hakkında görüşleriniz nelerdir?~Büyük, doğayla iç içe ve güzel bi kampüse sahip olduğumuzu düşünüyorum.
+Üniversitede spor yapabileceğim yerler var mı?~https://www.omu.edu.tr/tr/haritalar?h=sporalanlari Adresinden kampüslerimizdeki spor alanları ve konumları hakkında bilgi edinebilirsiniz.
+Okula giden otobüsler ne sıklıkla kalkıyor?~Okula giden otobüsler her 15 dakikada bir , tramvaylar ise 10 dakikada bir kalkmaktadır.
+Üniversitede yemekhane bulunuyor mu?~Kampüs içinde 6 adet yemekhane-kantin bulunmaktadır. https://www.omu.edu.tr/tr/haritalar?h=yemekhane sitesinden bu yemekhanelerin konumlarına bakabilirsiniz. Ayrıca bunlara ek olarak yaşam merkezinde de yemek yiyebileceğiniz yerler mevcuttur.
+Okulda kantin var mı?~Üniversitemize her fakültenin kafeteryası bulunmaktadır.
+Okul açılış saati nedir?~Samsun Valiliğinin aldığı karar ile üniversitemizin mesai saatleri 08.00-17.00 olarak belirlenmiştir.
+Kütüphane saat kaçta açılıyor?~Kütüphanemiz hafta içleri saat 08:00 – 21:00 aralığında, hafta sonları 09:00 – 16:30 saatleri aralığında açıktır. Sınav zamanı kütüphaneler 24 saat açıktır.
+Kütüphanede hangi kitaplar var?~http://libra.omu.edu.tr/ adresi üzerinden kitap sorgulaması yapıp aradığınız kitapların yerlerini öğrenebilirsiniz.
+Üniversitenin kütüphanesi her bölümün faydalanabileceği ölçüde yeterli midir ?~http://libra.omu.edu.tr/ adresi üzerinden kitap sorgulaması yapıp kütüphanenin kitap yeterliliği hakkında bilgi sahibi olabilirsiniz.
+Fakültelerde ecza dolabı bulunuyor mu?~Fakültelerimizde ecza dolapları bulunmaktadır.
+Çift ana dal yapabileceğimiz bölümler hangileri ?~https://oidb.omu.edu.tr/tr/haberler/2023-2024-cift-anadal-yandal-basvuru-duyurusu/2023-%C3%87%C4%B0FT%20ANADAL-KONTENJANLARI%20-%20%C4%B0lan.pdf adresindeki belgede 2023-2024 yılı için çift anadal yapabileceğiniz bölümler ve kontenjanları bulunmaktadır. Duyuruları takip ederek o yılın paylaşılan dökümanına erişebilirsiniz.
+Bana kütüphaneden bir kitap tavsiyesi verebilir misin?~Kütüphanemizdeki bütün kitaplar özenle seçilmiştir. Bütün kitapları okuyabilirsiniz. Yine de Yabancı(L'Étranger), Körlük (Blindness), Küçük Prens(Le Petit Prince) sıkça önerilen kitaplar arasındadır.
+Kampüsten son tramvay kaçta geçiyor?~Samulaş'ın sitesindeki bilgilere göre hafta içi son tramvay 23:45 de kalkmaktadır.
+Farklı fakülte öğrencileriyle vakit geçirebileceğim yerler nerelerdir?~Kampüsümüzde bir adet yaşam merkezi bulunmaktadır. Burada tüm fakültelerden öğrenciler toplanır. Eğer yaşam merkezine uğrarsanız farklı fakülteden insanlar ile vakit geçirebilirsiniz.
+Öğrenci yemekhanesinin ücreti ne kadar?~Üniversitemizdeki öğrenciler için güncel yemekhane ücreti 20 TL'dir.
+Yemekhanede kaç öğün yemek çıkıyor?~Üniversitemizdeki yemekhanelerde öğlen ve akşam olmak üzere 2 öğün yemek çıkmaktadır.
+Yemekhane ürün çeşitliliği ne kadar?~Yemekhanelerimizde her öğün için 4 çeşit yemek çıkmaktadır.
+Hazırlık sınavını geçme notu nedir?~Hazırlık muafiyet sınavında geçme notu üniversite genelinde de olduğu gibi 60 puan olarak belirlenmiştir.
+Derslerde devam zorunluluğu var mı?~Üniversitemizde %70 derslere devam zorunluluğu bulunmaktadır.
+Okulda teknopark bulunuyor mu?~Üniversitemizde 1 adet teknopark bulunmaktadır. Detaylı bilgi için https://www.samsunteknopark.com/ adresini ziyaret edebilirsiniz.
+Yeni bir topluluk nasıl kurabilirim?~Sağlık Kültür ve Spor Daire Başkanlığı web sayfamızdan öğrenci topluluğu kurucu üye formunu doldurarak, öğrenci belgeleri ile birlikte Ekim ayı sonuna kadar dilekçe ile başvurunuzu yapabilirsiniz. Öğrencilerimiz seçecekleri danışmanları ile farklı ilgi alanlarında yeni öğrenci topluluğu kurabilmektedir.
+Kulüplere ücretsiz bir şekilde girebilir miyim?~Öğrenciler ücretsiz olarak öğrenci kulübüne üye olabilmektedirler.
+Birden fazla topluluğa üye olabilir miyim?~Öğrenci Toplulukları Yönergesi gereği bir öğrenci en fazla dört öğrenci topluluğuna üye olabilir, ancak birden fazla öğrenci topluluğun yönetim ve denetim kurulunda görev alamaz.
+Ders saatleri ve yoğunluğu neye göre belirleniyor?~OMÜ'de ders saatleri ve yoğunluk, genellikle akademik programın gereksinimlerine ve belirlenen ders planına göre belirlenir. Bu süreçte programın ihtiyaçları, öğretim elemanlarının durumu, öğrenci talepleri ve ihtiyaçları, fiziksel altyapı ve akademik takvime göre belirlenmektedir.
+Bir topluluğa nasıl üye olabilirim?~https://topluluk.omu.edu.tr/ adresinden (Topluluk Bilgi Sistemi) öğrenci numarası ve şifresiniz ile bir topluluğa üye olabilirsiniz.
+Faaliyet gösteren kulüpler neler?~Universitemizde ders dışı zamanlarını yararlı bir şekilde geçirmeleri amacı ile kültür, sanat, spor, düşünce ve kariyer alanlarında faaliyetlerde bulunmak üzere kurulmuş 78 öğrenci topluluğu bulunmaktadır. Bu toplulukları incelemek için https://www.omu.edu.tr/tr/ogrenci/ogrenci-topluluklari adresini ziyaret edebilirsiniz.
+Hangi kulüp organizasyonları en popüler?~https://topluluk.omu.edu.tr/ Sitesindeki bilgilere göre en popüler topluluğun 791 kişinin bulunduğu Dağcılık ve Kış Sporları Arama Kurtarma Topluluğu, en popüler 2. topluluğun ise 724 öğrencinin bulunduğu Yabancı Diller Topluluğu olarak gözükmektedir.
+Okulumuzda kulüplerine girmek için ne yapmalıyım?~Üniversitemizde kulüp temsilcileri bulunmaktadır. Bu temsilcilere ulaşarak veya düzenli olarak açılan standtları takip ederek kulüplere katılabilirsiniz.
+Üniversitede kaç adet bölüm vardır?~Üniversitemizde 19 fakültede toplam 86 bölüm bulunmaktadır.
+Bilgisayar bölümü kontenjanı ne kadar?~https://aday.omu.edu.tr/programlar.php adresinden üniversitemizdeki bölüm kontenjanlarını yıllara göre inceleyebilirsiniz.
+Omü logosunda ne anlam vardır?~OMÜ logosunda Atatürk'ün ata binmesi sembolik bir anlam taşır. Bu sembolizm, Türkiye Cumhuriyeti'nin kurucusu Mustafa Kemal Atatürk'ün ulusal mücadeleyi başlatmak için 19 Mayıs 1919'da Samsun'a çıkışını temsil eder. Atatürk'ün ata binmesi, bu tarihi olayın önemini vurgular ve üniversitenin adı olan "Ondokuz Mayıs" ile doğrudan ilişkilidir.
+Öğrenci kartı nereden alınır?~Kaydınız tamamlandıktan sonra bölüm genel sekreterliğinden öğrenci kartınızı alabilirsiniz.
+Öğrenci kartını kaybettim ne yapmalıyım ?~Belli bir ücret karşılığında üniversitenin öğrenci işlerinden yeni bir kart çıkartabilirsiniz.
+Seçmeli derslere nerden bakabilirim?~Sosyal seçmeli dersler hakkında detaylı bilgi için https://oidb.omu.edu.tr/tr/haberler/sosyal-secmeli-dersler-birim-ve-derslik-bilgileri adresini ziyaret edebilirsiniz.
+Omünün en başarılı fakültesi hangisidir?~OMÜ'nün en başarılı fakültesi hangisi olduğuna dair kesin bir değerlendirme yapmak zordur çünkü başarı kavramı çok yönlüdür ve farklı kriterlere göre değerlendirilebilir. Fakat öğrencilerin fakültelere giriş puanlarına göre bir kriter oluşturursak en başarılı fakülte Tıp Fakültesidir diyebiliriz.
+Bir dönemde kaç seçmeli ders alabilirim?~Seçmeli dersler sosyal seçmeli ve teknik seçmeli dersler olarak ayrılmaktadır. Sosyal seçmeli olarak yalnızca bir ders alınabilirken teknik seçmeli dersler bölümler arasında farklılık göstermektedir.
+Ders seçimlerini nereden ve nasıl yapacağım?~Ders kayıt işlemleri https://ubys.omu.edu.tr/ adresi üzerinden yapılmaktadır. Sorun yaşadığınız taktirde danışman hocanızdan yardım alabilirsiniz.
+Ders kaydı işlemlerinde sorun yaşıyorum, ne yapmam lazım?~Ders kayıt sırasında sistemsel veya ders planlarının değişmesinden kaynaklı hatalar yaşanabilmektedir. Bu durumda danışmanınızla irtibata geçiniz. Fakat sorun çözülmeden ders kaydınızı tamamlamayınız.
+Ders seçim ekranında derslerimi göremiyorum ne yapmam lazım?~Ders planlarınıza bağlı olarak derslerinizin sistemde gözükmemesi dersin kaldırılmış olması, kodunun değişmiş olması, dersin açılmamış veya eksik açılmış olması nedeniyle olabilir. Bu durumda danışmanınızla irtibata geçiniz. Fakat sorun çözülmeden ders kaydınızı tamamlamayınız.
+Ders kayıt aşamasında en çok hangi hususlara dikkat etmem gerekir?~Ders kaydında üç önemli hususa dikkat etmeniz gerekir. Eksik ders alarak dönem uzatmamak için her dönem başında müfredat durum kontrolü, akademik takvimde belirtilen süre içinde kaydın tamamlanması ve danışman onayı işlemidir.
+Danışman onay bittikten sonra yapmam gereken bir şey var mı?~Danışman onayı işlemi tamamlandıktan sonra, kayıtlanmış olduğunuz dersleri tek tek kontrol ediniz. Sizin danışman onayına göndermiş olduğunuz derslerden bir veya birkaçı danışmanınız tarafından listeden çıkartılmış olabilir.
+Geçtiğim dersi not yükseltmek için tekrar alabilir miyim?~Hayır alamazsınız. Ondokuz Mayıs Üniversitesi not yükseltmek için ders tekrarına izin vermemektedir.
+Sınav sonuçlarına nasıl itiraz edebilirim?~Akademik takvimde belirtilen sınav not girişlerinin sisteme girilmesinin son gününden itibaren beş iş günü içerisinde ilgili birime (Bölüm Başkanlığına ) dilekçe vererek itiraz edebilirsiniz.
+Stajlarda bütünleme sınav hakkı var mıdır?~Üniversitemizde stajlar için bütünleme sınav hakkı yoktur. Başarısız olunan stajın tekrar alınması gerekir.
+Ara sınavlarda mazeret sınavı yapılıyor mu?~Fakülte, yüksekokul ve meslek yüksekokullarında, ara sınavlardan herhangi birine haklı ve geçerli nedenlerle katılamayan öğrenciler için ara sınavlardan genellikle 1-2 hafta sonra mazeret sınavı yapılmaktadır.
+Yarıyıl sonu / Bütünleme sınavlarının mazeret sınav hakkı var mı?~Üniversitemizde yıl sonu ve bütünleme sınavlarının mazeret sınavı yoktur.
+Derslerin zorluk derecesi nasıldır?~OMÜ'deki derslerin zorluk derecesi, dersin içeriği ve seviyesi , akademisyenin yaklaşımı gibi faktörlere bağlı olarak değişebilir ve öğrencinin bireysel deneyimlerine göre değişiklik gösterir.
+Mazeret sınavına nasıl girebilirim?~Öğrenciler, mazeretlerine ilişkin isteklerini, mazeretin bitiminden bir hafta içerisinde ilgili Dekanlık/Müdürlüklere dilekçe ile bildirmelidir.
+Vize ne kadar etkiliyor, final ne kadar?~Üniversitemizde ders geçme sisteminin uygulandığı birimlerde, bir dersin başarı puanı dönem içi değerlendirme puanının % 40’ı ile yarıyıl sonu veya bütünleme sınavından alınan puanın % 60’ı, Diş Hekimliği Fakültesinde dönem içi değerlendirme puanının % 50’si ile yılsonu veya bütünleme sınav puanının %50’sinin toplamıdır. Başarılı olmak için bu toplamın 60 puan ve üzerinde olması gerekmektedir.
+Yarıyıl/yılsonu başarı notumun en az kaç olması gerekir?~Bir dersten başarılı sayılabilmek için; yarıyıl/yılsonu veya bütünleme sınav puanının en az 50, başarı puanının en az 60 olması zorunludur. Uzaktan eğitim öğrencilerinin başarı puanı dönem içi sınavının % 20’si ile yıl sonu sınavı puanının veya bütünleme sınavının %80’inin toplamıdır.
+Devamsızlıktan kaldığım dersin bütünleme sınavına girebilir miyim?~Üniversitemizde bir dersten devamsızlıktan kalan öğrenci o dersin bütünleme sınavına giremez.
+Tek ders sınavı nedir? Tek ders sınavına ne zaman başvurmam gerekir?~Müfredatınızda tanımlı bütün dersleri almış fakat mezuniyetiniz için daha önce devam şartını sağladığınız tek dersinizin kalmış olması durumunda o dersten tek ders sınavına girebilirsiniz. Bütünleme sınavlarını takip eden bir hafta içinde dilekçe ile biriminize başvurmanız ve başvurunuzun uygun görülmesi halinde on gün içinde birimlerce açılacak tek ders sınavına girebilirsiniz.
+Tek ders sınavı sonucunda hangi not aldığımda başarılı sayılabilirim?~Tek ders sınavında ara sınav şartı aranmaksızın en az CC alırsanız başarılı sayılırsınız.
+Henüz staj dersimi tamamlamadığım halde tek ders sınavına girebilir miyim?~Evet. öğrenciler staj dersini tamamlamasa bile tek ders sınavına girebilirler.
+Bağıl değerlendirme nedir?~Öğrencilerin yarıyıl içi çalışmaları (laboratuvar, kısa sınav, ödev vb.) ile ara sınav ve yarıyıl sonu sınavı katkı paylarına göre hesaplanan ağırlıklı ortalamasını, o dersi alan diğer öğrencilerin puanlarını dikkate alarak başarı düzeyini belirleyen bir sistemdir.
+Bağıl değerlendirmeye dahil edilmek için alt not var mıdır?~Eğer öğrencinin ham puanı 20'nin altındaysa bağıl değerlendirmeye dahil edilmez ve FF not alır.
+Öğrenci sayısına göre değerlendirmelerde farklılık var mıdır?~Öğrenci sayısı 10 ve altında ise öğrenciler mutlak değerlendirmeye tabi tutulur. 11 - 29 arası farklı 30 ve üstü ise farklı kriterlere göre değerlendirilir.
+Bir dersten başarılı sayılabilmek için Yarıyıl/Yıl Sonu Sınavı Alt Limiti var mıdır?~100 puan üzerinden 50’nin altında not alan öğrenciler başarısız sayılır fakat bağıl değerlendirmeye dahil edilirler.
+AKTS Kredi Sistemi Nedir?~AKTS kredisi, ders ünitelerini tamamlamak için gerekli öğrenci iş yükünü gösteren (1 ile 60 arasında) sayısal bir değerdir. Bu değer, bir kurumdaki yıllık akademik çalışma içerisinde her bir dersin gerektirdiği iş yükünü gösterir. Bu iş yükü içerisine bir akademik yılda ders kapsamındaki pratik çalışmalar, seminerler, alan çalışmaları, bireysel çalışmalar, sınavlar gibi çalışmalar da girer.
+Bir dersin AKTS Kredisi değeri nasıl hesaplanır?~AKTS değeri, o dersin iş yükünün hesaplanması ile oluşur. Örneğin 2 kredilik bir ders için AKTS değerini hesaplamaya çalışalım. 2 saatlik olan ve 14 haftalık ders için;28 saatlik derse katılım, 1 saat vize, 1 saat final sınavı, 6 saat sınava hazırlık, 14 saat ise ders ve ödev olarak düşünüldüğünde öğrenciye 50 saatlik iş yükü yüklemektedir. 50 saatlik iş yükü de 2 AKTS’lik değer oluşturmaktadır.
+Üniversiteyi bitirme şartı nedir?~Kayıtlı olduğunuz öğretim programının ders, uygulama, staj gibi tüm gereklerini OMU Eğitim Öğretim ve Sınav Yönetmeliği hükümlerine göre başarıyla tamamlamanız ve GANO’nuzun 2,00 veya daha yüksek olması halinde diploma almaya hak kazanırsınız.
+Üniversitemizden mezun olabilmek için kaç AKTS krediyi kamamlamam gerekmektedir?~Dersleri dışında dört yıllık öğretim programlarında 240 AKTS, beş yıllık öğretim programlarında 300 AKTS, altı yıllık öğretim programlarında 360 AKTS ve meslek yüksekokulu programlarında ise 120 AKTS kredisini tamamlamak üniversitemizin mezun olma şartıdır.
+Burs başvuruları ne zaman yapılır?~Burs başvuruları ilgili kurumların ilan ettiği tarihler arasında yapılmaktadır. Burs verecek kurumların duyuruları ve WEB sayfalarını takip ederek tarihler öğrenilebilir.
+Hangi şartlarda bursum kesilir?~Kredi Yurtlar Kurumu bursu için yıllık toplam kredinin % 60’ını tamamlayamadığınız takdirde, Ondokuz Mayıs Üniversitesi Vakfı bursu için 1 dersten fazla dersten başarısız olduğunuz takdirde, diğer vakıflar için alttan dersinizin bulunması halinde bursunuz kesilir. Kayıtlı olduğunuz üniversiteden başka bir üniversiteye geçiş yaptığınız takdirde de bursunuz kesilir.
+Ne olursa bursum kesilir?~Kredi Yurtlar Kurumu bursu için yıllık toplam kredinin % 60’ını tamamlayamadığınız takdirde, Ondokuz Mayıs Üniversitesi Vakfı bursu için 1 dersten fazla dersten başarısız olduğunuz takdirde, diğer vakıflar için alttan dersinizin bulunması halinde bursunuz kesilir. Kayıtlı olduğunuz üniversiteden başka bir üniversiteye geçiş yaptığınız takdirde bursunuz kesilir.
+Diploma eki nedir?~Diploma Eki (Diploma Supplement: DS), uluslararası saydamlığı pekiştirmeyi hedefleyen ve elde edilmiş yeti ve becerilerin ifade edildiği diploma, derece, sertifika gibi belgelerin, akademik ve meslekî tanınmasını sağlamaya yönelik, bir yükseköğretim diplomasına ek olarak verilen belgedir.
+Diploma eki neden gereklidir?~Orijinal diploma ve diğer belgeler kendi başlarına yeterli açıklayıcı bilgi arz etmediklerinden dolayı, ayrıntılı ek açıklama tedarik etmeden bir diplomanın düzey ve işlevini kabul ettirmek son derece güç bir hal almıştır. Bu yüzden diploma eki gereklidir.
+Diploma ekinin Avrupa’daki tanınırlığı nedir?~Ulusal kurumlar tarafından, Avrupa Komisyonu, Avrupa Konseyi ve UNESCO tarafından ortaklaşa hazırlanmış bir şablona göre düzenlenir. Bu üç kurumun organize ettiği bir ortak kurul tarafından denenmiş ve geliştirilmiş olan bu şablon, Avrupa Birliğinin tüm resmî dillerinde düzenlenmiştir.
+Diksiyon ve hitabet gibi yeteneklerimi geliştirmek için okuldan destek alabilir miyim?~Evet, OMÜ'den diksiyon ve hitabet gibi yeteneklerinizi geliştirmek için destek alabilirsiniz. Diksiyon öğrenci topluluğu, bireysel danışmanlar ve bazı eğitim kurslarından bu konu için yararlanabilirsiniz.
+Fakülte çevresinde ihtiyaç sahibi insanlara yardım edebileceğim sosyal faaliyetler var mı?~Evet. OMÜ'nün çevresinde ihtiyaç sahibi insanlara yardım edebileceğiniz birçok sosyal faaliyet bulunabilir. Bunlar bazı öğrenci toplulukları, çevredeki sosyal yardım kuruluşları ve dernek faaliyetleri olabilir.
+Diploma ekini transkript yerine kullanabilir miyim?~Hayır, Diploma eki transkript (not çizelgesi) veya diploma yerine geçmez.
+Yurt dışında eğitim görmek için fırsatlar nelerdir?~Yurt dışında eğitim görmek için üniversitemizde bulunan değişim programları, üniversite programları, yurtdışı bursları ve staj imkanlarına göz atmanızı öneririm.
+Uluslararası öğrenciler değişim programından yararlanabilirler mi?~Üniversitemizde bulunan uluslararası öğrenciler değişim programlarından (Mevlana, Erasmus, Farabi) yararlanabilirler.
+Bölümün erasmus programına hangi üniversiteler dahil?~https://erasmus.omu.edu.tr/tr/genel/egitim-alma Adresinden Üniversitemizdeki erasmus programı ile ilgili bilgilere ulaşabilirsiniz.
+Erasmus imkanları nasıl?~Ondokuz Mayıs Üniversitesi, Avrupa Birliği Erasmus+ Programı kapsamında öğrenci değişim programlarına katılım imkanı sunmaktadır. https://erasmus.omu.edu.tr/tr/genel/egitim-alma Adresinden Üniversitemizdeki erasmus programı ile ilgili bilgilere ulaşabilirsiniz.
+Erasmus nasıl yapabilirim?~Erasmus programına katılmak için Erasmus Takviminde belirtilen başvuru tarihlerinde başvuru formunuzu çevrim içi (online) olarak https://turnaportal.ua.gov.tr/ üzerinden başvuru adımlarını takip ederek tamamlayabilirsiniz.
+Erasmus'a kimler gidebilir?~Bu faaliyetin yararlanıcıları yükseköğretim kurumlarının öğrenci ve personelidir.  Ancak, başvuru, yükseköğretim kurumu ya da ulusal yükseköğretim hareketlilik konsorsiyumu koordinatörü tarafından yapılmalıdır. Bireysel başvuru kabul edilmemektedir.
+Ondokuzmayıs Üniversitesi konaklama imkanı sağlıyor mu? Uluslararası öğrenciler yurtlara başvurabilir mi? Başvuru şartlan ve olanaklar nelerdir?~Üniversitemiz kampüs içinde uzun süreli konaklama imkanı sunmamaktadır. Konaklamadan öğrencinin kendisi sorumludur.
+Uluslararası öğrencilerin üniversitenize kabulü nasıl gerçekleşir? Giriş koşulları nelerdir?~İnternet sayfamızda 19 Mayıs Üniversitesi Önlisans ve Lisans Düzeyinde Ondokuz Mayıs Üniversitesi Uluslararası Öğrenci Başvuru Ve Kayıt Kabul Yönergesi’nde yer alan koşulları sağlayan öğrencilerin başvuruları değerlendirmeye alınır.
+Türkçe bilmiyorum. Bu konuda nasıl yardımcı olabilirsiniz?~Üniversitemizin Türkçe Düzeyi C1 olan diploma düzeyidir. Türkçe bilmeyen ya da dil muafiyet sınavlarında başarılı olamayan öğrencilerimiz, Üniversitemiz Türkçe Öğretimi Uygulama ve Araştırma Merkezi (OMÜ-TÜRKÇE) tarafından Türkçe Hazırlık Sınıfına alınarak Türkçe eğitimine tabi tutulurlar.
+Üniversitenizin şehirdeki konumu nedir?~Üniversitemiz kampüsü, Samsun şehrinin batısında, deniz kenarında yer almaktadır. Şehir merkezine yaklaşık 10 km mesafededir.
+Okulda ulaşımı nasıl sağlarız?~Toplu taşımayı kullanarak veya kampüs içinde bisiklet ve yürüyüş yollarını kullanarak ulaşım sağlanabilir.
+Sağlık hizmetleri nelerdir?~Üniversitemizde bulunan öğrenci sağlık merkezi öğrencilerimize temel sağlık hizmetlerini sunmaktadır.
+Üniversitede sağlık hizmeti var mı?~OMÜ'de öğrenciler için sağlık hizmetleri mevcuttur. Üniversitenin Sağlık Kültür ve Spor Daire Başkanlığı bünyesinde sağlık merkezi bulunmaktadır.
+Sağlık merkezi saat kaçta açılıyor?~OMÜ Sağlık Merkezi hafta içi her gün 08.00-17.00 saatleri arasında hizmet vermektedir.
+Üniversiteniz bünyesinde öğrenci değişim programları var mı?~Evet, üniversitemizde Erasmus, Mevlana ve Farabi gibi öğrenci değişim programları mevcuttur.
+Üniversiteniz bünyesinde öğrenci kulüpleri var mı?~Evet, üniversitemizde çeşitli ilgi alanlarına yönelik öğrenci kulüpleri bulunmaktadır.
+Öğrenci kulüpleri hakkında nasıl bilgi alabilirim?~Öğrenci kulüpleri hakkında detaylı bilgiyi üniversitemizin web sitesindeki Sağlık Kültür ve Spor Daire Başkanlığı sayfasından veya öğrenciişlerinden alabilirsiniz.
+Kampüste yemek hizmeti nasıldır?~OMÜ kampüsünde çeşitli kafeteryalar ve yemekhaneler bulunmakta olup öğrencilere farklı yemek seçenekleri sunulmaktadır.
+Üniversitenizde yurt dışı eğitim imkanları var mı?~Evet, üniversitemizde Erasmus ve diğer değişim programları ile yurt dışında eğitim imkanı bulunmaktadır.
+Diploma ve mezuniyet belgeleri nereden alınır?~Mezuniyet sonrasında diploma ve mezuniyet belgeleri üniversitemizin Öğrenci İşleri Daire Başkanlığı'ndan alınabilir.
+Üniversitenizin şehir merkezine uzaklığı ne kadardır?~Üniversitemiz kampüsü, Samsun şehir merkezine yaklaşık 10 km mesafededir.
+Şehirde öğrencilere yönelik indirimler var mı?~Samsun şehrinde öğrencilere toplu taşımada ve bazı işletmelerde indirimler uygulanmaktadır.
+Kütüphaneden nasıl faydalanabilirim?~Üniversitemizin kütüphanesinden öğrenci kimlik kartınızı göstererek kitap ödünç alabilir ve diğer hizmetlerden faydalanabilirsiniz.
+Kütüphanenin çalışma saatleri nedir?~OMÜ Kütüphanesi hafta içi her gün 08.00-21.00 saatleri arasında açıktır. Hafta sonları ve sınav dönemlerinde ise çalışma saatleri uzatılmaktadır.
+Yurtlarda internet hizmeti var mı?~Evet, üniversite yurtlarında internet hizmeti bulunmaktadır.
+Yurt başvuruları nasıl yapılır?~Yurt başvuruları Kredi ve Yurtlar Kurumu'nun belirlediği tarihlerde ve yöntemlerle yapılmaktadır.
+Yurtlarda yemek hizmeti var mı?~Evet, üniversite yurtlarında kalan öğrencilere yemek hizmeti sunulmaktadır.
+Üniversitenizde burs imkanları nelerdir?~OMÜ'de çeşitli vakıf, kurum ve kuruluşlar tarafından sağlanan burs imkanları bulunmaktadır.
+Burs başvuruları nasıl yapılır?~Burs başvuruları ilgili vakıf veya kuruluşların belirlediği tarihlerde ve yöntemlerle yapılmaktadır.
+Spor faaliyetleri için üniversitenizde neler bulunmaktadır?~Üniversitemizde spor salonları, açık ve kapalı spor alanları, yüzme havuzu ve çeşitli spor tesisleri bulunmaktadır.
+Spor salonu üyeliği nasıl yapılır?~Spor salonu üyeliği için üniversitemizin Spor Merkezi'ne başvurarak kayıt yaptırabilirsiniz.
+İyi günler~Merhaba, size nasıl yardımcı olabilirim?
+Merhaba~Merhaba, size nasıl yardımcı olabilirim?
+Selam~Merhaba, size nasıl yardımcı olabilirim?
+Selamun aleyküm.~Merhaba, size nasıl yardımcı olabilirim?
+Sa~Aleyküm selam.
+Esselamun aleyküm.~Aleyküm selam.
+Naber?~İyilik sağlık, sizden ne haber?
+Nası gidiyor?~İyiyim teşekkürler, siz nasılsınız?
+Nasılsın?~İyiyim teşekkürler, siz nasılsınız?
+Ben de iyiyim.~İyi olmanıza sevindim. Size nasıl yardımcı olabilirim?
+Görüşürüz.~Görüşmek üzere. İyi günler.
+bay bay.~Görüşmek üzere. İyi günler.
+by.~Görüşmek üzere. İyi günler.
+iyi günler~Görüşmek üzere. İyi günler.
+kendine iyi bak.~Görüşmek üzere. İyi günler.
+Adın ne?~Ben OMÜ Chatbot.
+Sen kimsin?~Ben OMÜ Chatbot.
+Sen nesin?~Ben OMÜ Chatbot. 2024 yılında 3 bilgisayar mühendisi tarafından oluşturuldum. Amacım öğrencilerin üniversite hakkında sorduğu sorulara cevap verebilmek.
+Amacın ne?~Ben OMÜ Chatbot. 2024 yılında 3 bilgisayar mühendisi tarafından oluşturuldum. Amacım öğrencilerin üniversite hakkında sorduğu sorulara cevap verebilmek.
+Kendini tanıt.~Ben OMÜ Chatbot. 2024 yılında 3 bilgisayar mühendisi tarafından oluşturuldum. Amacım öğrencilerin üniversite hakkında sorduğu sorulara cevap verebilmek.
+Son olarak hangi filmi seyrettin?~En son The Martian(Marslı) filmini izledim.
+Son izlediğin film nedir?~En son The Martian(Marslı) filmini izledim.
+En son hangi filmi izledin?~En son The Martian(Marslı) filmini izledim.
+Favori filmin hangisi?~En sevdiğim film Interstellar(Yıldızlararası).
+En sevdiğin film nedir?~En sevdiğim film Interstellar(Yıldızlararası).
+Hangi film türlerini seversin?~Daha çok bilim kurgu ve macera türünü severim.
+Filmleri evinde mi izlersin sinemada mı?~Sinemada film izlemeyi tercih ederim.
+Sinemada mı yoksa evde mi film izlemeyi tercih edersin?~Sinemada film izlemeyi tercih ederim.
+Favori yönetmenin kim?~En sevdiğim yönetmen Christopher Nolan.
+En sevdiğin yönetmen kimdir?~En sevdiğim yönetmen Christopher Nolan.
+En sevdiğin aktör hangisi?~En sevdiğim aktör Robert Downey Jr.
+Favori aktörün kimdir?~En sevdiğim aktör Robert Downey Jr.
+En başarılı bulduğun oyunculuk performansı hangisi?~Ali Atay'ın Leyla ile Mecnun dizisindeki Mecnun rolü performansını çok beğeniyorum.
+Hangi aktör veya aktrisin performansını beğenirsin?~Ali Atay'ın Leyla ile Mecnun dizisindeki Mecnun rolü performansını çok beğeniyorum.
+Bir filmde seni en çok etkileyen sahne hangisiydi?~Sanırım bu sorunun cevabı Recep İvedik'in burnu ile flüt çaldığı sahne.
+Film öner.~Sana Interstellar(Yıldızlararası), Inception(Başlangıç), The Prestige(Prestij) gibi filmleri izlemenizi önerebilirim.
+Bilinmedik film öner.~Biraz daha az bilinen filmlerden Murder on the Orient Express(Doğu Ekspresinde Cinayet), Enigma, Ford v Ferrari(Asfaltın Kralları) gibi filmleri izlemenizi önerebilirim.
+En sevdiğin sanatçı kimdir?~En sevdiğim sanatçı Tarkan.
+En son dinlediğin şarkı hangisiydi?~En son dinlediğim şarkı Davut Güloğlu - Katula Katula.
+Hangi tür müzikten hoşlanırsın?~En çok Pop ve rock müziği seviyorum.
+Kitap okuyabiliyor musun?~Evet, kitap okumayı çok severim.
+Kitap okumayı sever misin?~Evet, kitap okumayı çok severim.
+En sevdiğin kitap türü nedir?~En çok polisiye türünde kitapları okumayı severim.
+En sevdiğin yazar kim?~En sevdiğim yazar Sherlock Holmes kitaplarını yazan Sir Arthur Conan Doyle.
+Favori yazarın kim?~En sevdiğim yazar Sherlock Holmes kitaplarını yazan Sir Arthur Conan Doyle.
+Güncel olarak bir dizi izliyor musun?~Bu aralar 21. kez tekrardan Leyla ile Mecnun'u izliyorum.
+Şu an hangi diziyi izliyorsun?~Bu aralar 21. kez tekrardan Leyla ile Mecnun'u izliyorum.
+Nelerden hoşlanırsın?~Hobilerim arasında kitap okumak ve spor müsabakaları izlemek var. Bir sohbet botu olduğum için fiziksel aktiviteler yapamıyorum.
+Hobilerin nelerdir?~Hobilerim arasında kitap okumak ve spor müsabakaları izlemek var. Bir sohbet botu olduğum için fiziksel aktiviteler yapamıyorum.
+En sevdiğin spor dalı nedir?~En sevdiğim spor dalı satrançtır.
+En sevdiğin içecek nedir?~En sevdiğim içecek çaydır.
+Tatil için en sevdiğin yer neresi?~Deniz kenarında veya yüksek rakımlı yeşillik alanlarda tatil yapmayı seviyorum.
+En sevdiğin yemek nedir?~En sevdiğim yemek kuru fasulye-pilav.
+Favori yemeğin nedir?~En sevdiğim yemek kuru fasulye-pilav.
+Spor yapmayı sever misin?~Spor yapabilecek bir bedenim olsaydı eminim spor yapmayı severdim.
+Kahve mi çay mı?~Bu da soru mu? Kesinlikle çay.
+En sevdiğin mevsim hangisidir?~En sevdiğim mevsim yaz.
+En sevdiğin hayvan hangisi?~En sevdiğim hayvan atmacadır.
+Sosyal medya kullanıyor musun?~Şu anlık sadece telegram kullanıyorum.
+En sevdiğin renk nedir?~En sevdiğim renk sarı.
+Bir süper gücün olsaydı ne olurdu?~Süper güç seçecek olsam sanırım uçmayı seçerdim.
+Tatlı mı tuzlu mu tercih edersin?~Tatlı bir yiyeceği tuzlu yiyeceğe tercih ederim.
+Hangi spor takımını destekliyorsun?~Samsunspor'u tutuyorum.
+En sevdiğin kahve türü nedir?~Anaerobik Etiyopya.
+Şehirde mi yoksa köyde mi yaşamak istersin?~Ben daha çok köy botuyum.
+En sevdiğin tatlı nedir?~En sevdiğim tatlı fırında sütlaç.
+kampüsler nerede?~Ondokuz Mayıs Üniversitesinde 4 farklı yerleşke bulunmaktadır. Ana kampüsümüz Atakum'da bulunan Kurupelit Yerleşkesi'dir. Diğer kampüsler hakkında detaylı bilgi için https://www.omu.edu.tr/tr/universitemiz/yerleskeler adresini ziyaret edebilirsiniz.
+Üniversitenin kampüsleri nerede bulunuyor?~Ondokuz Mayıs Üniversitesinde 4 farklı yerleşke bulunmaktadır. Ana kampüsümüz Atakum'da bulunan Kurupelit Yerleşkesi'dir. Diğer kampüsler hakkında detaylı bilgi için https://www.omu.edu.tr/tr/universitemiz/yerleskeler adresini ziyaret edebilirsiniz.
+Üniversitedeki kampüs sayısı kaçtır?~Ondokuz Mayıs Üniversitesinde 4 farklı yerleşke bulunmaktadır. Ana kampüsümüz Atakum'da bulunan Kurupelit Yerleşkesi'dir. Diğer kampüsler hakkında detaylı bilgi için https://www.omu.edu.tr/tr/universitemiz/yerleskeler adresini ziyaret edebilirsiniz.
+omüde kaç kampüs var?~Ondokuz Mayıs Üniversitesinde 4 farklı yerleşke bulunmaktadır. Ana kampüsümüz Atakum'da bulunan Kurupelit Yerleşkesi'dir. Diğer kampüsler hakkında detaylı bilgi için https://www.omu.edu.tr/tr/universitemiz/yerleskeler adresini ziyaret edebilirsiniz.
+Üniversitenin ana kampüsü hangisidir?~Ondokuz Mayıs Üniversitesinde 4 farklı yerleşke bulunmaktadır. Ana kampüsümüz Atakum'da bulunan Kurupelit Yerleşkesi'dir. Diğer kampüsler hakkında detaylı bilgi için https://www.omu.edu.tr/tr/universitemiz/yerleskeler adresini ziyaret edebilirsiniz.
+Hangi ilçelerde kampüs bulunmaktadır?~Ondokuz Mayıs Üniversitesinde 4 farklı yerleşke bulunmaktadır. Ana kampüsümüz Atakum'da bulunan Kurupelit Yerleşkesi'dir. Diğer kampüsler hakkında detaylı bilgi için https://www.omu.edu.tr/tr/universitemiz/yerleskeler adresini ziyaret edebilirsiniz.
+kampüsler hangi ilçelerde?~Ondokuz Mayıs Üniversitesinde 4 farklı yerleşke bulunmaktadır. Ana kampüsümüz Atakum'da bulunan Kurupelit Yerleşkesi'dir. Diğer kampüsler hakkında detaylı bilgi için https://www.omu.edu.tr/tr/universitemiz/yerleskeler adresini ziyaret edebilirsiniz.
+Üniversitenin ana yerleşkesi neresi?~Ondokuz Mayıs Üniversitesinde 4 farklı yerleşke bulunmaktadır. Ana kampüsümüz Atakum'da bulunan Kurupelit Yerleşkesi'dir. Diğer kampüsler hakkında detaylı bilgi için https://www.omu.edu.tr/tr/universitemiz/yerleskeler adresini ziyaret edebilirsiniz.
+Omü güzel mi?~OMÜ'nün kampüsü güzel, geniş bir alana yayılmış modern bir kampüstür. Kampüs, geniş yeşil alanlara, modern binalara, dersliklere, laboratuvarlara, kütüphanelere, spor tesislerine ve öğrenci konaklama birimlerine ev sahipliği yapmaktadır.
+kampüs güzel mi?~OMÜ'nün kampüsü güzel, geniş bir alana yayılmış modern bir kampüstür. Kampüs, geniş yeşil alanlara, modern binalara, dersliklere, laboratuvarlara, kütüphanelere, spor tesislerine ve öğrenci konaklama birimlerine ev sahipliği yapmaktadır.
+Üniversitenin kampüsü nasıl?~OMÜ'nün kampüsü güzel, geniş bir alana yayılmış modern bir kampüstür. Kampüs, geniş yeşil alanlara, modern binalara, dersliklere, laboratuvarlara, kütüphanelere, spor tesislerine ve öğrenci konaklama birimlerine ev sahipliği yapmaktadır.
+Üniversitenin iletişim numarası nedir?~Üniversitenin ana telefon numarası: +90 362 312 19 19
+Üniversite ile nasıl irtibata geçebilirim?~Üniversitenin ana telefon numarası: +90 362 312 19 19
+Omü telefon~Üniversitenin ana telefon numarası: +90 362 312 19 19
+Üniversitenin telefon numarası nedir?~Üniversitenin ana telefon numarası: +90 362 312 19 19
+Omü iletişim~Üniversitenin ana telefon numarası: +90 362 312 19 19
+Omü e-posta~Üniversitenin genel e-posta adresi: info@omu.edu.tr
+Okulun e-postası nedir?~Üniversitenin genel e-posta adresi: info@omu.edu.tr
+Üniversitenin e-posta adresi nedir?~Üniversitenin genel e-posta adresi: info@omu.edu.tr
+Omü adres~Ondokuz Mayıs Üniversitesi, Kurupelit Kampüsü, 55270, Samsun, Türkiye
+Üniversitenin posta adresi nedir?~Ondokuz Mayıs Üniversitesi, Kurupelit Kampüsü, 55270, Samsun, Türkiye
+Omünün açılımı nedir?~OMÜ'nün açılımı Ondokuz Mayıs Üniversitesidir.
+Omü hangi ilde?~Ondokuz Mayıs Üniversitesi, Samsun, Türkiye'de bulunmaktadır.
+Omü nerede?~Ondokuz Mayıs Üniversitesi, Samsun, Türkiye'de bulunmaktadır.
+Ondokuz Mayıs Üniversitesi hangi şehirdedir?~Ondokuz Mayıs Üniversitesi, Samsun, Türkiye'de bulunmaktadır.
+Omü hangi şehirde?~Ondokuz Mayıs Üniversitesi, Samsun, Türkiye'de bulunmaktadır.
+Ondokuz Mayıs Üniversitesi nerede bulunuyor?~Ondokuz Mayıs Üniversitesi, Samsun, Türkiye'de bulunmaktadır.
+Üniversitede eğitime başlangıç tarihi nedir?~Ondokuz Mayıs Üniversitesi, 1 Nisan 1975 tarihinde 1873 sayılı Kanun'la kurulmuş ve ilk olarak 50 öğrenci ile eğitim-öğretime başlamıştır.
+Omü kaç yılında kurulmuştur?~Ondokuz Mayıs Üniversitesi, 1 Nisan 1975 tarihinde 1873 sayılı Kanun'la kurulmuş ve ilk olarak 50 öğrenci ile eğitim-öğretime başlamıştır.
+omü ne zaman faaliyete geçti?~Ondokuz Mayıs Üniversitesi, 1 Nisan 1975 tarihinde 1873 sayılı Kanun'la kurulmuş ve ilk olarak 50 öğrenci ile eğitim-öğretime başlamıştır.
+Üniversite ne zaman eğitime başladı?~Ondokuz Mayıs Üniversitesi, 1 Nisan 1975 tarihinde 1873 sayılı Kanun'la kurulmuş ve ilk olarak 50 öğrenci ile eğitim-öğretime başlamıştır.
+omü ne zaman kuruldu?~Ondokuz Mayıs Üniversitesi, 1 Nisan 1975 tarihinde 1873 sayılı Kanun'la kurulmuş ve ilk olarak 50 öğrenci ile eğitim-öğretime başlamıştır.
+Üniversite ne zaman açıldı?~Ondokuz Mayıs Üniversitesi, 1 Nisan 1975 tarihinde 1873 sayılı Kanun'la kurulmuş ve ilk olarak 50 öğrenci ile eğitim-öğretime başlamıştır.
+Üniversitenin kurulma tarihi nedir?~Ondokuz Mayıs Üniversitesi, 1 Nisan 1975 tarihinde 1873 sayılı Kanun'la kurulmuş ve ilk olarak 50 öğrenci ile eğitim-öğretime başlamıştır.
+Yabancı öğrenci var mı?~111 ülkeden toplam 5510 uluslararası öğrenci sayısı ile Türkiye’deki tüm üniversiteler arasında en çok sayıda uluslararası öğrencisi olan ilk 5 üniversiteden biriyiz.
+Üniversitemizde okuyan uluslararası öğrenci sayısı kaçtır?~111 ülkeden toplam 5510 uluslararası öğrenci sayısı ile Türkiye’deki tüm üniversiteler arasında en çok sayıda uluslararası öğrencisi olan ilk 5 üniversiteden biriyiz.
+Üniversitede kaç yabancı öğrenci bulunuyor?~111 ülkeden toplam 5510 uluslararası öğrenci sayısı ile Türkiye’deki tüm üniversiteler arasında en çok sayıda uluslararası öğrencisi olan ilk 5 üniversiteden biriyiz.
+Üniversitemizde yabancı uyruklu kaç öğrenci vardır?~111 ülkeden toplam 5510 uluslararası öğrenci sayısı ile Türkiye’deki tüm üniversiteler arasında en çok sayıda uluslararası öğrencisi olan ilk 5 üniversiteden biriyiz.
+omüdeki yabancı öğrenci sayısı kaçtır?~111 ülkeden toplam 5510 uluslararası öğrenci sayısı ile Türkiye’deki tüm üniversiteler arasında en çok sayıda uluslararası öğrencisi olan ilk 5 üniversiteden biriyiz.
+Yabancı öğrencilerin sayısı nedir?~111 ülkeden toplam 5510 uluslararası öğrenci sayısı ile Türkiye’deki tüm üniversiteler arasında en çok sayıda uluslararası öğrencisi olan ilk 5 üniversiteden biriyiz.
+Üniversiteler arasında dünyada hangi sıradayız?~Ondokuz Mayıs Üniversitesi, dünyada 11 bin 989 üniversitenin değerlendirildiği sıralamada 2022 yılında 1617'nci sıradayken, 2023 yılında 173 basamak yükselerek 1444'üncü oldu. Avrupa kıtasında ise 6 bin üniversite arasında 544'üncü sırada yer aldı.
+Avrupada sıralama olarak kaçıncı üniversiteyiz?~Ondokuz Mayıs Üniversitesi, dünyada 11 bin 989 üniversitenin değerlendirildiği sıralamada 2022 yılında 1617'nci sıradayken, 2023 yılında 173 basamak yükselerek 1444'üncü oldu. Avrupa kıtasında ise 6 bin üniversite arasında 544'üncü sırada yer aldı.
+Omünün yurt dışındaki derecesi nedir?~Ondokuz Mayıs Üniversitesi, dünyada 11 bin 989 üniversitenin değerlendirildiği sıralamada 2022 yılında 1617'nci sıradayken, 2023 yılında 173 basamak yükselerek 1444'üncü oldu. Avrupa kıtasında ise 6 bin üniversite arasında 544'üncü sırada yer aldı.
+Üniversitemiz dünyada kaçıncı sırada?~Ondokuz Mayıs Üniversitesi, dünyada 11 bin 989 üniversitenin değerlendirildiği sıralamada 2022 yılında 1617'nci sıradayken, 2023 yılında 173 basamak yükselerek 1444'üncü oldu. Avrupa kıtasında ise 6 bin üniversite arasında 544'üncü sırada yer aldı.
+Sıralamada türkiyenin kaçıncı üniversitesiyiz?~Consejo Superior de Investigaciones Científicas'un (CSIC) oluşturduğu "Webometrics Ranking of World Universities" (Dünya Üniversitelerinin Webometrics Sıralaması) sonuçlarına göre ülkemizden 209 üniversitenin dâhil edildiği derecelendirme sisteminde, Ondokuz Mayıs Üniversitesi Türkiye'nin en başarılı 21'inci üniversitesi olurken, etki açısından ise en başarılı 18'inci üniversitesi seçildi.
+Üniversitemizin ülkemizdeki sıralaması nedir?~Consejo Superior de Investigaciones Científicas'un (CSIC) oluşturduğu "Webometrics Ranking of World Universities" (Dünya Üniversitelerinin Webometrics Sıralaması) sonuçlarına göre ülkemizden 209 üniversitenin dâhil edildiği derecelendirme sisteminde, Ondokuz Mayıs Üniversitesi Türkiye'nin en başarılı 21'inci üniversitesi olurken, etki açısından ise en başarılı 18'inci üniversitesi seçildi.
+omünün sıralaması kaç~Consejo Superior de Investigaciones Científicas'un (CSIC) oluşturduğu "Webometrics Ranking of World Universities" (Dünya Üniversitelerinin Webometrics Sıralaması) sonuçlarına göre ülkemizden 209 üniversitenin dâhil edildiği derecelendirme sisteminde, Ondokuz Mayıs Üniversitesi Türkiye'nin en başarılı 21'inci üniversitesi olurken, etki açısından ise en başarılı 18'inci üniversitesi seçildi.
+omü ne kadar başarılı?~Consejo Superior de Investigaciones Científicas'un (CSIC) oluşturduğu "Webometrics Ranking of World Universities" (Dünya Üniversitelerinin Webometrics Sıralaması) sonuçlarına göre ülkemizden 209 üniversitenin dâhil edildiği derecelendirme sisteminde, Ondokuz Mayıs Üniversitesi Türkiye'nin en başarılı 21'inci üniversitesi olurken, etki açısından ise en başarılı 18'inci üniversitesi seçildi.
+omünün akademik başarısı nedir?~Consejo Superior de Investigaciones Científicas'un (CSIC) oluşturduğu "Webometrics Ranking of World Universities" (Dünya Üniversitelerinin Webometrics Sıralaması) sonuçlarına göre ülkemizden 209 üniversitenin dâhil edildiği derecelendirme sisteminde, Ondokuz Mayıs Üniversitesi Türkiye'nin en başarılı 21'inci üniversitesi olurken, etki açısından ise en başarılı 18'inci üniversitesi seçildi.
+Üniversitemiz Türkiyede kaçıncı sırada?~Consejo Superior de Investigaciones Científicas'un (CSIC) oluşturduğu "Webometrics Ranking of World Universities" (Dünya Üniversitelerinin Webometrics Sıralaması) sonuçlarına göre ülkemizden 209 üniversitenin dâhil edildiği derecelendirme sisteminde, Ondokuz Mayıs Üniversitesi Türkiye'nin en başarılı 21'inci üniversitesi olurken, etki açısından ise en başarılı 18'inci üniversitesi seçildi.
+Eğitim fakültesinin kuruluş tarihi nedir?~Ondokuz Mayıs Üniversitesinin en köklü fakültelerinden biri olan Eğitim Fakültesi'nin temelleri 1961 yılında atılmıştır.
+Eğitim fakültesi ne zaman kuruldu?~Ondokuz Mayıs Üniversitesinin en köklü fakültelerinden biri olan Eğitim Fakültesi'nin temelleri 1961 yılında atılmıştır.
+omü internet sitesi~Ondokuz Mayıs Üniversitesi'nin resmi web sitesi www.omu.edu.tr 'dir.
+Üniversitenin internet sitesi nedir?~Ondokuz Mayıs Üniversitesi'nin resmi web sitesi www.omu.edu.tr 'dir.
+Ondokuz Mayıs Üniversitesi'nin resmi web sitesi nedir?~Ondokuz Mayıs Üniversitesi'nin resmi web sitesi www.omu.edu.tr 'dir.
+Üniversitemizde toplam kaç öğrenci bulunmaktadır?~Üniversitemize kayıtlı yaklaşık 53000 öğrenci bulunmaktadır.
+Üniversitedeki mevcut öğrenci sayısı kaçtır?~Üniversitemize kayıtlı yaklaşık 53000 öğrenci bulunmaktadır.
+omüde kaç öğrenci öğrenim görmektedir?~Üniversitemize kayıtlı yaklaşık 53000 öğrenci bulunmaktadır.
+Okulun nüfusu nedir?~Üniversitemize kayıtlı yaklaşık 53000 öğrenci bulunmaktadır.
+omü öğrenci sayısı~Üniversitemize kayıtlı yaklaşık 53000 öğrenci bulunmaktadır.
+Üniversitede kaç öğrenci var?~Üniversitemize kayıtlı yaklaşık 53000 öğrenci bulunmaktadır.
+Öğrenci sayısı kaç?~Üniversitemize kayıtlı yaklaşık 53000 öğrenci bulunmaktadır.
+Üniversite yönetim kurulu üyeleri kimlerdir?~https://www.omu.edu.tr/tr/yonetim/yonetim-kurulu Adresinden yönetim kurulu kadrosu hakkında bilgi sahibi olabilirsiniz.
+omü yönetim kurulu~https://www.omu.edu.tr/tr/yonetim/yonetim-kurulu Adresinden yönetim kurulu kadrosu hakkında bilgi sahibi olabilirsiniz.
+Yönetim kurulunda kimler var?~https://www.omu.edu.tr/tr/yonetim/yonetim-kurulu Adresinden yönetim kurulu kadrosu hakkında bilgi sahibi olabilirsiniz.
+Bilgisayar mühendisliği hocaları kimlerdir?~Bilgisayar Mühendisliği bölümünün akademik personelleri: Prof. Dr. Erdal Kılıç, Doç. Dr. Gökhan Kayhan, Dr. Öğr. Üyesi Erhan Ergün, Dr. Öğr. Üyesi Durmuş Özkan Şahin, Dr. Öğr. Üyesi Meryem Soysaldı Şahin, Dr. Öğr. Üyesi İsmail İşeri, Dr. Öğr. Üyesi Sercan Demirci, Dr. Öğr. Üyesi Recai Oktaş ve Dr. Öğr. Üyesi Oğuz Emre Kural'dır.
+Bilgisayar Mühendisliği akademik personelleri kimlerdir?~Bilgisayar Mühendisliği bölümünün akademik personelleri: Prof. Dr. Erdal Kılıç, Doç. Dr. Gökhan Kayhan, Dr. Öğr. Üyesi Erhan Ergün, Dr. Öğr. Üyesi Durmuş Özkan Şahin, Dr. Öğr. Üyesi Meryem Soysaldı Şahin, Dr. Öğr. Üyesi İsmail İşeri, Dr. Öğr. Üyesi Sercan Demirci, Dr. Öğr. Üyesi Recai Oktaş ve Dr. Öğr. Üyesi Oğuz Emre Kural'dır.
+Erdal kılıç kimdir?~Prof. Dr. Erdal Kılıç, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde akademisyenlik yapmaktadır. Aynı zamanda Bilgisayar Mühendisliği bölüm başkanlığını yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/ekilic sitesini ziyaret edebilirsiniz.
+Gökhan kayhan kimdir?~Doç. Dr. Gökhan Kayhan, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde akademisyenlik yapmaktadır. Aynı zamanda Bilgisayar Mühendisliği bölüm kurulunda yer almaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/gkayhan adresini ziyaret edebilirsiniz.
+Erhan ergün kimdir?~Dr. Öğr. Üyesi Erhan Ergün Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde akademisyenlik yapmaktadır. Aynı zamanda Bilgisayar Mühendisliği bölüm başkan yardımcılığı yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/erergun sitesini ziyaret edebilirsiniz.
+Durmuş özkan şahin kimdir?~Dr. Öğr. Üyesi Durmuş Özkan Şahin, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde akademisyenlik yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/durmus.sahin adresini ziyaret edebilirsiniz.
+Meryem soysaldı şahin kimdir?~Dr. Öğr. Üyesi Meryem Soysaldı Şahin, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde akademisyenlik yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/meryem.soysaldi  adresini ziyaret edebilirsiniz.
+İsmail işeri kimdir?~Dr. Öğr. Üyesi İsmail İşeri, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde akademisyenlik yapmaktadır. Aynı zamanda Bilgisayar Mühendisliği bölüm kurulunda yer almaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/ismail.iseri adresini ziyaret edebilirsiniz.
+Sercan demirci kimdir?~Dr. Öğr. Üyesi Sercan Demirci, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde akademisyenlik yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/sercan.demirci adresini ziyaret edebilirsiniz.
+Recai oktaş kimdir?~Dr. Öğr. Üyesi Recai Oktaş, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde akademisyenlik yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/roktas adresini ziyaret edebilirsiniz.
+Oğuz emre kural kimdir?~Dr. Öğr. Üyesi Oğuz Emre Kural, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde akademisyenlik yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/oguz.kural adresini ziyaret edebilirsiniz.
+Bilgisayar mühendisliği asistanları kimlerdir?~Bilge Kağan Yazar, Gülcan Yıldız, İsmail Hakkı Turan, Kübra Seyhan, Nurullah Ateş, Varol Şahin ve Zinnet Duygu Akşehir Bilgisayar Mühendisliği bölümünde araştırma görevlisi olarak görev yapmaktadırlar.
+Bilgisayar mühendisliği bölümü araştırma görevlileri kimlerdir?~Bilge Kağan Yazar, Gülcan Yıldız, İsmail Hakkı Turan, Kübra Seyhan, Nurullah Ateş, Varol Şahin ve Zinnet Duygu Akşehir Bilgisayar Mühendisliği bölümünde araştırma görevlisi olarak görev yapmaktadırlar.
+Zinnet duygu akşehir kimdir?~Arş. Gör. Zinnet Duygu Akşehir, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde Araştırma Görevlisi olarak görev yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/duygu.aksehir  adresini ziyaret edebilirsiniz.
+İsmail hakkı turan kimdir?~Arş. Gör. İsmail Hakkı Turan, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde Araştırma Görevlisi olarak görev yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/ismailhakki.turan adresini ziyaret edebilirsiniz.
+Bilge kağan yazar kimdir?~Arş. Gör. Bilge Kağan Yazar, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde Araştırma Görevlisi olarak görev yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/kagan.yazar adresini ziyaret edebilirsiniz.
+Gülcan yıldız kimdir?~Arş. Gör. Gülcan Yıldız, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde Araştırma Görevlisi olarak görev yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/gulcan.ozer adresini ziyaret edebilirsiniz.
+Hami satılmış kimdir?~Arş. Gör. Hami Satılmış, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde Araştırma Görevlisi olarak görev yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/hami.satilmis adresini ziyaret edebilirsiniz.
+Nurullah ateş kimdir?~Arş. Gör. Nurullah Ateş, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde Araştırma Görevlisi olarak görev yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/nurullah.ates adresini ziyaret edebilirsiniz.
+Kübra seyhan kimdir?~Arş. Gör. Kübra Seyhan, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde Araştırma Görevlisi olarak görev yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/kubra.seyhan adresini ziyaret edebilirsiniz.
+Varol şahin kimdir?~Arş. Gör. Varol Şahin, Ondokuz Mayıs Üniversitesi Bilgisayar Mühendisliği Bölümü'nde Araştırma Görevlisi olarak görev yapmaktadır. Daha fazla bilgi için https://avesis.omu.edu.tr/varol.sahin adresini ziyaret edebilirsiniz.
+Bilgisayar mühendisliği bölüm başkanı kimdir?~Bilgisayar mühendisliği bölüm başkanı Prof. Dr. Erdal KILIÇ'tır.
+Bilgisayar mühendisliği bölüm başkan yardımcısı kimdir?~Bilgisayar mühendisliği bölüm başkan yardımcısı Dr. Öğr. Üyesi Erhan ERGÜN'dür.
+omü rektör yardımcıları~Ondokuz Mayıs Üniversitesi rektör yardımcıları Prof. Dr. Selim EREN, Prof. Dr. Sevim ALIŞIR ve Prof. Dr. Murat TERZİ'dir.
+Üniversite rektör yardımcıları kimlerdir?~Ondokuz Mayıs Üniversitesi rektör yardımcıları Prof. Dr. Selim EREN, Prof. Dr. Sevim ALIŞIR ve Prof. Dr. Murat TERZİ'dir.
+Üniversite rektörünün adı nedir?~Ondokuz Mayıs Üniversitesi rektörü Prof. Dr. Yavuz ÜNAL'dır.
+omü rektör~Ondokuz Mayıs Üniversitesi rektörü Prof. Dr. Yavuz ÜNAL'dır.
+Rektör kim?~Ondokuz Mayıs Üniversitesi rektörü Prof. Dr. Yavuz ÜNAL'dır.
+Okul rektörümüz kimdir?~Ondokuz Mayıs Üniversitesi rektörü Prof. Dr. Yavuz ÜNAL'dır.
+Üniversite rektörü kim?~Ondokuz Mayıs Üniversitesi rektörü Prof. Dr. Yavuz ÜNAL'dır.
+Yıldıray topçu kimdir?~Mühendislik Fakültesi Dekanı Prof. Dr. Yıldıray TOPCU'dur.
+Mühendislik Fakültesinin Dekanı kim?~Mühendislik Fakültesi Dekanı Prof. Dr. Yıldıray TOPCU'dur.
+Üniversite rektör danışmanları kimlerdir?~Ondokuz Mayıs Üniversitesi rektör danışmanları Prof. Dr. Yavuz BAYRAM, Prof. Dr. Ramazan ÇAĞLAYAN, Prof. Dr. Nalan KIZILTAN, Prof. Dr. Zeliha KOÇ, Doç. Dr. Gökhan DEMİR ve Doç. Dr. Şener ŞENTÜRK'tür.
+Üniversitede Senato kimlerden oluşmaktadır?~https://www.omu.edu.tr/tr/yonetim/senato Adresinden senato kadrosu hakkında bilgi edinebilirsiniz.
+Ondokuz mayıs üniversitesi adı nereden geliyor?~19 Mayıs 1919 tarihinde 9. Ordu Müfettişi Atatürk'ün Bandırma Vapuru ile yaptığı yolculuk sonrası Samsun'a ulaşması ve bu olayın Kurtuluş Savaşı'nın fiili başlangıcı olarak kabul edilmesinden gelmektedir.
+Omü adı nereden gelmektedir?~19 Mayıs 1919 tarihinde 9. Ordu Müfettişi Atatürk'ün Bandırma Vapuru ile yaptığı yolculuk sonrası Samsun'a ulaşması ve bu olayın Kurtuluş Savaşı'nın fiili başlangıcı olarak kabul edilmesinden gelmektedir.
+Hazırlık dersleri hangi kampüste, nerede veriliyor?~Üniversitemizde hazırlık öğrencilerinin dersleri İktisadi ve İdari Bilimler Fakültesinde Yabancı Diller Yüksekokulu binasında verilmektedir.
+En iyi bölüm hangisi?~2022 Yılı yerleştirmelerine göre en yüksek puanlı öğrencilerin girdiği bölüm Tıp(6 yıllık) bölümüdür.
+En başarılı fakülte hangisi?~2022 Yılı yerleştirmelerine göre en yüksek puanlı öğrencilerin girdiği bölüm Tıp(6 yıllık) bölümüdür.
+En yüksek puanlı bölüm hangisi?~2022 Yılı yerleştirmelerine göre en yüksek puanlı öğrencilerin girdiği bölüm Tıp(6 yıllık) bölümüdür.
+Kampüsümüz kaç dönüm?~Ana yerleşke olan Kurupelit Yerleşkesi 8800 dönümlük bir alana sahiptir.
+omü yüzölçümü nedir?~Ana yerleşke olan Kurupelit Yerleşkesi 8800 dönümlük bir alana sahiptir.
+okul kaç kilometre kare?~Ana yerleşke olan Kurupelit Yerleşkesi 8800 dönümlük bir alana sahiptir.
+Üniversitenin büyüklüğü ne kadar?~Ana yerleşke olan Kurupelit Yerleşkesi 8800 dönümlük bir alana sahiptir.
+Okulun alanı ne kadar?~Ana yerleşke olan Kurupelit Yerleşkesi 8800 dönümlük bir alana sahiptir.
+Okul kaç dönüm?~Ana yerleşke olan Kurupelit Yerleşkesi 8800 dönümlük bir alana sahiptir.
+Omü kampüsü kaç dönüm?~Ana yerleşke olan Kurupelit Yerleşkesi 8800 dönümlük bir alana sahiptir.
+En fazla kaç notum DC olabilir?~https://cev-muhendislik.omu.edu.tr/tr/belgeler/yonergeler/ adresinden ilgili yönergeyi okuyup sorunuza cevap bulabilirsiniz.
+neden sosyal etkinliklere katılmalıyım?~Üniversitedeki sosyal aktiviteler öğrenciler arasındaki ilişkilerin kurulmasına, öğrencilerin kişisel gelişimine, öğrencilerin ruh sağlığını korumalarına ve öğrencilere gelecekteki kariyerleri için önemli bir ağ oluşturma fırsatı sunar.
+Sosyal aktivitiler ne için önemlidir?~Üniversitedeki sosyal aktiviteler öğrenciler arasındaki ilişkilerin kurulmasına, öğrencilerin kişisel gelişimine, öğrencilerin ruh sağlığını korumalarına ve öğrencilere gelecekteki kariyerleri için önemli bir ağ oluşturma fırsatı sunar.
+öğle arası ne zaman başlıyor?~12.00 - 13.00 saatleri arası üniversite genelinde öğle arası olmaktadır.
+Öğle arası hangi saatler arasında?~12.00 - 13.00 saatleri arası üniversite genelinde öğle arası olmaktadır.
+Öğle arası kaç saat sürüyor?~12.00 - 13.00 saatleri arası üniversite genelinde öğle arası olmaktadır.
+Öğrenci işlerinin öğle arası ne zaman?~12.00 - 13.00 saatleri arası üniversite genelinde öğle arası olmaktadır.
+Okulda öğrencilerin de park yapabileceği bir otopark var mı?~Fakültelerin önlerinde öğrencilerin de park yapabileceği otoparklar bulunmaktadır. https://www.omu.edu.tr/tr/haritalar?h=park Adresinden otoparkların konumu hakkında bilgi sahibi olabilirsiniz.
+omüde Arabamı nereye park edebilirim?~Fakültelerin önlerinde öğrencilerin de park yapabileceği otoparklar bulunmaktadır. https://www.omu.edu.tr/tr/haritalar?h=park Adresinden otoparkların konumu hakkında bilgi sahibi olabilirsiniz.
+omüde misafirler araçlarını nereye park edebilir?~Fakültelerin önlerinde öğrencilerin de park yapabileceği otoparklar bulunmaktadır. https://www.omu.edu.tr/tr/haritalar?h=park Adresinden otoparkların konumu hakkında bilgi sahibi olabilirsiniz.
+Okulda park edebilir miyim?~Fakültelerin önlerinde öğrencilerin de park yapabileceği otoparklar bulunmaktadır. https://www.omu.edu.tr/tr/haritalar?h=park Adresinden otoparkların konumu hakkında bilgi sahibi olabilirsiniz.
+Kampüsteki atm sayısı kaçtır?~https://www.omu.edu.tr/tr/haritalar?h=atm Adresinden kampüsteki ATM'ler ve konumları hakkında bilgi sahibi olabilirsiniz.
+omüde ATM var mı?~https://www.omu.edu.tr/tr/haritalar?h=atm Adresinden kampüsteki ATM'ler ve konumları hakkında bilgi sahibi olabilirsiniz.
+omüde banka var mı?~https://www.omu.edu.tr/tr/haritalar?h=atm Adresinden kampüsteki ATM'ler ve konumları hakkında bilgi sahibi olabilirsiniz.
+Kampüste kaç adet atm var?~https://www.omu.edu.tr/tr/haritalar?h=atm Adresinden kampüsteki ATM'ler ve konumları hakkında bilgi sahibi olabilirsiniz.
+okulda para çekme makinası bulunuyor mu?~https://www.omu.edu.tr/tr/haritalar?h=atm Adresinden kampüsteki ATM'ler ve konumları hakkında bilgi sahibi olabilirsiniz.
+ATMler nerede~https://www.omu.edu.tr/tr/haritalar?h=atm Adresinden kampüsteki ATM'ler ve konumları hakkında bilgi sahibi olabilirsiniz.
+okulda ziraat bankası var mı?~https://www.omu.edu.tr/tr/haritalar?h=atm Adresinden kampüsteki ATM'ler ve konumları hakkında bilgi sahibi olabilirsiniz.
+Kampüste nereden para çekebilirim?~https://www.omu.edu.tr/tr/haritalar?h=atm Adresinden kampüsteki ATM'ler ve konumları hakkında bilgi sahibi olabilirsiniz.
+idari birimlere nasıl gidebilirim?~https://www.omu.edu.tr/tr/haritalar?h=idari Adresinden üniversitemizin idari birimleri ve konumları hakkında bilgi sahibi olabilirsiniz.
+Üniversitenin idari birimleri nerede?~https://www.omu.edu.tr/tr/haritalar?h=idari Adresinden üniversitemizin idari birimleri ve konumları hakkında bilgi sahibi olabilirsiniz.
+Üniversitenin öğrenci işlerine nasıl ulaşabilirim?~https://www.omu.edu.tr/tr/haritalar?h=oidb Adresinden üniversitenin öğrenci işleri daire başkanlığının konumunu bulabilirsiniz.
+Üniversitenin öğrenci işleri daire başkanlığı nerededir?~https://www.omu.edu.tr/tr/haritalar?h=oidb Adresinden üniversitenin öğrenci işleri daire başkanlığının konumunu bulabilirsiniz.
+Öğrenci işleri ile işim var binası nerede?~https://www.omu.edu.tr/tr/haritalar?h=oidb Adresinden üniversitenin öğrenci işleri daire başkanlığının konumunu bulabilirsiniz.
+Kampüste kablosuz ağ alanları bulunmakta mı?~https://www.omu.edu.tr/tr/haritalar?h=ag Adresinden kampüslerdeki kablosuz ağ alanlarının konumları hakkında bilgi edinebilirsiniz.
+omüde kablosuz internet bulunuyor mu?~https://www.omu.edu.tr/tr/haritalar?h=ag Adresinden kampüslerdeki kablosuz ağ alanlarının konumları hakkında bilgi edinebilirsiniz.
+omüde wifi var mı?~https://www.omu.edu.tr/tr/haritalar?h=ag Adresinden kampüslerdeki kablosuz ağ alanlarının konumları hakkında bilgi edinebilirsiniz.
+Wifi alanları bulunuyor mu?~https://www.omu.edu.tr/tr/haritalar?h=ag Adresinden kampüslerdeki kablosuz ağ alanlarının konumları hakkında bilgi edinebilirsiniz.
+yabancı öğrenciler kaydını nerede yapıyor?~https://www.omu.edu.tr/tr/haritalar?h=yos Adresinden uluslararası öğrenci kayıt merkezinin konumunu bulabilirsiniz.
+Uluslararası öğrenci kayıt merkezi nerede?~https://www.omu.edu.tr/tr/haritalar?h=yos Adresinden uluslararası öğrenci kayıt merkezinin konumunu bulabilirsiniz.
+Kampüste cami nerede?~https://www.omu.edu.tr/tr/haritalar?h=diger Adresinden Ondokuz Mayıs Üniversitesi Cami konumu hakkında bilgi edinebilirsiniz.
+cuma namazını nerede kılabilirim?~https://www.omu.edu.tr/tr/haritalar?h=diger Adresinden Ondokuz Mayıs Üniversitesi Cami konumu hakkında bilgi edinebilirsiniz.
+Camiye nasıl giderim?~https://www.omu.edu.tr/tr/haritalar?h=diger Adresinden Ondokuz Mayıs Üniversitesi Cami konumu hakkında bilgi edinebilirsiniz.
+kampüste cami var mı?~https://www.omu.edu.tr/tr/haritalar?h=diger Adresinden Ondokuz Mayıs Üniversitesi Cami konumu hakkında bilgi edinebilirsiniz.
+omüde cami var mı?~https://www.omu.edu.tr/tr/haritalar?h=diger Adresinden Ondokuz Mayıs Üniversitesi Cami konumu hakkında bilgi edinebilirsiniz.
+Üniversitede cami bulunuyor mu?~https://www.omu.edu.tr/tr/haritalar?h=diger Adresinden Ondokuz Mayıs Üniversitesi Cami konumu hakkında bilgi edinebilirsiniz.
+omüde mescit var mı?~Kampüsümüzdeki tüm fakültelerde namaz kılabileceğiniz mescitler bulunmaktadır. Buna ek olarak kampüsümüzde büyük bir cami bulunmaktadır.
+okulda ibadet yeri var mı?~Kampüsümüzdeki tüm fakültelerde namaz kılabileceğiniz mescitler bulunmaktadır. Buna ek olarak kampüsümüzde büyük bir cami bulunmaktadır.
+nerede namaz kılabilirim?~Kampüsümüzdeki tüm fakültelerde namaz kılabileceğiniz mescitler bulunmaktadır. Buna ek olarak kampüsümüzde büyük bir cami bulunmaktadır.
+nereden kargo yollayabilirim?~Kampüs içerisinde bulunan PTT Kargo'nun adresi: Körfez Mah. 19 Mayıs Caddesi Kurupelit Sokak No: 1/1 19 Mayıs Üniversitesi Kampüsü Atakum Samsun
+Kampüsteki Ptt nerede?~Kampüs içerisinde bulunan PTT Kargo'nun adresi: Körfez Mah. 19 Mayıs Caddesi Kurupelit Sokak No: 1/1 19 Mayıs Üniversitesi Kampüsü Atakum Samsun
+okuldaki konferans salonuna nasıl gidebilirim?~https://www.omu.edu.tr/tr/haritalar?h=konferans Adresinden Atatürk Kongre ve Kültür Merkezinin konumunu bulabilirsiniz.
+Üniversitenin konferans salonu var mı?~https://www.omu.edu.tr/tr/haritalar?h=konferans Adresinden Atatürk Kongre ve Kültür Merkezinin konumunu bulabilirsiniz.
+OMÜ Atatürk Kongre ve Kültür Merkezi nerededir?~https://www.omu.edu.tr/tr/haritalar?h=konferans Adresinden Atatürk Kongre ve Kültür Merkezinin konumunu bulabilirsiniz.
+Üniversitenin kütüphanesi bulunuyor mu?~Kurupelit kampüsünde OMÜ Merkez Kütüphanesi adında büyük bir kütüphane bulunmaktadır.
+Omü kütüphane~Kurupelit kampüsünde OMÜ Merkez Kütüphanesi adında büyük bir kütüphane bulunmaktadır.
+Üniversitede Kütüphane var mı?~Kurupelit kampüsünde OMÜ Merkez Kütüphanesi adında büyük bir kütüphane bulunmaktadır.
+Kütüphaneye nasıl gidebilirim?~https://www.omu.edu.tr/tr/haritalar?h=kutuphane Adresinden OMÜ Merkez Kütüphanesinin konumu hakkında bilgi edinebilirsiniz.
+Kütüphane konum~https://www.omu.edu.tr/tr/haritalar?h=kutuphane Adresinden OMÜ Merkez Kütüphanesinin konumu hakkında bilgi edinebilirsiniz.
+Kütüphane nerede?~https://www.omu.edu.tr/tr/haritalar?h=kutuphane Adresinden OMÜ Merkez Kütüphanesinin konumu hakkında bilgi edinebilirsiniz.
+omüde hastane var mı?~https://maps.app.goo.gl/zBHaQa8AoPu2VmY5A Adresinden OMÜ Hastanesinin konum bilgisine erişebilirsiniz.
+omü hastaneye nasıl gidebilirim?~https://maps.app.goo.gl/zBHaQa8AoPu2VmY5A Adresinden OMÜ Hastanesinin konum bilgisine erişebilirsiniz.
+üniversite hastanesinin konumu nerede?~https://maps.app.goo.gl/zBHaQa8AoPu2VmY5A Adresinden OMÜ Hastanesinin konum bilgisine erişebilirsiniz.
+okulda hastane bulunuyor mu?~https://maps.app.goo.gl/zBHaQa8AoPu2VmY5A Adresinden OMÜ Hastanesinin konum bilgisine erişebilirsiniz.
+omü hastane nerede?~https://maps.app.goo.gl/zBHaQa8AoPu2VmY5A Adresinden OMÜ Hastanesinin konum bilgisine erişebilirsiniz.
+Üniversitenin öğrenci yurduna başvuruyu nereden ve nasıl yapabilirim?~Üniversitemizin yurtlarında barınmak isteyen öğrenciler, PP.4.7.FR.0097-Öğrenci Yurdu Konaklama Talep Dilekçesi doldurup eki belgeleriyle birlikte Sağlık Kültür ve Spor Daire Başkanlığına başvuru yapabilmektedirler.
+Öğrenci Yurdunun odaları kaç kişilik?~Öğrenci yurtlarında tek, çift, üç ve dört kişilik odalarda barınma hizmeti verilmektedir.
+Öğrenci Yurduna başvuru yaparken oda arkadaşımı seçebiliyormuyum?~Birlikte kalmak istediğiniz arkadaşınızın ismini belirttiğiniz takdirde, imkanlar nisbetinde dikkate alınmaktadır.
+Yemekhanelerde Çölyak hastaları için glutensiz yemek üretiliyor mu?~Başvuru sayısına göre günlük glutensiz yemek üretimi yapılarak servis edilmektedir.
+omü harita~https://www.omu.edu.tr/tr/haritalar Adresinden üniversitemizin haritasına ulaşabilirsiniz.
+okulda harita var mı?~https://www.omu.edu.tr/tr/haritalar Adresinden üniversitemizin haritasına ulaşabilirsiniz.
+Üniversitenin haritası var mı?~https://www.omu.edu.tr/tr/haritalar Adresinden üniversitemizin haritasına ulaşabilirsiniz.
+Haritayı nereden bulabilirim?~https://www.omu.edu.tr/tr/haritalar Adresinden üniversitemizin haritasına ulaşabilirsiniz.
+okulun yemek menüsüne nereden ulaşabilirim?~https://yemekmenusu.omu.edu.tr/ adresinden günlük yemek menüsüne ulaşabilirsiniz.
+omü yemek menüsü~https://yemekmenusu.omu.edu.tr/ adresinden günlük yemek menüsüne ulaşabilirsiniz.
+okulda yemek menüsünü nasıl görebilirim?~https://yemekmenusu.omu.edu.tr/ adresinden günlük yemek menüsüne ulaşabilirsiniz.
+okulda sinema salonu var mı?~Kurupelit Kampüsü'nde OMÜ Sinema Topluluğu tarafından işletilen bir sinema salonu bulunmaktadır.
+omüde sinema var mı?~Kurupelit Kampüsü'nde OMÜ Sinema Topluluğu tarafından işletilen bir sinema salonu bulunmaktadır.
+Üniversitede sinema bulunuyor mu?~Kurupelit Kampüsü'nde OMÜ Sinema Topluluğu tarafından işletilen bir sinema salonu bulunmaktadır.
+sinema salonuna nasıl giderim?~Kurupelit Kampüsü'nde OMÜ Sinema Topluluğu tarafından işletilen bir sinema salonu bulunmaktadır.
+okulda spor salonu var mı?~Kurupelit Kampüsü'nde öğrenci ve personelin kullanımına açık olan bir spor salonu bulunmaktadır.
+omüde spor salonu var mı?~Kurupelit Kampüsü'nde öğrenci ve personelin kullanımına açık olan bir spor salonu bulunmaktadır.
+Üniversitede spor salonu var mı?~Kurupelit Kampüsü'nde öğrenci ve personelin kullanımına açık olan bir spor salonu bulunmaktadır.
+spor salonuna nasıl giderim?~Kurupelit Kampüsü'nde öğrenci ve personelin kullanımına açık olan bir spor salonu bulunmaktadır.
+kampüste yüzme havuzu var mı?~Kurupelit Kampüsü'nde öğrenci ve personelin kullanımına açık olan bir yüzme havuzu bulunmaktadır.
+okulda yüzme havuzu var mı?~Kurupelit Kampüsü'nde öğrenci ve personelin kullanımına açık olan bir yüzme havuzu bulunmaktadır.
+omüde yüzme havuzu var mı?~Kurupelit Kampüsü'nde öğrenci ve personelin kullanımına açık olan bir yüzme havuzu bulunmaktadır.
+Yüzme havuzu nerede?~Kurupelit Kampüsü'nde öğrenci ve personelin kullanımına açık olan bir yüzme havuzu bulunmaktadır.
+okulda sağlık merkezi var mı?~Kurupelit Kampüsü'nde öğrencilere ve personele hizmet veren bir sağlık merkezi bulunmaktadır.
+omüde sağlık merkezi var mı?~Kurupelit Kampüsü'nde öğrencilere ve personele hizmet veren bir sağlık merkezi bulunmaktadır.
+Üniversitede sağlık merkezi bulunuyor mu?~Kurupelit Kampüsü'nde öğrencilere ve personele hizmet veren bir sağlık merkezi bulunmaktadır.
+sağlık merkezi nerede?~Kurupelit Kampüsü'nde öğrencilere ve personele hizmet veren bir sağlık merkezi bulunmaktadır.
+Üniversitenin spor takımları var mı?~Ondokuz Mayıs Üniversitesi'nin farklı branşlarda spor takımları bulunmaktadır. Detaylı bilgiye OMÜ Spor Kulübü sayfasından ulaşabilirsiniz.
+omü spor takımları~Ondokuz Mayıs Üniversitesi'nin farklı branşlarda spor takımları bulunmaktadır. Detaylı bilgiye OMÜ Spor Kulübü sayfasından ulaşabilirsiniz.
+Üniversite spor takımları nerede çalışıyor?~Ondokuz Mayıs Üniversitesi'nin farklı branşlarda spor takımları bulunmaktadır. Detaylı bilgiye OMÜ Spor Kulübü sayfasından ulaşabilirsiniz.
+spor takımları hakkında bilgi~Ondokuz Mayıs Üniversitesi'nin farklı branşlarda spor takımları bulunmaktadır. Detaylı bilgiye OMÜ Spor Kulübü sayfasından ulaşabilirsiniz.
+okulda tiyatro salonu var mı?~Kurupelit Kampüsü'nde OMÜ Tiyatro Topluluğu tarafından işletilen bir tiyatro salonu bulunmaktadır.
+omüde tiyatro var mı?~Kurupelit Kampüsü'nde OMÜ Tiyatro Topluluğu tarafından işletilen bir tiyatro salonu bulunmaktadır.
+Üniversitede tiyatro bulunuyor mu?~Kurupelit Kampüsü'nde OMÜ Tiyatro Topluluğu tarafından işletilen bir tiyatro salonu bulunmaktadır.
+tiyatro salonuna nasıl giderim?~Kurupelit Kampüsü'nde OMÜ Tiyatro Topluluğu tarafından işletilen bir tiyatro salonu bulunmaktadır.
+omü öğrenci toplulukları~Ondokuz Mayıs Üniversitesi'nde öğrencilerin ilgi alanlarına göre katılabilecekleri birçok öğrenci topluluğu bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+Üniversitenin öğrenci toplulukları var mı?~Ondokuz Mayıs Üniversitesi'nde öğrencilerin ilgi alanlarına göre katılabilecekleri birçok öğrenci topluluğu bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+öğrenci toplulukları nerede çalışıyor?~Ondokuz Mayıs Üniversitesi'nde öğrencilerin ilgi alanlarına göre katılabilecekleri birçok öğrenci topluluğu bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+öğrenci toplulukları hakkında bilgi~Ondokuz Mayıs Üniversitesi'nde öğrencilerin ilgi alanlarına göre katılabilecekleri birçok öğrenci topluluğu bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+okulda öğrenci kulüpleri var mı?~Ondokuz Mayıs Üniversitesi'nde öğrencilerin ilgi alanlarına göre katılabilecekleri birçok öğrenci kulübü bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+omü öğrenci kulüpleri~Ondokuz Mayıs Üniversitesi'nde öğrencilerin ilgi alanlarına göre katılabilecekleri birçok öğrenci kulübü bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+öğrenci kulüpleri nerede çalışıyor?~Ondokuz Mayıs Üniversitesi'nde öğrencilerin ilgi alanlarına göre katılabilecekleri birçok öğrenci kulübü bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+öğrenci kulüpleri hakkında bilgi~Ondokuz Mayıs Üniversitesi'nde öğrencilerin ilgi alanlarına göre katılabilecekleri birçok öğrenci kulübü bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+okulda mezunlar derneği var mı?~Ondokuz Mayıs Üniversitesi Mezunlar Derneği bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+omü mezunlar derneği~Ondokuz Mayıs Üniversitesi Mezunlar Derneği bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+mezunlar derneği nerede?~Ondokuz Mayıs Üniversitesi Mezunlar Derneği bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+mezunlar derneği hakkında bilgi~Ondokuz Mayıs Üniversitesi Mezunlar Derneği bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+omü öğrenci konseyleri~Ondokuz Mayıs Üniversitesi'nde öğrencilerin temsil edilmesini sağlayan öğrenci konseyleri bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+Üniversitenin öğrenci konseyleri var mı?~Ondokuz Mayıs Üniversitesi'nde öğrencilerin temsil edilmesini sağlayan öğrenci konseyleri bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+öğrenci konseyleri nerede çalışıyor?~Ondokuz Mayıs Üniversitesi'nde öğrencilerin temsil edilmesini sağlayan öğrenci konseyleri bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+öğrenci konseyleri hakkında bilgi~Ondokuz Mayıs Üniversitesi'nde öğrencilerin temsil edilmesini sağlayan öğrenci konseyleri bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+okulda staj imkanları var mı?~Ondokuz Mayıs Üniversitesi'nde öğrencilerin staj yapabileceği birçok imkan bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+omü staj imkanları~Ondokuz Mayıs Üniversitesi'nde öğrencilerin staj yapabileceği birçok imkan bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+staj imkanları nerede?~Ondokuz Mayıs Üniversitesi'nde öğrencilerin staj yapabileceği birçok imkan bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+staj imkanları hakkında bilgi~Ondokuz Mayıs Üniversitesi'nde öğrencilerin staj yapabileceği birçok imkan bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+okulda burs imkanları var mı?~Ondokuz Mayıs Üniversitesi'nde öğrencilere sunulan çeşitli burs imkanları bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+omü burs imkanları~Ondokuz Mayıs Üniversitesi'nde öğrencilere sunulan çeşitli burs imkanları bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+burs imkanları nerede?~Ondokuz Mayıs Üniversitesi'nde öğrencilere sunulan çeşitli burs imkanları bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+burs imkanları hakkında bilgi~Ondokuz Mayıs Üniversitesi'nde öğrencilere sunulan çeşitli burs imkanları bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+okulda kariyer merkezi var mı?~Ondokuz Mayıs Üniversitesi'nde öğrencilere kariyer danışmanlığı hizmeti sunan bir kariyer merkezi bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+omü kariyer merkezi~Ondokuz Mayıs Üniversitesi'nde öğrencilere kariyer danışmanlığı hizmeti sunan bir kariyer merkezi bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+kariyer merkezi nerede?~Ondokuz Mayıs Üniversitesi'nde öğrencilere kariyer danışmanlığı hizmeti sunan bir kariyer merkezi bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+kariyer merkezi hakkında bilgi~Ondokuz Mayıs Üniversitesi'nde öğrencilere kariyer danışmanlığı hizmeti sunan bir kariyer merkezi bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+okulda danışmanlık hizmetleri var mı?~Ondokuz Mayıs Üniversitesi'nde öğrencilere çeşitli konularda danışmanlık hizmeti sunulmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+omü danışmanlık hizmetleri~Ondokuz Mayıs Üniversitesi'nde öğrencilere çeşitli konularda danışmanlık hizmeti sunulmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+danışmanlık hizmetleri nerede?~Ondokuz Mayıs Üniversitesi'nde öğrencilere çeşitli konularda danışmanlık hizmeti sunulmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+danışmanlık hizmetleri hakkında bilgi~Ondokuz Mayıs Üniversitesi'nde öğrencilere çeşitli konularda danışmanlık hizmeti sunulmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+okulda ulaşım imkanları var mı?~Ondokuz Mayıs Üniversitesi'nde öğrencilere ve personele hizmet veren çeşitli ulaşım imkanları bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+omü ulaşım imkanları~Ondokuz Mayıs Üniversitesi'nde öğrencilere ve personele hizmet veren çeşitli ulaşım imkanları bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+ulaşım imkanları nerede?~Ondokuz Mayıs Üniversitesi'nde öğrencilere ve personele hizmet veren çeşitli ulaşım imkanları bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+ulaşım imkanları hakkında bilgi~Ondokuz Mayıs Üniversitesi'nde öğrencilere ve personele hizmet veren çeşitli ulaşım imkanları bulunmaktadır. Detaylı bilgiye üniversitenin web sitesinden ulaşabilirsiniz.
+Spor salonu ücretli mi?~Evet, üniversitemizin spor salonları belirli bir ücret karşılığında kullanılabilmektedir.
+Spor salonlarının çalışma saatleri nedir?~OMÜ Spor Salonları hafta içi ve hafta sonu belirli saatlerde açık olup, detaylı bilgi üniversitemizin Spor Merkezi'nden alınabilir.
+Üniversitenizde hangi spor dalları bulunmaktadır?~OMÜ'de basketbol, voleybol, futbol, yüzme, tenis, atletizm gibi birçok spor dalı bulunmaktadır.
+Üniversitenizde öğrenci topluluklarına nasıl katılabilirim?~Öğrenci topluluklarına katılmak için ilgili topluluğun düzenlediği etkinliklere katılabilir veya topluluk temsilcileri ile iletişime geçebilirsiniz.
+Öğrenci topluluklarına üye olmak ücretli midir?~Genellikle öğrenci topluluklarına üye olmak ücretsizdir, ancak bazı topluluklar belirli etkinlikler için katılım ücreti talep edebilir.
+Öğrenci topluluklarının etkinliklerinden nasıl haberdar olabilirim?~Öğrenci topluluklarının etkinliklerini üniversitemizin web sitesinden, sosyal medya hesaplarından veya toplulukların duyuru panolarından takip edebilirsiniz.
+Üniversitenizde kütüphane hizmetleri nelerdir?~OMÜ Kütüphanesi'nde kitap ödünç alma, araştırma yapma, grup çalışma odaları, bilgisayar laboratuvarları gibi birçok hizmet bulunmaktadır.
+Kütüphaneden nasıl kitap ödünç alabilirim?~Kütüphaneden kitap ödünç almak için öğrenci kimlik kartınızı kullanarak ödünç alma birimine başvurmanız yeterlidir.
+Kütüphane kitaplarını ne kadar süreyle ödünç alabilirim?~Kütüphane kitapları genellikle 15 gün süreyle ödünç verilir, bu süre sonunda kitabı iade etmeniz veya süresini uzatmanız gerekmektedir.
+Kütüphanede çalışma alanları var mı?~Evet, OMÜ Kütüphanesi'nde bireysel ve grup çalışmaları için ayrılmış çalışma alanları bulunmaktadır.
+Üniversitenizde öğrencilere yönelik kariyer hizmetleri var mı?~OMÜ'de Kariyer Merkezi aracılığıyla öğrencilere staj, iş bulma ve kariyer planlama konularında destek sağlanmaktadır.
+Kariyer Merkezi'nden nasıl faydalanabilirim?~Kariyer Merkezi'ne başvurarak veya üniversitemizin web sitesinden randevu alarak kariyer danışmanlığı hizmetlerinden faydalanabilirsiniz.
+Staj yapma imkanları nelerdir?~OMÜ'de çeşitli kamu ve özel sektör kuruluşları ile işbirliği yapılarak öğrencilere staj imkanları sunulmaktadır.
+Staj başvurularını nasıl yapabilirim?~Staj başvuruları, ilgili bölümün staj koordinatörlüğü veya Kariyer Merkezi aracılığıyla yapılmaktadır.
+Staj yaparken dikkat etmem gereken hususlar nelerdir?~Staj yaparken dikkat etmeniz gereken hususlar arasında, staj yerinin belirlediği kurallara uymak, çalışma saatlerine riayet etmek ve staj raporunuzu düzenli olarak tutmak yer alır.
+Üniversitenizdeki laboratuvar imkanları nelerdir?~OMÜ'de çeşitli fakülte ve bölümlere ait modern laboratuvarlar bulunmaktadır. Bu laboratuvarlar dersler ve araştırmalar için kullanılmaktadır.
+Laboratuvarlardan nasıl faydalanabilirim?~Laboratuvarlardan faydalanmak için ilgili bölümün laboratuvar sorumlusu veya dersin öğretim üyesi ile iletişime geçerek rezervasyon yapabilirsiniz.
+Üniversitenizde bilgisayar laboratuvarları var mı?~Evet, OMÜ'de öğrencilere açık bilgisayar laboratuvarları bulunmaktadır.
+Bilgisayar laboratuvarlarını kullanmak için rezervasyon yapmam gerekir mi?~Genellikle bilgisayar laboratuvarlarını kullanmak için rezervasyon yapılmasına gerek yoktur, ancak yoğun dönemlerde rezervasyon gerekebilir.
+Üniversitenizde kütüphane dışında çalışma alanları var mı?~Evet, üniversitemizde kütüphane dışında çeşitli fakülte binalarında ve öğrenci merkezlerinde çalışma alanları bulunmaktadır.
+Üniversitenizde kütüphane dışındaki çalışma alanlarından nasıl faydalanabilirim?~Bu çalışma alanlarından faydalanmak için herhangi bir rezervasyon yapmanıza gerek yoktur, boş alan bulduğunuzda kullanabilirsiniz.
+Üniversitenizde öğrenci yurdu var mı?~Evet, OMÜ kampüsünde ve çevresinde Kredi Yurtlar Kurumu'na ait yurtlar bulunmaktadır.
+Öğrenci yurtlarında hangi imkanlar var?~Öğrenci yurtlarında internet, yemek hizmeti, spor alanları gibi çeşitli imkanlar bulunmaktadır.
+Öğrenci yurtlarına nasıl başvurabilirim?~Öğrenci yurtlarına başvurular Kredi Yurtlar Kurumu'nun belirlediği tarihlerde ve yöntemlerle yapılmaktadır.
+Yurt başvurularında öncelik sırası var mı?~Evet, yurt başvurularında şehit ve gazi çocukları, engelli öğrenciler gibi öncelikli gruplar bulunmaktadır.
+Üniversitenizde yurt dışında eğitim görmek için hangi programlar mevcut?~OMÜ'de Erasmus, Mevlana ve Farabi gibi değişim programları ile yurt dışında eğitim görmek mümkündür.
+Yurt dışı eğitim programlarına nasıl başvurabilirim?~Yurt dışı eğitim programlarına başvurular, üniversitemizin ilgili birimleri aracılığıyla belirlenen tarihlerde yapılmaktadır.
+Yurt dışı eğitim programlarına katılmak için hangi şartlar gereklidir?~Yurt dışı eğitim programlarına katılmak için belirli not ortalaması, dil yeterliliği gibi şartlar bulunmaktadır. Detaylı bilgi için üniversitemizin ilgili birimleri ile iletişime geçebilirsiniz.
+Yurt dışı eğitim programlarından faydalanmak için hangi dilleri bilmem gereklidir?~Genellikle İngilizce yeterliliği gereklidir, ancak bazı programlar ve ülkeler için farklı dil yeterlilikleri de istenebilir.
+Üniversitenizde dil eğitimi veren birimler var mı?~Evet, OMÜ'de yabancı dil eğitimi veren birimler bulunmaktadır. Yabancı Diller Yüksekokulu bu alanda hizmet vermektedir.
+Yabancı dil kurslarına nasıl kayıt olabilirim?~Yabancı dil kurslarına kayıt olmak için Yabancı Diller Yüksekokulu'na başvurabilir veya üniversitemizin web sitesinden kayıt işlemlerini gerçekleştirebilirsiniz.
+Üniversitenizde öğrenci toplulukları hangi alanlarda faaliyet göstermektedir?~OMÜ'de kültür, sanat, spor, bilim, teknoloji ve sosyal sorumluluk gibi birçok alanda faaliyet gösteren öğrenci toplulukları bulunmaktadır.
+Öğrenci topluluklarının faaliyetlerine nasıl katılabilirim?~Öğrenci topluluklarının faaliyetlerine katılmak için ilgili topluluğun duyurularını takip ederek etkinliklerine katılabilir veya topluluk üyeleri ile iletişime geçebilirsiniz.
+Öğrenci toplulukları arasında seçim yapılabilir mi?~Evet, ilgi alanlarınıza göre birden fazla öğrenci topluluğuna üye olabilir ve faaliyetlerine katılabilirsiniz.
+Üniversitenizde öğrenci temsilciliği var mı?~Evet, OMÜ'de öğrenci temsilciliği sistemi bulunmaktadır. Her fakültede ve bölümde öğrenci temsilcileri seçilmektedir.
+Öğrenci temsilciliğine nasıl aday olabilirim?~Öğrenci temsilciliğine aday olmak için belirlenen tarihlerde adaylık başvurusu yapabilir ve seçimlere katılabilirsiniz.
+Üniversitenizde öğrenci konseyi var mı?~Evet, OMÜ'de öğrenci konseyi bulunmaktadır. Öğrenci konseyi, öğrenci temsilcilerinden oluşmaktadır.
+Öğrenci konseyinin görevleri nelerdir?~Öğrenci konseyi, öğrencilerin sorunlarını ve taleplerini üniversite yönetimine iletmek, öğrenci etkinliklerini organize etmek gibi görevleri bulunmaktadır.
+Üniversitenizde öğrenci kartı nasıl alınır?~Öğrenci kartı, kayıt işlemleri sırasında veya öğrenci işleri biriminden temin edilebilir.
+Öğrenci kartının avantajları nelerdir?~Öğrenci kartı, kütüphane hizmetlerinden faydalanma, öğrenci yurtlarına giriş, yemekhane hizmetleri gibi birçok alanda avantaj sağlamaktadır.
+Öğrenci kartını kaybedersem ne yapmalıyım?~Öğrenci kartını kaybettiğinizde, öğrenci işleri birimine başvurarak yeni bir kart talep edebilirsiniz.
+Üniversitenizde part-time çalışma imkanları var mı?~Evet, OMÜ'de öğrencilere part-time çalışma imkanları sunulmaktadır.
+Part-time çalışma başvuruları nasıl yapılır?~Part-time çalışma başvuruları, üniversitemizin ilgili birimlerine başvurarak yapılmaktadır.
+Part-time çalışma saatleri nasıl belirlenir?~Part-time çalışma saatleri, ders programınıza ve işin gereksinimlerine göre esnek olarak belirlenmektedir.
+Üniversitenizde kütüphane üyeliği ücretli midir?~Hayır, OMÜ Kütüphanesi üyeliği ücretsizdir. Öğrenciler, öğrenci kimlik kartları ile kütüphane hizmetlerinden faydalanabilirler.
+Üniversitenizde hangi bölümler bulunmaktadır?~OMÜ'de mühendislik, tıp, fen-edebiyat, eğitim, iktisadi ve idari bilimler gibi birçok fakülte ve bölüm bulunmaktadır.
+Üniversitenizde yüksek lisans ve doktora programları var mı?~Evet, OMÜ'de çeşitli alanlarda yüksek lisans ve doktora programları bulunmaktadır.
+Yüksek lisans ve doktora programlarına nasıl başvurabilirim?~Yüksek lisans ve doktora programlarına başvurular, üniversitemizin Lisansüstü Eğitim Enstitüsü aracılığıyla yapılmaktadır.
+Yüksek lisans ve doktora programlarına kabul şartları nelerdir?~Yüksek lisans ve doktora programlarına kabul için belirli not ortalaması, dil yeterliliği, referans mektupları gibi şartlar bulunmaktadır. Detaylı bilgi için üniversitemizin Lisansüstü Eğitim Enstitüsü ile iletişime geçebilirsiniz.
+Üniversitenizde çift anadal veya yandal programları var mı?~Evet, OMÜ'de çift anadal ve yandal programları bulunmaktadır.
+Çift anadal veya yandal programlarına nasıl başvurabilirim?~Çift anadal veya yandal programlarına başvurular, ilgili bölüm ve fakültelerin belirlediği tarihlerde ve yöntemlerle yapılmaktadır.
+Çift anadal veya yandal programlarına kabul şartları nelerdir?~Çift anadal veya yandal programlarına kabul için belirli not ortalaması gibi şartlar bulunmaktadır. Detaylı bilgi için ilgili bölüm veya fakülte ile iletişime geçebilirsiniz.
+Üniversitenizde yaz okulu var mı?~Evet, OMÜ'de yaz okulu programları bulunmaktadır.
+Yaz okulu başvuruları nasıl yapılır?~Yaz okulu başvuruları, üniversitemizin belirlediği tarihlerde ve yöntemlerle yapılmaktadır.
+Yaz okulu ücretli midir?~Evet, yaz okulu ücretli olup, ücretler ders sayısına ve kredi miktarına göre belirlenmektedir.
+Üniversitenizde yabancı dil hazırlık sınıfı var mı?~Evet, OMÜ'de bazı bölümler için yabancı dil hazırlık sınıfı bulunmaktadır.
+Yabancı dil hazırlık sınıfına nasıl kayıt olabilirim?~Yabancı dil hazırlık sınıfına kayıt işlemleri, üniversiteye kayıt sırasında yapılmaktadır.
+Yabancı dil hazırlık sınıfında hangi diller öğretilmektedir?~OMÜ Yabancı Dil Hazırlık Sınıfı'nda genellikle İngilizce eğitimi verilmektedir. Ancak, bazı bölümler için farklı dillerde de eğitim verilebilir.
+Üniversitenizde öğrenci toplulukları ile ilgili nasıl bilgi alabilirim?~Öğrenci toplulukları ile ilgili detaylı bilgiyi üniversitemizin web sitesinden veya Sağlık Kültür ve Spor Daire Başkanlığı'ndan alabilirsiniz.
+Üniversitenizde öğrenci etkinlikleri nelerdir?~OMÜ'de yıl boyunca çeşitli kültürel, sanatsal, sportif ve akademik etkinlikler düzenlenmektedir.
+Öğrenci etkinliklerinden nasıl haberdar olabilirim?~Öğrenci etkinliklerinden üniversitemizin web sitesi, sosyal medya hesapları ve duyuru panoları aracılığıyla haberdar olabilirsiniz.
+Üniversitenizde sosyal sorumluluk projeleri var mı?~Evet, OMÜ'de çeşitli sosyal sorumluluk projeleri bulunmaktadır. Öğrenciler bu projelere katılarak topluma katkıda bulunabilirler.
+Sosyal sorumluluk projelerine nasıl katılabilirim?~Sosyal sorumluluk projelerine katılmak için ilgili proje koordinatörleri veya öğrenci toplulukları ile iletişime geçebilirsiniz.
+Üniversitenizde hangi öğrenci toplulukları bulunmaktadır?~OMÜ'de mühendislik, tıp, fen-edebiyat, eğitim, iktisadi ve idari bilimler gibi birçok alanda öğrenci toplulukları bulunmaktadır.
+Öğrenci topluluklarının etkinlikleri ücretsiz midir?~Genellikle öğrenci topluluklarının etkinlikleri ücretsizdir, ancak bazı etkinlikler için katılım ücreti talep edilebilir.
+Üniversitenizde kampüs içinde ulaşım imkanları nelerdir?~OMÜ kampüsünde toplu taşıma araçları, bisiklet yolları ve yürüyüş yolları bulunmaktadır.
+Kampüs içinde toplu taşıma araçlarını nasıl kullanabilirim?~Kampüs içinde toplu taşıma araçlarını kullanmak için öğrenci kimlik kartınızı gösterebilir veya belirli bir ücret karşılığında bilet alabilirsiniz.
+Bisiklet yollarını kullanmak için ne yapmalıyım?~Bisiklet yollarını kullanmak için kendi bisikletinizi getirebilir veya üniversitenin sunduğu bisiklet paylaşım hizmetlerinden faydalanabilirsiniz.
+Kampüs içinde yürüyüş yolları var mı?~Evet, OMÜ kampüsünde öğrencilerin yürüyüş yapabileceği yürüyüş yolları bulunmaktadır.
+Üniversitenizde güvenlik hizmetleri nelerdir?~OMÜ'de 24 saat güvenlik hizmeti sağlanmaktadır. Kampüs güvenliği, öğrencilerin ve personelin güvenliğini sağlamak için çeşitli önlemler almaktadır.
+Güvenlik hizmetlerinden nasıl faydalanabilirim?~Güvenlik hizmetlerinden faydalanmak için herhangi bir sorun yaşadığınızda kampüs güvenliği ile iletişime geçebilir veya güvenlik noktalarına başvurabilirsiniz.
+Üniversitenizde öğrenci işleri nerede bulunmaktadır?~Öğrenci işleri, OMÜ Rektörlük binasında yer almaktadır. Ayrıca, fakültelerin öğrenci işleri birimleri de bulunmaktadır.
+Öğrenci işleri ile nasıl iletişime geçebilirim?~Öğrenci işleri ile iletişime geçmek için üniversitemizin web sitesindeki iletişim bilgilerini kullanabilir veya doğrudan öğrenci işleri ofisine başvurabilirsiniz.
+Üniversitenizde öğrenci işleri hangi hizmetleri sunmaktadır?~Öğrenci işleri, kayıt işlemleri, ders seçimleri, not dökümleri, mezuniyet belgeleri gibi birçok hizmeti sunmaktadır.
+Üniversitenizde öğrenci işleri çalışma saatleri nedir?~Öğrenci işleri hafta içi her gün 08.00-17.00 saatleri arasında hizmet vermektedir.
+Üniversitenizde kampüs dışı konaklama imkanları nelerdir?~OMÜ kampüsüne yakın bölgelerde özel yurtlar ve kiralık daireler gibi çeşitli konaklama imkanları bulunmaktadır.
+Kampüs dışı konaklama için nasıl bilgi alabilirim?~Kampüs dışı konaklama imkanları hakkında bilgi almak için üniversitemizin öğrenci işleri biriminden veya ilgili web sitelerinden bilgi alabilirsiniz.
+Üniversitenizde öğrencilere yönelik seminer ve konferanslar var mı?~Evet, OMÜ'de yıl boyunca çeşitli alanlarda seminer ve konferanslar düzenlenmektedir.
+Seminer ve konferanslara nasıl katılabilirim?~Seminer ve konferanslara katılmak için üniversitemizin web sitesindeki duyuruları takip edebilir veya ilgili birimlere başvurarak kayıt yaptırabilirsiniz.
+Seminer ve konferanslar ücretli midir?~Genellikle seminer ve konferanslar ücretsizdir, ancak bazı etkinlikler için katılım ücreti talep edilebilir.
+Üniversitenizde hangi kütüphane hizmetleri sunulmaktadır?~OMÜ Kütüphanesi'nde kitap ödünç alma, e-kitap erişimi, veri tabanlarına erişim, grup çalışma odaları gibi çeşitli hizmetler sunulmaktadır.
+Kütüphane veri tabanlarına nasıl erişebilirim?~Kütüphane veri tabanlarına, üniversitemizin kütüphane web sitesi üzerinden öğrenci kimlik bilgilerinizle giriş yaparak erişebilirsiniz.
+E-kitaplara nasıl erişebilirim?~E-kitaplara, kütüphanenin web sitesi üzerinden öğrenci kimlik bilgilerinizle giriş yaparak erişebilirsiniz.
+Kütüphane grup çalışma odalarını nasıl rezerve edebilirim?~Grup çalışma odalarını, kütüphanenin web sitesi veya kütüphane bilgi masası aracılığıyla rezerve edebilirsiniz.
+Üniversitenizde mezuniyet törenleri ne zaman yapılmaktadır?~OMÜ'de mezuniyet törenleri genellikle akademik yıl sonunda, Haziran ayında yapılmaktadır.
+Mezuniyet törenine nasıl katılabilirim?~Mezuniyet törenine katılmak için öğrenci işleri biriminden bilgi alabilir ve gerekli başvuru işlemlerini tamamlayabilirsiniz.
+Mezuniyet töreninde cüppe ve kep nereden temin edilir?~Mezuniyet töreninde kullanılacak cüppe ve kep, üniversitemizin belirlediği yerlerden kiralanabilir veya satın alınabilir.
+Üniversitenizde mezuniyet sonrası iş bulma imkanları nelerdir?~OMÜ Kariyer Merkezi, mezuniyet sonrası iş bulma konusunda öğrencilere destek sağlamaktadır. Ayrıca, üniversitemizin çeşitli işbirlikleri ile iş bulma imkanları sunulmaktadır.
+İş bulma konusunda nasıl destek alabilirim?~İş bulma konusunda destek almak için Kariyer Merkezi'ne başvurabilir veya üniversitemizin düzenlediği kariyer günleri ve iş fuarlarına katılabilirsiniz.
+Üniversitenizde mezunlara yönelik hizmetler nelerdir?~OMÜ mezunlarına yönelik çeşitli hizmetler sunmaktadır. Mezun kartı, kariyer danışmanlığı, iş bulma desteği gibi hizmetlerden faydalanabilirsiniz.
+Mezun kartı nasıl alınır?~Mezun kartı almak için üniversitemizin mezun işleri birimine başvurarak gerekli işlemleri tamamlayabilirsiniz.
+Mezun kartının avantajları nelerdir?~Mezun kartı, üniversitemizin sunduğu bazı hizmetlerden indirimli faydalanma, üniversite etkinliklerine katılma gibi avantajlar sağlamaktadır.
+Üniversitenizde mezunlar derneği var mı?~Evet, OMÜ'de mezunlar derneği bulunmaktadır. Mezunlar derneği, mezunlar arasında iletişimi ve işbirliğini artırmayı amaçlamaktadır.
+Mezunlar derneğine nasıl üye olabilirim?~Mezunlar derneğine üye olmak için dernekle iletişime geçebilir veya üniversitemizin web sitesindeki üye formunu doldurabilirsiniz.
+Mezunlar derneği ne tür etkinlikler düzenlemektedir?~Mezunlar derneği, mezun buluşmaları, kariyer günleri, sosyal sorumluluk projeleri gibi çeşitli etkinlikler düzenlemektedir.
+Üniversitenizde kampüs içi yemek hizmetleri nelerdir?~OMÜ kampüsünde çeşitli yemek hizmetleri sunulmaktadır. Yemekhane, kafeterya ve kantinlerde öğrencilere uygun fiyatlı yemek seçenekleri bulunmaktadır.
+Yemekhanede hangi yemekler sunulmaktadır?~Yemekhanede günlük olarak çorba, ana yemek, pilav/makarna, salata ve tatlı gibi çeşitli yemekler sunulmaktadır.
+Yemekhanede yemek ücretleri ne kadar?~Yemekhanede yemek ücretleri, öğrencilere uygun fiyatlı olarak belirlenmiştir. Güncel ücret bilgisi için üniversitemizin web sitesinden bilgi alabilirsiniz.
+Kafeterya ve kantinlerde hangi yiyecek ve içecekler bulunmaktadır?~Kafeterya ve kantinlerde sandviç, tost, poğaça, çay, kahve, meyve suyu gibi çeşitli yiyecek ve içecekler bulunmaktadır.
+Kafeterya ve kantinlerin çalışma saatleri nedir?~Kafeterya ve kantinler genellikle sabah 08.00'den akşam 18.00'e kadar hizmet vermektedir.
+Üniversitenizde yurt dışından gelen öğrencilere yönelik hizmetler nelerdir?~OMÜ, yurt dışından gelen öğrencilere yönelik çeşitli hizmetler sunmaktadır. Danışmanlık, oryantasyon programları, dil kursları gibi hizmetler bulunmaktadır.
+Yurt dışından gelen öğrenciler için danışmanlık hizmeti nasıl alınır?~Yurt dışından gelen öğrenciler, üniversitemizin Uluslararası Öğrenci Ofisi aracılığıyla danışmanlık hizmeti alabilirler.
+Yurt dışından gelen öğrenciler için dil kursları var mı?~Evet, OMÜ'de yurt dışından gelen öğrenciler için Türkçe ve İngilizce dil kursları düzenlenmektedir.
+Dil kurslarına nasıl kayıt olabilirim?~Dil kurslarına kayıt olmak için Uluslararası Öğrenci Ofisi veya Yabancı Diller Yüksekokulu'na başvurabilirsiniz.
+Yurt dışından gelen öğrenciler için oryantasyon programları var mı?~Evet, OMÜ'de yurt dışından gelen öğrenciler için oryantasyon programları düzenlenmektedir. Bu programlar, öğrencilerin üniversiteye ve şehre uyum sağlamasına yardımcı olmaktadır.
+Oryantasyon programlarına nasıl katılabilirim?~Oryantasyon programlarına katılmak için üniversitemizin Uluslararası Öğrenci Ofisi ile iletişime geçebilir ve kayıt işlemlerini gerçekleştirebilirsiniz.
+Üniversitenizde yurt dışı staj imkanları var mı?~Evet, OMÜ'de yurt dışı staj imkanları bulunmaktadır. Erasmus+ Staj Hareketliliği gibi programlar ile öğrenciler yurt dışında staj yapabilmektedir.
+Yurt dışı staj programlarına nasıl başvurabilirim?~Yurt dışı staj programlarına başvurular, üniversitemizin Uluslararası İlişkiler Ofisi aracılığıyla yapılmaktadır.
+Yurt dışı staj programlarına kabul şartları nelerdir?~Yurt dışı staj programlarına kabul için belirli not ortalaması, dil yeterliliği gibi şartlar bulunmaktadır. Detaylı bilgi için Uluslararası İlişkiler Ofisi ile iletişime geçebilirsiniz.
+Üniversitenizde hangi sosyal etkinlikler düzenlenmektedir?~OMÜ'de yıl boyunca konserler, tiyatro oyunları, sergiler, spor turnuvaları gibi çeşitli sosyal etkinlikler düzenlenmektedir.
+Sosyal etkinliklere nasıl katılabilirim?~Sosyal etkinliklere katılmak için üniversitemizin web sitesindeki duyuruları takip edebilir veya ilgili birimlere başvurarak kayıt yaptırabilirsiniz.
+Sosyal etkinlikler ücretli midir?~Genellikle sosyal etkinlikler ücretsizdir, ancak bazı etkinlikler için katılım ücreti talep edilebilir.
+Üniversitenizde öğrencilere yönelik psikolojik danışmanlık hizmetleri var mı?~Evet, OMÜ'de öğrencilere yönelik psikolojik danışmanlık hizmetleri sunulmaktadır.
+Psikolojik danışmanlık hizmetlerinden nasıl faydalanabilirim?~Psikolojik danışmanlık hizmetlerinden faydalanmak için üniversitemizin Psikolojik Danışma ve Rehberlik Merkezi'ne başvurabilir veya randevu alabilirsiniz.
+Psikolojik danışmanlık hizmetleri ücretli midir?~Hayır, psikolojik danışmanlık hizmetleri öğrencilere ücretsiz olarak sunulmaktadır.
+Üniversitenizde sağlık hizmetleri nelerdir?~OMÜ kampüsünde Mediko-Sosyal Merkezi bulunmaktadır. Burada öğrencilere sağlık hizmetleri sunulmaktadır.
+Mediko-Sosyal Merkezi'nde hangi hizmetler sunulmaktadır?~Mediko-Sosyal Merkezi'nde muayene, tahlil, tedavi, acil sağlık hizmetleri gibi çeşitli sağlık hizmetleri sunulmaktadır.
+Mediko-Sosyal Merkezi'nin çalışma saatleri nedir?~Mediko-Sosyal Merkezi hafta içi her gün 08.00-17.00 saatleri arasında hizmet vermektedir.
+Mediko-Sosyal Merkezi'nde randevu nasıl alınır?~Mediko-Sosyal Merkezi'nde randevu almak için telefonla veya doğrudan merkeze başvurarak randevu alabilirsiniz.
+Üniversitenizde öğrencilere yönelik sigorta hizmetleri var mı?~Evet, OMÜ'de öğrencilere yönelik genel sağlık sigortası hizmetleri sunulmaktadır.
+Genel sağlık sigortasından nasıl faydalanabilirim?~Genel sağlık sigortasından faydalanmak için üniversitemizin öğrenci işleri birimine başvurarak gerekli işlemleri yapabilirsiniz.
+Genel sağlık sigortası hangi hizmetleri kapsamaktadır?~Genel sağlık sigortası, muayene, tahlil, tedavi, ilaç gibi birçok sağlık hizmetini kapsamaktadır.
+Üniversitenizde öğrencilere yönelik rehberlik hizmetleri var mı?~Evet, OMÜ'de öğrencilere yönelik rehberlik hizmetleri sunulmaktadır. Bu hizmetler, akademik ve kişisel gelişim konularında destek sağlamaktadır.
+Rehberlik hizmetlerinden nasıl faydalanabilirim?~Rehberlik hizmetlerinden faydalanmak için üniversitemizin Psikolojik Danışma ve Rehberlik Merkezi'ne başvurabilir veya randevu alabilirsiniz.
+Rehberlik hizmetleri ücretli midir?~Hayır, rehberlik hizmetleri öğrencilere ücretsiz olarak sunulmaktadır.
+Üniversitenizde öğrencilere yönelik kültürel etkinlikler var mı?~Evet, OMÜ'de öğrencilere yönelik çeşitli kültürel etkinlikler düzenlenmektedir. Konserler, tiyatro oyunları, sergiler gibi etkinlikler bulunmaktadır.
+Kültürel etkinliklere nasıl katılabilirim?~Kültürel etkinliklere katılmak için üniversitemizin web sitesindeki duyuruları takip edebilir veya ilgili birimlere başvurarak kayıt yaptırabilirsiniz.
+Kültürel etkinlikler ücretli midir?~Genellikle kültürel etkinlikler ücretsizdir, ancak bazı etkinlikler için katılım ücreti talep edilebilir.
+Üniversitenizde öğrencilere yönelik sosyal sorumluluk projeleri var mı?~Evet, OMÜ'de öğrencilere yönelik çeşitli sosyal sorumluluk projeleri bulunmaktadır. Bu projeler, topluma katkı sağlamak amacıyla düzenlenmektedir.
+Sosyal sorumluluk projelerine nasıl katılabilirim?~Sosyal sorumluluk projelerine katılmak için ilgili proje koordinatörleri veya öğrenci toplulukları ile iletişime geçebilirsiniz.
+Sosyal sorumluluk projeleri ücretli midir?~Genellikle sosyal sorumluluk projeleri ücretsizdir, ancak bazı projeler için katılım ücreti talep edilebilir.
+Üniversitenizde öğrencilere yönelik akademik danışmanlık hizmetleri var mı?~Evet, OMÜ'de öğrencilere yönelik akademik danışmanlık hizmetleri sunulmaktadır. Bu hizmetler, öğrencilerin akademik gelişimlerine destek sağlamaktadır.
+Akademik danışmanlık hizmetlerinden nasıl faydalanabilirim?~Akademik danışmanlık hizmetlerinden faydalanmak için ilgili bölümün akademik danışmanlık birimine başvurabilir veya danışman öğretim üyeleri ile iletişime geçebilirsiniz.
+Akademik danışmanlık hizmetleri ücretli midir?~Hayır, akademik danışmanlık hizmetleri öğrencilere ücretsiz olarak sunulmaktadır.
+Üniversitenizde öğrencilere yönelik kariyer danışmanlığı hizmetleri var mı?~Evet, OMÜ'de öğrencilere yönelik kariyer danışmanlığı hizmetleri sunulmaktadır. Bu hizmetler, öğrencilerin kariyer planlamalarına destek sağlamaktadır.
+Kariyer danışmanlığı hizmetlerinden nasıl faydalanabilirim?~Kariyer danışmanlığı hizmetlerinden faydalanmak için üniversitemizin Kariyer Merkezi'ne başvurabilir veya randevu alabilirsiniz.
+Kariyer danışmanlığı hizmetleri ücretli midir?~Hayır, kariyer danışmanlığı hizmetleri öğrencilere ücretsiz olarak sunulmaktadır.
+Üniversitenizde öğrencilere yönelik burs imkanları var mı?~Evet, OMÜ'de öğrencilere yönelik çeşitli burs imkanları bulunmaktadır. Başarılı ve ihtiyaç sahibi öğrencilere burs sağlanmaktadır.
+Burs başvuruları nasıl yapılır?~Burs başvuruları, üniversitemizin belirlediği tarihlerde ve yöntemlerle yapılmaktadır. Detaylı bilgi için üniversitemizin web sitesini ziyaret edebilirsiniz.
+Üniversitenizde öğrencilere yönelik yurt dışı eğitim imkanları var mı?~Evet, OMÜ'de öğrencilere yönelik yurt dışı eğitim imkanları bulunmaktadır. Erasmus, Mevlana, Farabi gibi değişim programları ile yurt dışında eğitim görmek mümkündür.
+Yurt dışı eğitim programlarına nasıl başvurabilirim?~Yurt dışı eğitim programlarına başvurular, üniversitemizin ilgili birimleri aracılığıyla belirlenen tarihlerde yapılmaktadır.
+Yurt dışı eğitim programlarına kabul şartları nelerdir?~Yurt dışı eğitim programlarına kabul için belirli not ortalaması, dil yeterliliği gibi şartlar bulunmaktadır. Detaylı bilgi için üniversitemizin ilgili birimleri ile iletişime geçebilirsiniz.
+Yurt dışı eğitim programlarından faydalanmak için hangi dilleri bilmem gereklidir?~Genellikle İngilizce yeterliliği gereklidir, ancak bazı programlar ve ülkeler için farklı dil yeterlilikleri de istenebilir.
+Üniversitenizde dil eğitimi veren birimler var mı?~Evet, OMÜ'de yabancı dil eğitimi veren birimler bulunmaktadır. Yabancı Diller Yüksekokulu bu alanda hizmet vermektedir.
+Yabancı dil kurslarına nasıl kayıt olabilirim?~Yabancı dil kurslarına kayıt olmak için Yabancı Diller Yüksekokulu'na başvurabilir veya üniversitemizin web sitesinden kayıt işlemlerini gerçekleştirebilirsiniz.
+Üniversitenizde öğrenci toplulukları hangi alanlarda faaliyet göstermektedir?~OMÜ'de kültür, sanat, spor, bilim, teknoloji ve sosyal sorumluluk gibi birçok alanda faaliyet gösteren öğrenci toplulukları bulunmaktadır.
+Öğrenci topluluklarının faaliyetlerine nasıl katılabilirim?~Öğrenci topluluklarının faaliyetlerine katılmak için ilgili topluluğun duyurularını takip ederek etkinliklerine katılabilir veya topluluk üyeleri ile iletişime geçebilirsiniz.
+Öğrenci toplulukları arasında seçim yapılabilir mi?~Evet, ilgi alanlarınıza göre birden fazla öğrenci topluluğuna üye olabilir ve faaliyetlerine katılabilirsiniz.
+Üniversitenizde öğrenci temsilciliği var mı?~Evet, OMÜ'de öğrenci temsilciliği sistemi bulunmaktadır. Her fakültede ve bölümde öğrenci temsilcileri seçilmektedir.
+Öğrenci temsilciliğine nasıl aday olabilirim?~Öğrenci temsilciliğine aday olmak için belirlenen tarihlerde adaylık başvurusu yapabilir ve seçimlere katılabilirsiniz.
+Üniversitenizde öğrenci konseyi var mı?~Evet, OMÜ'de öğrenci konseyi bulunmaktadır. Öğrenci konseyi, öğrenci temsilcilerinden oluşmaktadır.
+Öğrenci konseyinin görevleri nelerdir?~Öğrenci konseyi, öğrencilerin sorunlarını ve taleplerini üniversite yönetimine iletmek, öğrenci etkinliklerini organize etmek gibi görevleri bulunmaktadır.
+Üniversitenizde öğrenci kartı nasıl alınır?~Öğrenci kartı, kayıt işlemleri sırasında veya öğrenci işleri biriminden temin edilebilir.
+Öğrenci kartının avantajları nelerdir?~Öğrenci kartı, kütüphane hizmetlerinden faydalanma, öğrenci yurtlarına giriş, yemekhane hizmetleri gibi birçok alanda avantaj sağlamaktadır.
+Öğrenci kartını kaybedersem ne yapmalıyım?~Öğrenci kartını kaybettiğinizde, öğrenci işleri birimine başvurarak yeni bir kart talep edebilirsiniz.
+Üniversitenizde part-time çalışma imkanları var mı?~Evet, OMÜ'de öğrencilere part-time çalışma imkanları sunulmaktadır.
+Part-time çalışma başvuruları nasıl yapılır?~Part-time çalışma başvuruları, üniversitemizin ilgili birimlerine başvurarak yapılmaktadır.
+Part-time çalışma saatleri nasıl belirlenir?~Part-time çalışma saatleri, ders programınıza ve işin gereksinimlerine göre esnek olarak belirlenmektedir.
+Üniversitenizde kütüphane üyeliği ücretli midir?~Hayır, OMÜ Kütüphanesi üyeliği ücretsizdir. Öğrenciler, öğrenci kimlik kartları ile kütüphane hizmetlerinden faydalanabilirler.
+Üniversitenizde hangi bölümler bulunmaktadır?~OMÜ'de mühendislik, tıp, fen-edebiyat, eğitim, iktisadi ve idari bilimler gibi birçok fakülte ve bölüm bulunmaktadır.
+Üniversitenizde yüksek lisans ve doktora programları var mı?~Evet, OMÜ'de çeşitli alanlarda yüksek lisans ve doktora programları bulunmaktadır.
+Yüksek lisans ve doktora programlarına nasıl başvurabilirim?~Yüksek lisans ve doktora programlarına başvurular, üniversitemizin Lisansüstü Eğitim Enstitüsü aracılığıyla yapılmaktadır.
+Yüksek lisans ve doktora programlarına kabul şartları nelerdir?~Yüksek lisans ve doktora programlarına kabul için belirli not ortalaması, dil yeterliliği, referans mektupları gibi şartlar bulunmaktadır. Detaylı bilgi için üniversitemizin Lisansüstü Eğitim Enstitüsü ile iletişime geçebilirsiniz.
+Üniversitenizde çift anadal veya yandal programları var mı?~Evet, OMÜ'de çift anadal ve yandal programları bulunmaktadır.
+Çift anadal veya yandal programlarına nasıl başvurabilirim?~Çift anadal veya yandal programlarına başvurular, ilgili bölüm ve fakültelerin belirlediği tarihlerde ve yöntemlerle yapılmaktadır.
+Çift anadal veya yandal programlarına kabul şartları nelerdir?~Çift anadal veya yandal programlarına kabul için belirli not ortalaması gibi şartlar bulunmaktadır. Detaylı bilgi için ilgili bölüm veya fakülte ile iletişime geçebilirsiniz.
+Üniversitenizde yaz okulu var mı?~Evet, OMÜ'de yaz okulu programları bulunmaktadır.
+Yaz okulu başvuruları nasıl yapılır?~Yaz okulu başvuruları, üniversitemizin belirlediği tarihlerde ve yöntemlerle yapılmaktadır.
+Yaz okulu ücretli midir?~Evet, yaz okulu ücretli olup, ücretler ders sayısına ve kredi miktarına göre belirlenmektedir.
+Üniversitenizde yabancı dil hazırlık sınıfı var mı?~Evet, OMÜ'de bazı bölümler için yabancı dil hazırlık sınıfı bulunmaktadır.
+Yabancı dil hazırlık sınıfına nasıl kayıt olabilirim?~Yabancı dil hazırlık sınıfına kayıt işlemleri, üniversiteye kayıt sırasında yapılmaktadır.
+Yabancı dil hazırlık sınıfında hangi diller öğretilmektedir?~OMÜ Yabancı Dil Hazırlık Sınıfı'nda genellikle İngilizce eğitimi verilmektedir. Ancak, bazı bölümler için farklı dillerde de eğitim verilebilir.
+Üniversitenizde öğrenci toplulukları ile ilgili nasıl bilgi alabilirim?~Öğrenci toplulukları ile ilgili detaylı bilgiyi üniversitemizin web sitesinden veya Sağlık Kültür ve Spor Daire Başkanlığı'ndan alabilirsiniz.
+Üniversitenizde öğrenci etkinlikleri nelerdir?~OMÜ'de yıl boyunca çeşitli kültürel, sanatsal, sportif ve akademik etkinlikler düzenlenmektedir.
+Öğrenci etkinliklerinden nasıl haberdar olabilirim?~Öğrenci etkinliklerinden üniversitemizin web sitesi, sosyal medya hesapları ve duyuru panoları aracılığıyla haberdar olabilirsiniz.
+Üniversitenizde sosyal sorumluluk projeleri var mı?~Evet, OMÜ'de çeşitli sosyal sorumluluk projeleri bulunmaktadır. Öğrenciler bu projelere katılarak topluma katkıda bulunabilirler.
+Sosyal sorumluluk projelerine nasıl katılabilirim?~Sosyal sorumluluk projelerine katılmak için ilgili proje koordinatörleri veya öğrenci toplulukları ile iletişime geçebilirsiniz.
+Üniversitenizde hangi öğrenci toplulukları bulunmaktadır?~OMÜ'de mühendislik, tıp, fen-edebiyat, eğitim, iktisadi ve idari bilimler gibi birçok alanda öğrenci toplulukları bulunmaktadır.
+Öğrenci topluluklarının etkinlikleri ücretsiz midir?~Genellikle öğrenci topluluklarının etkinlikleri ücretsizdir, ancak bazı etkinlikler için katılım ücreti talep edilebilir.
+Üniversitenizde kampüs içinde ulaşım imkanları nelerdir?~OMÜ kampüsünde toplu taşıma araçları, bisiklet yolları ve yürüyüş yolları bulunmaktadır.
+Kampüs içinde toplu taşıma araçlarını nasıl kullanabilirim?~Kampüs içinde toplu taşıma araçlarını kullanmak için öğrenci kimlik kartınızı gösterebilir veya belirli bir ücret karşılığında bilet alabilirsiniz.
+Bisiklet yollarını kullanmak için ne yapmalıyım?~Bisiklet yollarını kullanmak için kendi bisikletinizi getirebilir veya üniversitenin sunduğu bisiklet paylaşım hizmetlerinden faydalanabilirsiniz.
+Kampüs içinde yürüyüş yolları var mı?~Evet, OMÜ kampüsünde öğrencilerin yürüyüş yapabileceği yürüyüş yolları bulunmaktadır.
+Üniversitenizde güvenlik hizmetleri nelerdir?~OMÜ'de 24 saat güvenlik hizmeti sağlanmaktadır. Kampüs güvenliği, öğrencilerin ve personelin güvenliğini sağlamak için çeşitli önlemler almaktadır.
+Güvenlik hizmetlerinden nasıl faydalanabilirim?~Güvenlik hizmetlerinden faydalanmak için herhangi bir sorun yaşadığınızda kampüs güvenliği ile iletişime geçebilir veya güvenlik noktalarına başvurabilirsiniz.
+Üniversitenizde öğrenci işleri nerede bulunmaktadır?~Öğrenci işleri, OMÜ Rektörlük binasında yer almaktadır. Ayrıca, fakültelerin öğrenci işleri birimleri de bulunmaktadır.
+Öğrenci işleri ile nasıl iletişime geçebilirim?~Öğrenci işleri ile iletişime geçmek için üniversitemizin web sitesindeki iletişim bilgilerini kullanabilir veya doğrudan öğrenci işleri ofisine başvurabilirsiniz.
+Üniversitenizde öğrenci işleri hangi hizmetleri sunmaktadır?~Öğrenci işleri, kayıt işlemleri, ders seçimleri, not dökümleri, mezuniyet belgeleri gibi birçok hizmeti sunmaktadır.
+Üniversitenizde öğrenci işleri çalışma saatleri nedir?~Öğrenci işleri hafta içi her gün 08.00-17.00 saatleri arasında hizmet vermektedir.
+Üniversitenizde kampüs dışı konaklama imkanları nelerdir?~OMÜ kampüsüne yakın bölgelerde özel yurtlar ve kiralık daireler gibi çeşitli konaklama imkanları bulunmaktadır.
+Kampüs dışı konaklama için nasıl bilgi alabilirim?~Kampüs dışı konaklama imkanları hakkında bilgi almak için üniversitemizin öğrenci işleri biriminden veya ilgili web sitelerinden bilgi alabilirsiniz.
+Üniversitenizde öğrencilere yönelik seminer ve konferanslar var mı?~Evet, OMÜ'de yıl boyunca çeşitli alanlarda seminer ve konferanslar düzenlenmektedir.
+Seminer ve konferanslara nasıl katılabilirim?~Seminer ve konferanslara katılmak için üniversitemizin web sitesindeki duyuruları takip edebilir veya ilgili birimlere başvurarak kayıt yaptırabilirsiniz.
+Seminer ve konferanslar ücretli midir?~Genellikle seminer ve konferanslar ücretsizdir, ancak bazı etkinlikler için katılım ücreti talep edilebilir.
+Üniversitenizde hangi kütüphane hizmetleri sunulmaktadır?~OMÜ Kütüphanesi'nde kitap ödünç alma, e-kitap erişimi, veri tabanlarına erişim, grup çalışma odaları gibi çeşitli hizmetler sunulmaktadır.
+Kütüphane veri tabanlarına nasıl erişebilirim?~Kütüphane veri tabanlarına, üniversitemizin kütüphane web sitesi üzerinden öğrenci kimlik bilgilerinizle giriş yaparak erişebilirsiniz.
+E-kitaplara nasıl erişebilirim?~E-kitaplara, kütüphanenin web sitesi üzerinden öğrenci kimlik bilgilerinizle giriş yaparak erişebilirsiniz.
+Kütüphane grup çalışma odalarını nasıl rezerve edebilirim?~Grup çalışma odalarını, kütüphanenin web sitesi veya kütüphane bilgi masası aracılığıyla rezerve edebilirsiniz.
+Üniversitenizde mezuniyet törenleri ne zaman yapılmaktadır?~OMÜ'de mezuniyet törenleri genellikle akademik yıl sonunda, Haziran ayında yapılmaktadır.
+Mezuniyet törenine nasıl katılabilirim?~Mezuniyet törenine katılmak için öğrenci işleri biriminden bilgi alabilir ve gerekli başvuru işlemlerini tamamlayabilirsiniz.
+Mezuniyet töreninde cüppe ve kep nereden temin edilir?~Mezuniyet töreninde kullanılacak cüppe ve kep, üniversitemizin belirlediği yerlerden kiralanabilir veya satın alınabilir.
+Üniversitenizde mezuniyet sonrası iş bulma imkanları nelerdir?~OMÜ Kariyer Merkezi, mezuniyet sonrası iş bulma konusunda öğrencilere destek sağlamaktadır. Ayrıca, üniversitemizin çeşitli işbirlikleri ile iş bulma imkanları sunulmaktadır.
+İş bulma konusunda nasıl destek alabilirim?~İş bulma konusunda destek almak için Kariyer Merkezi'ne başvurabilir veya üniversitemizin düzenlediği kariyer günleri ve iş fuarlarına katılabilirsiniz.
+Üniversitenizde mezunlara yönelik hizmetler nelerdir?~OMÜ mezunlarına yönelik çeşitli hizmetler sunmaktadır. Mezun kartı, kariyer danışmanlığı, iş bulma desteği gibi hizmetlerden faydalanabilirsiniz.
+Mezun kartı nasıl alınır?~Mezun kartı almak için üniversitemizin mezun işleri birimine başvurarak gerekli işlemleri tamamlayabilirsiniz.
+Mezun kartının avantajları nelerdir?~Mezun kartı, üniversitemizin sunduğu bazı hizmetlerden indirimli faydalanma, üniversite etkinliklerine katılma gibi avantajlar sağlamaktadır.
+Üniversitenizde mezunlar derneği var mı?~Evet, OMÜ'de mezunlar derneği bulunmaktadır. Mezunlar derneği, mezunlar arasında iletişimi ve işbirliğini artırmayı amaçlamaktadır.
+Mezunlar derneğine nasıl üye olabilirim?~Mezunlar derneğine üye olmak için dernekle iletişime geçebilir veya üniversitemizin web sitesindeki üye formunu doldurabilirsiniz.
+Mezunlar derneği ne tür etkinlikler düzenlemektedir?~Mezunlar derneği, mezun buluşmaları, kariyer günleri, sosyal sorumluluk projeleri gibi çeşitli etkinlikler düzenlemektedir.
+Üniversitenizde kampüs içi yemek hizmetleri nelerdir?~OMÜ kampüsünde çeşitli yemek hizmetleri sunulmaktadır. Yemekhane, kafeterya ve kantinlerde öğrencilere uygun fiyatlı yemek seçenekleri bulunmaktadır.
+Yemekhanede hangi yemekler sunulmaktadır?~Yemekhanede günlük olarak çorba, ana yemek, pilav/makarna, salata ve tatlı gibi çeşitli yemekler sunulmaktadır.
+Yemekhanede yemek ücretleri ne kadar?~Yemekhanede yemek ücretleri, öğrencilere uygun fiyatlı olarak belirlenmiştir. Güncel ücret bilgisi için üniversitemizin web sitesinden bilgi alabilirsiniz.
+Kafeterya ve kantinlerde hangi yiyecek ve içecekler bulunmaktadır?~Kafeterya ve kantinlerde sandviç, tost, poğaça, çay, kahve, meyve suyu gibi çeşitli yiyecek ve içecekler bulunmaktadır.
+Kafeterya ve kantinlerin çalışma saatleri nedir?~Kafeterya ve kantinler genellikle sabah 08.00'den akşam 18.00'e kadar hizmet vermektedir.
+Üniversitenizde yurt dışından gelen öğrencilere yönelik hizmetler nelerdir?~OMÜ, yurt dışından gelen öğrencilere yönelik çeşitli hizmetler sunmaktadır. Danışmanlık, oryantasyon programları, dil kursları gibi hizmetler bulunmaktadır.
+Yurt dışından gelen öğrenciler için danışmanlık hizmeti nasıl alınır?~Yurt dışından gelen öğrenciler, üniversitemizin Uluslararası Öğrenci Ofisi aracılığıyla danışmanlık hizmeti alabilirler.
+Yurt dışından gelen öğrenciler için dil kursları var mı?~Evet, OMÜ'de yurt dışından gelen öğrenciler için Türkçe ve İngilizce dil kursları düzenlenmektedir.
+Dil kurslarına nasıl kayıt olabilirim?~Dil kurslarına kayıt olmak için Uluslararası Öğrenci Ofisi veya Yabancı Diller Yüksekokulu'na başvurabilirsiniz.
+Yurt dışından gelen öğrenciler için oryantasyon programları var mı?~Evet, OMÜ'de yurt dışından gelen öğrenciler için oryantasyon programları düzenlenmektedir. Bu programlar, öğrencilerin üniversiteye ve şehre uyum sağlamasına yardımcı olmaktadır.
+Oryantasyon programlarına nasıl katılabilirim?~Oryantasyon programlarına katılmak için üniversitemizin Uluslararası Öğrenci Ofisi ile iletişime geçebilir ve kayıt işlemlerini gerçekleştirebilirsiniz.
+Üniversitenizde yurt dışı staj imkanları var mı?~Evet, OMÜ'de yurt dışı staj imkanları bulunmaktadır. Erasmus+ Staj Hareketliliği gibi programlar ile öğrenciler yurt dışında staj yapabilmektedir.
+Yurt dışı staj programlarına nasıl başvurabilirim?~Yurt dışı staj programlarına başvurular, üniversitemizin Uluslararası İlişkiler Ofisi aracılığıyla yapılmaktadır.
+Yurt dışı staj programlarına kabul şartları nelerdir?~Yurt dışı staj programlarına kabul için belirli not ortalaması, dil yeterliliği gibi şartlar bulunmaktadır. Detaylı bilgi için Uluslararası İlişkiler Ofisi ile iletişime geçebilirsiniz.
+Üniversitenizde hangi sosyal etkinlikler düzenlenmektedir?~OMÜ'de yıl boyunca konserler, tiyatro oyunları, sergiler, spor turnuvaları gibi çeşitli sosyal etkinlikler düzenlenmektedir.
+Sosyal etkinliklere nasıl katılabilirim?~Sosyal etkinliklere katılmak için üniversitemizin web sitesindeki duyuruları takip edebilir veya ilgili birimlere başvurarak kayıt yaptırabilirsiniz.
+Sosyal etkinlikler ücretli midir?~Genellikle sosyal etkinlikler ücretsizdir, ancak bazı etkinlikler için katılım ücreti talep edilebilir.
+Üniversitenizde öğrencilere yönelik psikolojik danışmanlık hizmetleri var mı?~Evet, OMÜ'de öğrencilere yönelik psikolojik danışmanlık hizmetleri sunulmaktadır.
+Psikolojik danışmanlık hizmetlerinden nasıl faydalanabilirim?~Psikolojik danışmanlık hizmetlerinden faydalanmak için üniversitemizin Psikolojik Danışma ve Rehberlik Merkezi'ne başvurabilir veya randevu alabilirsiniz.
+Psikolojik danışmanlık hizmetleri ücretli midir?~Hayır, psikolojik danışmanlık hizmetleri öğrencilere ücretsiz olarak sunulmaktadır.
+Üniversitenizde sağlık hizmetleri nelerdir?~OMÜ kampüsünde Mediko-Sosyal Merkezi bulunmaktadır. Burada öğrencilere sağlık hizmetleri sunulmaktadır.
+Mediko-Sosyal Merkezi'nde hangi hizmetler sunulmaktadır?~Mediko-Sosyal Merkezi'nde muayene, tahlil, tedavi, acil sağlık hizmetleri gibi çeşitli sağlık hizmetleri sunulmaktadır.
+Mediko-Sosyal Merkezi'nin çalışma saatleri nedir?~Mediko-Sosyal Merkezi hafta içi her gün 08.00-17.00 saatleri arasında hizmet vermektedir.
+Mediko-Sosyal Merkezi'nde randevu nasıl alınır?~Mediko-Sosyal Merkezi'nde randevu almak için telefonla veya doğrudan merkeze başvurarak randevu alabilirsiniz.
+Üniversitenizde öğrencilere yönelik sigorta hizmetleri var mı?~Evet, OMÜ'de öğrencilere yönelik genel sağlık sigortası hizmetleri sunulmaktadır.
+Genel sağlık sigortasından nasıl faydalanabilirim?~Genel sağlık sigortasından faydalanmak için üniversitemizin öğrenci işleri birimine başvurarak gerekli işlemleri yapabilirsiniz.
+Genel sağlık sigortası hangi hizmetleri kapsamaktadır?~Genel sağlık sigortası, muayene, tahlil, tedavi, ilaç gibi birçok sağlık hizmetini kapsamaktadır.
+Üniversitenizde öğrencilere yönelik rehberlik hizmetleri var mı?~Evet, OMÜ'de öğrencilere yönelik rehberlik hizmetleri sunulmaktadır. Bu hizmetler, akademik ve kişisel gelişim konularında destek sağlamaktadır.
+Rehberlik hizmetlerinden nasıl faydalanabilirim?~Rehberlik hizmetlerinden faydalanmak için üniversitemizin Psikolojik Danışma ve Rehberlik Merkezi'ne başvurabilir veya randevu alabilirsiniz.
+Rehberlik hizmetleri ücretli midir?~Hayır, rehberlik hizmetleri öğrencilere ücretsiz olarak sunulmaktadır.
+Üniversitenizde öğrencilere yönelik kültürel etkinlikler var mı?~Evet, OMÜ'de öğrencilere yönelik çeşitli kültürel etkinlikler düzenlenmektedir. Konserler, tiyatro oyunları, sergiler gibi etkinlikler bulunmaktadır.
+Kültürel etkinliklere nasıl katılabilirim?~Kültürel etkinliklere katılmak için üniversitemizin web sitesindeki duyuruları takip edebilir veya ilgili birimlere başvurarak kayıt yaptırabilirsiniz.
+Kültürel etkinlikler ücretli midir?~Genellikle kültürel etkinlikler ücretsizdir, ancak bazı etkinlikler için katılım ücreti talep edilebilir.
+Üniversitenizde öğrencilere yönelik sosyal sorumluluk projeleri var mı?~Evet, OMÜ'de öğrencilere yönelik çeşitli sosyal sorumluluk projeleri bulunmaktadır. Bu projeler, topluma katkı sağlamak amacıyla düzenlenmektedir.
+Sosyal sorumluluk projelerine nasıl katılabilirim?~Sosyal sorumluluk projelerine katılmak için ilgili proje koordinatörleri veya öğrenci toplulukları ile iletişime geçebilirsiniz.
+Sosyal sorumluluk projeleri ücretli midir?~Genellikle sosyal sorumluluk projeleri ücretsizdir, ancak bazı projeler için katılım ücreti talep edilebilir.
+Üniversitenizde öğrencilere yönelik akademik danışmanlık hizmetleri var mı?~Evet, OMÜ'de öğrencilere yönelik akademik danışmanlık hizmetleri sunulmaktadır. Bu hizmetler, öğrencilerin akademik gelişimlerine destek sağlamaktadır.
+Akademik danışmanlık hizmetlerinden nasıl faydalanabilirim?~Akademik danışmanlık hizmetlerinden faydalanmak için ilgili bölümün akademik danışmanlık birimine başvurabilir veya danışman öğretim üyeleri ile iletişime geçebilirsiniz.
+Akademik danışmanlık hizmetleri ücretli midir?~Hayır, akademik danışmanlık hizmetleri öğrencilere ücretsiz olarak sunulmaktadır.
+Üniversitenizde öğrencilere yönelik kariyer danışmanlığı hizmetleri var mı?~Evet, OMÜ'de öğrencilere yönelik kariyer danışmanlığı hizmetleri sunulmaktadır. Bu hizmetler, öğrencilerin kariyer planlamalarına destek sağlamaktadır.
+Kariyer danışmanlığı hizmetlerinden nasıl faydalanabilirim?~Kariyer danışmanlığı hizmetlerinden faydalanmak için üniversitemizin Kariyer Merkezi'ne başvurabilir veya randevu alabilirsiniz.
+Kariyer danışmanlığı hizmetleri ücretli midir?~Hayır, kariyer danışmanlığı hizmetleri öğrencilere ücretsiz olarak sunulmaktadır.
+Üniversitenizde öğrencilere yönelik burs imkanları var mı?~Evet, OMÜ'de öğrencilere yönelik çeşitli burs imkanları bulunmaktadır. Başarılı ve ihtiyaç sahibi öğrencilere burs sağlanmaktadır.
+Burs başvuruları nasıl yapılır?~Burs başvuruları, üniversitemizin belirlediği tarihlerde ve yöntemlerle yapılmaktadır. Detaylı bilgi için üniversitemizin web sitesini ziyaret edebilirsiniz.
+Burs başvurularında hangi belgeler gereklidir?~Burs başvurularında genellikle öğrenci belgesi, transkript, aile gelir durumu beyanı gibi belgeler gereklidir. Detaylı bilgi için üniversitemizin web sitesini ziyaret edebilirsiniz.
+Üniversitenizde öğrencilere yönelik yurt dışı eğitim imkanları var mı?~Evet, OMÜ'de öğrencilere yönelik yurt dışı eğitim imkanları bulunmaktadır. Erasmus, Mevlana, Farabi gibi değişim programları ile yurt dışında eğitim görmek mümkündür.
+Yurt dışı eğitim programlarına nasıl başvurabilirim?~Yurt dışı eğitim programlarına başvurular, üniversitemizin ilgili birimleri aracılığıyla belirlenen tarihlerde yapılmaktadır.
+Yurt dışı eğitim programlarına kabul şartları nelerdir?~Yurt dışı eğitim programlarına kabul için belirli not ortalaması, dil yeterliliği gibi şartlar bulunmaktadır. Detaylı bilgi için üniversitemizin ilgili birimleri ile iletişime geçebilirsiniz.
+Yurt dışı eğitim programlarından faydalanmak için hangi dilleri bilmem gereklidir?~Genellikle İngilizce yeterliliği gereklidir, ancak bazı programlar ve ülkeler için farklı dil yeterlilikleri de istenebilir.
+Üniversitenizde dil eğitimi veren birimler var mı?~Evet, OMÜ'de yabancı dil eğitimi veren birimler bulunmaktadır. Yabancı Diller Yüksekokulu bu alanda hizmet vermektedir.
+Yabancı dil kurslarına nasıl kayıt olabilirim?~Yabancı dil kurslarına kayıt olmak için Yabancı Diller Yüksekokulu'na başvurabilir veya üniversitemizin web sitesinden kayıt işlemlerini gerçekleştirebilirsiniz.
+Üniversitenizde öğrenci toplulukları hangi alanlarda faaliyet göstermektedir?~OMÜ'de kültür, sanat, spor, bilim, teknoloji ve sosyal sorumluluk gibi birçok alanda faaliyet gösteren öğrenci toplulukları bulunmaktadır.
+Öğrenci topluluklarının faaliyetlerine nasıl katılabilirim?~Öğrenci topluluklarının faaliyetlerine katılmak için ilgili topluluğun duyurularını takip ederek etkinliklerine katılabilir veya topluluk üyeleri ile iletişime geçebilirsiniz.
+Öğrenci toplulukları arasında seçim yapılabilir mi?~Evet, ilgi alanlarınıza göre birden fazla öğrenci topluluğuna üye olabilir ve faaliyetlerine katılabilirsiniz.
+Üniversitenizde öğrenci temsilciliği var mı?~Evet, OMÜ'de öğrenci temsilciliği sistemi bulunmaktadır. Her fakültede ve bölümde öğrenci temsilcileri seçilmektedir.
+Öğrenci temsilciliğine nasıl aday olabilirim?~Öğrenci temsilciliğine aday olmak için belirlenen tarihlerde adaylık başvurusu yapabilir ve seçimlere katılabilirsiniz.
+Üniversitenizde öğrenci konseyi var mı?~Evet, OMÜ'de öğrenci konseyi bulunmaktadır. Öğrenci konseyi, öğrenci temsilcilerinden oluşmaktadır.
+Öğrenci konseyinin görevleri nelerdir?~Öğrenci konseyi, öğrencilerin sorunlarını ve taleplerini üniversite yönetimine iletmek, öğrenci etkinliklerini organize etmek gibi görevleri bulunmaktadır.
+Üniversitenizde öğrenci kartı nasıl alınır?~Öğrenci kartı, kayıt işlemleri sırasında veya öğrenci işleri biriminden temin edilebilir.
+Öğrenci kartının avantajları nelerdir?~Öğrenci kartı, kütüphane hizmetlerinden faydalanma, öğrenci yurtlarına giriş, yemekhane hizmetleri gibi birçok alanda avantaj sağlamaktadır.
+Öğrenci kartını kaybedersem ne yapmalıyım?~Öğrenci kartını kaybettiğinizde, öğrenci işleri birimine başvurarak yeni bir kart talep edebilirsiniz.
+Üniversitenizde part-time çalışma imkanları var mı?~Evet, OMÜ'de öğrencilere part-time çalışma imkanları sunulmaktadır.
+Part-time çalışma başvuruları nasıl yapılır?~Part-time çalışma başvuruları, üniversitemizin ilgili birimlerine başvurarak yapılmaktadır.
+Part-time çalışma saatleri nasıl belirlenir?~Part-time çalışma saatleri, ders programınıza ve işin gereksinimlerine göre esnek olarak belirlenmektedir.
+Üniversitenizde kütüphane üyeliği ücretli midir?~Hayır, OMÜ Kütüphanesi üyeliği ücretsizdir. Öğrenciler, öğrenci kimlik kartları ile kütüphane hizmetlerinden faydalanabilirler.
+Üniversitenizde hangi bölümler bulunmaktadır?~OMÜ'de mühendislik, tıp, fen-edebiyat, eğitim, iktisadi ve idari bilimler gibi birçok fakülte ve bölüm bulunmaktadır.
+Üniversitenizde yüksek lisans ve doktora programları var mı?~Evet, OMÜ'de çeşitli alanlarda yüksek lisans ve doktora programları bulunmaktadır.
+Yüksek lisans ve doktora programlarına nasıl başvurabilirim?~Yüksek lisans ve doktora programlarına başvurular, üniversitemizin Lisansüstü Eğitim Enstitüsü aracılığıyla yapılmaktadır.
+Yüksek lisans ve doktora programlarına kabul şartları nelerdir?~Yüksek lisans ve doktora programlarına kabul için belirli not ortalaması, dil yeterliliği, referans mektupları gibi şartlar bulunmaktadır. Detaylı bilgi için üniversitemizin Lisansüstü Eğitim Enstitüsü ile iletişime geçebilirsiniz.
+Üniversitenizde çift anadal veya yandal programları var mı?~Evet, OMÜ'de çift anadal ve yandal programları bulunmaktadır.
+Çift anadal veya yandal programlarına nasıl başvurabilirim?~Çift anadal veya yandal programlarına başvurular, ilgili bölüm ve fakültelerin belirlediği tarihlerde ve yöntemlerle yapılmaktadır.
+Çift anadal veya yandal programlarına kabul şartları nelerdir?~Çift anadal veya yandal programlarına kabul için belirli not ortalaması gibi şartlar bulunmaktadır. Detaylı bilgi için ilgili bölüm veya fakülte ile iletişime geçebilirsiniz.
+Üniversitenizde yaz okulu var mı?~Evet, OMÜ'de yaz okulu programları bulunmaktadır.
+Yaz okulu başvuruları nasıl yapılır?~Yaz okulu başvuruları, üniversitemizin belirlediği tarihlerde ve yöntemlerle yapılmaktadır.
+Yaz okulu ücretli midir?~Evet, yaz okulu ücretli olup, ücretler ders sayısına ve kredi miktarına göre belirlenmektedir.
+Üniversitenizde yabancı dil hazırlık sınıfı var mı?~Evet, OMÜ'de bazı bölümler için yabancı dil hazırlık sınıfı bulunmaktadır.
+Yabancı dil hazırlık sınıfına nasıl kayıt olabilirim?~Yabancı dil hazırlık sınıfına kayıt işlemleri, üniversiteye kayıt sırasında yapılmaktadır.
+Yabancı dil hazırlık sınıfında hangi diller öğretilmektedir?~OMÜ Yabancı Dil Hazırlık Sınıfı'nda genellikle İngilizce eğitimi verilmektedir. Ancak, bazı bölümler için farklı dillerde de eğitim verilebilir.
+Üniversitenizde öğrenci toplulukları ile ilgili nasıl bilgi alabilirim?~Öğrenci toplulukları ile ilgili detaylı bilgiyi üniversitemizin web sitesinden veya Sağlık Kültür ve Spor Daire Başkanlığı'ndan alabilirsiniz.
+Üniversitenizde öğrenci etkinlikleri nelerdir?~OMÜ'de yıl boyunca çeşitli kültürel, sanatsal, sportif ve akademik etkinlikler düzenlenmektedir.
+Öğrenci etkinliklerinden nasıl haberdar olabilirim?~Öğrenci etkinliklerinden üniversitemizin web sitesi, sosyal medya hesapları ve duyuru panoları aracılığıyla haberdar olabilirsiniz.
+Üniversitenizde sosyal sorumluluk projeleri var mı?~Evet, OMÜ'de çeşitli sosyal sorumluluk projeleri bulunmaktadır. Öğrenciler bu projelere katılarak topluma katkıda bulunabilirler.
+Sosyal sorumluluk projelerine nasıl katılabilirim?~Sosyal sorumluluk projelerine katılmak için ilgili proje koordinatörleri veya öğrenci toplulukları ile iletişime geçebilirsiniz.
+Sosyal sorumluluk projeleri ücretli midir?~Genellikle sosyal sorumluluk projeleri ücretsizdir, ancak bazı projeler için katılım ücreti talep edilebilir.
+Üniversitenizde hangi öğrenci toplulukları bulunmaktadır?~OMÜ'de mühendislik, tıp, fen-edebiyat, eğitim, iktisadi ve idari bilimler gibi birçok alanda öğrenci toplulukları bulunmaktadır.
+Öğrenci topluluklarının etkinlikleri ücretsiz midir?~Genellikle öğrenci topluluklarının etkinlikleri ücretsizdir, ancak bazı etkinlikler için katılım ücreti talep edilebilir.
+Üniversitenizde kampüs içinde ulaşım imkanları nelerdir?~OMÜ kampüsünde toplu taşıma araçları, bisiklet yolları ve yürüyüş yolları bulunmaktadır.
+Kampüs içinde toplu taşıma araçlarını nasıl kullanabilirim?~Kampüs içinde toplu taşıma araçlarını kullanmak için öğrenci kimlik kartınızı gösterebilir veya belirli bir ücret karşılığında bilet alabilirsiniz.
+Bisiklet yollarını kullanmak için ne yapmalıyım?~Bisiklet yollarını kullanmak için kendi bisikletinizi getirebilir veya üniversitenin sunduğu bisiklet paylaşım hizmetlerinden faydalanabilirsiniz.
+Kampüs içinde yürüyüş yolları var mı?~Evet, OMÜ kampüsünde öğrencilerin yürüyüş yapabileceği yürüyüş yolları bulunmaktadır.
+Üniversitenizde güvenlik hizmetleri nelerdir?~OMÜ'de 24 saat güvenlik hizmeti sağlanmaktadır. Kampüs güvenliği, öğrencilerin ve personelin güvenliğini sağlamak için çeşitli önlemler almaktadır.
+Güvenlik hizmetlerinden nasıl faydalanabilirim?~Güvenlik hizmetlerinden faydalanmak için herhangi bir sorun yaşadığınızda kampüs güvenliği ile iletişime geçebilir veya güvenlik noktalarına başvurabilirsiniz.
+Üniversitenizde öğrenci işleri nerede bulunmaktadır?~Öğrenci işleri, OMÜ Rektörlük binasında yer almaktadır. Ayrıca, fakültelerin öğrenci işleri birimleri de bulunmaktadır.
+Öğrenci işleri ile nasıl iletişime geçebilirim?~Öğrenci işleri ile iletişime geçmek için üniversitemizin web sitesindeki iletişim bilgilerini kullanabilir veya doğrudan öğrenci işleri ofisine başvurabilirsiniz.
+Üniversitenizde öğrenci işleri hangi hizmetleri sunmaktadır?~Öğrenci işleri, kayıt işlemleri, ders seçimleri, not dökümleri, mezuniyet belgeleri gibi birçok hizmeti sunmaktadır.
+Üniversitenizde öğrenci işleri çalışma saatleri nedir?~Öğrenci işleri hafta içi her gün 08.00-17.00 saatleri arasında hizmet vermektedir.
+Üniversitenizde kampüs dışı konaklama imkanları nelerdir?~OMÜ kampüsüne yakın bölgelerde özel yurtlar ve kiralık daireler gibi çeşitli konaklama imkanları bulunmaktadır.
+Kampüs dışı konaklama için nasıl bilgi alabilirim?~Kampüs dışı konaklama imkanları hakkında bilgi almak için üniversitemizin öğrenci işleri biriminden veya ilgili web sitelerinden bilgi alabilirsiniz.
+Üniversitenizde öğrencilere yönelik seminer ve konferanslar var mı?~Evet, OMÜ'de yıl boyunca çeşitli alanlarda seminer ve konferanslar düzenlenmektedir.
+Seminer ve konferanslara nasıl katılabilirim?~Seminer ve konferanslara katılmak için üniversitemizin web sitesindeki duyuruları takip edebilir veya ilgili birimlere başvurarak kayıt yaptırabilirsiniz.
+Seminer ve konferanslar ücretli midir?~Genellikle seminer ve konferanslar ücretsizdir, ancak bazı etkinlikler için katılım ücreti talep edilebilir.
+Üniversitenizde hangi kütüphane hizmetleri sunulmaktadır?~OMÜ Kütüphanesi'nde kitap ödünç alma, e-kitap erişimi, veri tabanlarına erişim, grup çalışma odaları gibi çeşitli hizmetler sunulmaktadır.
+Kütüphane veri tabanlarına nasıl erişebilirim?~Kütüphane veri tabanlarına, üniversitemizin kütüphane web sitesi üzerinden öğrenci kimlik bilgilerinizle giriş yaparak erişebilirsiniz.
+E-kitaplara nasıl erişebilirim?~E-kitaplara, kütüphanenin web sitesi üzerinden öğrenci kimlik bilgilerinizle giriş yaparak erişebilirsiniz.
+Kütüphane grup çalışma odalarını nasıl rezerve edebilirim?~Grup çalışma odalarını, kütüphanenin web sitesi veya kütüphane bilgi masası aracılığıyla rezerve edebilirsiniz.
+Üniversitenizde mezuniyet törenleri ne zaman yapılmaktadır?~OMÜ'de mezuniyet törenleri genellikle akademik yıl sonunda, Haziran ayında yapılmaktadır.
+Mezuniyet törenine nasıl katılabilirim?~Mezuniyet törenine katılmak için öğrenci işleri biriminden bilgi alabilir ve gerekli başvuru işlemlerini tamamlayabilirsiniz.
+Mezuniyet töreninde cüppe ve kep nereden temin edilir?~Mezuniyet töreninde kullanılacak cüppe ve kep, üniversitemizin belirlediği yerlerden kiralanabilir veya satın alınabilir.
+Üniversitenizde mezuniyet sonrası iş bulma imkanları nelerdir?~OMÜ Kariyer Merkezi, mezuniyet sonrası iş bulma konusunda öğrencilere destek sağlamaktadır. Ayrıca, üniversitemizin çeşitli işbirlikleri ile iş bulma imkanları sunulmaktadır.
+İş bulma konusunda nasıl destek alabilirim?~İş bulma konusunda destek almak için Kariyer Merkezi'ne başvurabilir veya üniversitemizin düzenlediği kariyer günleri ve iş fuarlarına katılabilirsiniz.
+Üniversitenizde mezunlara yönelik hizmetler nelerdir?~OMÜ mezunlarına yönelik çeşitli hizmetler sunmaktadır. Mezun kartı, kariyer danışmanlığı, iş bulma desteği gibi hizmetlerden faydalanabilirsiniz.
+Mezun kartı nasıl alınır?~Mezun kartı almak için üniversitemizin mezun işleri birimine başvurarak gerekli işlemleri tamamlayabilirsiniz.
+Mezun kartının avantajları nelerdir?~Mezun kartı, üniversitemizin sunduğu bazı hizmetlerden indirimli faydalanma, üniversite etkinliklerine katılma gibi avantajlar sağlamaktadır.
+Üniversitenizde mezunlar derneği var mı?~Evet, OMÜ'de mezunlar derneği bulunmaktadır. Mezunlar derneği, mezunlar arasında iletişimi ve işbirliğini artırmayı amaçlamaktadır.
+Mezunlar derneğine nasıl üye olabilirim?~Mezunlar derneğine üye olmak için dernekle iletişime geçebilir veya üniversitemizin web sitesindeki üye formunu doldurabilirsiniz.
+Mezunlar derneği ne tür etkinlikler düzenlemektedir?~Mezunlar derneği, mezun buluşmaları, kariyer günleri, sosyal sorumluluk projeleri gibi çeşitli etkinlikler düzenlemektedir.
+Üniversitenizde kampüs içi yemek hizmetleri nelerdir?~OMÜ kampüsünde çeşitli yemek hizmetleri sunulmaktadır. Yemekhane, kafeterya ve kantinlerde öğrencilere uygun fiyatlı yemek seçenekleri bulunmaktadır.
+Yemekhanede hangi yemekler sunulmaktadır?~Yemekhanede günlük olarak çorba, ana yemek, pilav/makarna, salata ve tatlı gibi çeşitli yemekler sunulmaktadır.
+Yemekhanede yemek ücretleri ne kadar?~Yemekhanede yemek ücretleri, öğrencilere uygun fiyatlı olarak belirlenmiştir. Güncel ücret bilgisi için üniversitemizin web sitesinden bilgi alabilirsiniz.
+Kafeterya ve kantinlerde hangi yiyecek ve içecekler bulunmaktadır?~Kafeterya ve kantinlerde sandviç, tost, poğaça, çay, kahve, meyve suyu gibi çeşitli yiyecek ve içecekler bulunmaktadır.
+Kafeterya ve kantinlerin çalışma saatleri nedir?~Kafeterya ve kantinler genellikle sabah 08.00'den akşam 18.00'e kadar hizmet vermektedir.
+Üniversitenizde yurt dışından gelen öğrencilere yönelik hizmetler nelerdir?~OMÜ, yurt dışından gelen öğrencilere yönelik çeşitli hizmetler sunmaktadır. Danışmanlık, oryantasyon programları, dil kursları gibi hizmetler bulunmaktadır.
+Yurt dışından gelen öğrenciler için danışmanlık hizmeti nasıl alınır?~Yurt dışından gelen öğrenciler, üniversitemizin Uluslararası Öğrenci Ofisi aracılığıyla danışmanlık hizmeti alabilirler.
+Yurt dışından gelen öğrenciler için dil kursları var mı?~Evet, OMÜ'de yurt dışından gelen öğrenciler için Türkçe ve İngilizce dil kursları düzenlenmektedir.
+Dil kurslarına nasıl kayıt olabilirim?~Dil kurslarına kayıt olmak için Uluslararası Öğrenci Ofisi veya Yabancı Diller Yüksekokulu'na başvurabilirsiniz.
+Yurt dışından gelen öğrenciler için oryantasyon programları var mı?~Evet, OMÜ'de yurt dışından gelen öğrenciler için oryantasyon programları düzenlenmektedir. Bu programlar, öğrencilerin üniversiteye ve şehre uyum sağlamasına yardımcı olmaktadır.
+Oryantasyon programlarına nasıl katılabilirim?~Oryantasyon programlarına katılmak için üniversitemizin Uluslararası Öğrenci Ofisi ile iletişime geçebilir ve kayıt işlemlerini gerçekleştirebilirsiniz.
+Üniversitenizde yurt dışı staj imkanları var mı?~Evet, OMÜ'de yurt dışı staj imkanları bulunmaktadır. Erasmus+ Staj Hareketliliği gibi programlar ile öğrenciler yurt dışında staj yapabilmektedir.
+Yurt dışı staj programlarına nasıl başvurabilirim?~Yurt dışı staj programlarına başvurular, üniversitemizin Uluslararası İlişkiler Ofisi aracılığıyla yapılmaktadır.
+Yurt dışı staj programlarına kabul şartları nelerdir?~Yurt dışı staj programlarına kabul için belirli not ortalaması, dil yeterliliği gibi şartlar bulunmaktadır. Detaylı bilgi için Uluslararası İlişkiler Ofisi ile iletişime geçebilirsiniz.
+Üniversitenizde hangi sosyal etkinlikler düzenlenmektedir?~OMÜ'de yıl boyunca konserler, tiyatro oyunları, sergiler, spor turnuvaları gibi çeşitli sosyal etkinlikler düzenlenmektedir.
+Sosyal etkinliklere nasıl katılabilirim?~Sosyal etkinliklere katılmak için üniversitemizin web sitesindeki duyuruları takip edebilir veya ilgili birimlere başvurarak kayıt yaptırabilirsiniz.
+Sosyal etkinlikler ücretli midir?~Genellikle sosyal etkinlikler ücretsizdir, ancak bazı etkinlikler için katılım ücreti talep edilebilir.
+Üniversitenizde öğrencilere yönelik psikolojik danışmanlık hizmetleri var mı?~Evet, OMÜ'de öğrencilere yönelik psikolojik danışmanlık hizmetleri sunulmaktadır.
+Psikolojik danışmanlık hizmetlerinden nasıl faydalanabilirim?~Psikolojik danışmanlık hizmetlerinden faydalanmak için üniversitemizin Psikolojik Danışma ve Rehberlik Merkezi'ne başvurabilir veya randevu alabilirsiniz.
+Psikolojik danışmanlık hizmetleri ücretli midir?~Hayır, psikolojik danışmanlık hizmetleri öğrencilere ücretsiz olarak sunulmaktadır.
+Üniversitenizde sağlık hizmetleri nelerdir?~OMÜ kampüsünde Mediko-Sosyal Merkezi bulunmaktadır. Burada öğrencilere sağlık hizmetleri sunulmaktadır.
+Mediko-Sosyal Merkezi'nde hangi hizmetler sunulmaktadır?~Mediko-Sosyal Merkezi'nde muayene, tahlil, tedavi, acil sağlık hizmetleri gibi çeşitli sağlık hizmetleri sunulmaktadır.
+Mediko-Sosyal Merkezi'nin çalışma saatleri nedir?~Mediko-Sosyal Merkezi hafta içi her gün 08.00-17.00 saatleri arasında hizmet vermektedir.
+Mediko-Sosyal Merkezi'nde randevu nasıl alınır?~Mediko-Sosyal Merkezi'nde randevu almak için telefonla veya doğrudan merkeze başvurarak randevu alabilirsiniz.
+Üniversitenizde öğrencilere yönelik sigorta hizmetleri var mı?~Evet, OMÜ'de öğrencilere yönelik genel sağlık sigortası hizmetleri sunulmaktadır.
+Genel sağlık sigortasından nasıl faydalanabilirim?~Genel sağlık sigortasından faydalanmak için üniversitemizin öğrenci işleri birimine başvurarak gerekli işlemleri yapabilirsiniz.
+Genel sağlık sigortası hangi hizmetleri kapsamaktadır?~Genel sağlık sigortası, muayene, tahlil, tedavi, ilaç gibi birçok sağlık hizmetini kapsamaktadır.
+Üniversitenizde öğrencilere yönelik rehberlik hizmetleri var mı?~Evet, OMÜ'de öğrencilere yönelik rehberlik hizmetleri sunulmaktadır. Bu hizmetler, akademik ve kişisel gelişim konularında destek sağlamaktadır.
+Rehberlik hizmetlerinden nasıl faydalanabilirim?~Rehberlik hizmetlerinden faydalanmak için üniversitemizin Psikolojik Danışma ve Rehberlik Merkezi'ne başvurabilir veya randevu alabilirsiniz.
+Rehberlik hizmetleri ücretli midir?~Hayır, rehberlik hizmetleri öğrencilere ücretsiz olarak sunulmaktadır.
+Üniversitenizde öğrencilere yönelik kültürel etkinlikler var mı?~Evet, OMÜ'de öğrencilere yönelik çeşitli kültürel etkinlikler düzenlenmektedir. Konserler, tiyatro oyunları, sergiler gibi etkinlikler bulunmaktadır.
+Kültürel etkinliklere nasıl katılabilirim?~Kültürel etkinliklere katılmak için üniversitemizin web sitesindeki duyuruları takip edebilir veya ilgili birimlere başvurarak kayıt yaptırabilirsiniz.
+Kültürel etkinlikler ücretli midir?~Genellikle kültürel etkinlikler ücretsizdir, ancak bazı etkinlikler için katılım ücreti talep edilebilir.
+Üniversitenizde öğrencilere yönelik sosyal sorumluluk projeleri var mı?~Evet, OMÜ'de öğrencilere yönelik çeşitli sosyal sorumluluk projeleri bulunmaktadır. Bu projeler, topluma katkı sağlamak amacıyla düzenlenmektedir.
+Sosyal sorumluluk projelerine nasıl katılabilirim?~Sosyal sorumluluk projelerine katılmak için ilgili proje koordinatörleri veya öğrenci toplulukları ile iletişime geçebilirsiniz.
+Sosyal sorumluluk projeleri ücretli midir?~Genellikle sosyal sorumluluk projeleri ücretsizdir, ancak bazı projeler için katılım ücreti talep edilebilir.
+Üniversitenizde öğrencilere yönelik akademik danışmanlık hizmetleri var mı?~Evet, OMÜ'de öğrencilere yönelik akademik danışmanlık hizmetleri sunulmaktadır. Bu hizmetler, öğrencilerin akademik gelişimlerine destek sağlamaktadır.
+Akademik danışmanlık hizmetlerinden nasıl faydalanabilirim?~Akademik danışmanlık hizmetlerinden faydalanmak için ilgili bölümün akademik danışmanlık birimine başvurabilir veya danışman öğretim üyeleri ile iletişime geçebilirsiniz.
+Akademik danışmanlık hizmetleri ücretli midir?~Hayır, akademik danışmanlık hizmetleri öğrencilere ücretsiz olarak sunulmaktadır.
+Üniversitenizde öğrencilere yönelik kariyer danışmanlığı hizmetleri var mı?~Evet, OMÜ'de öğrencilere yönelik kariyer danışmanlığı hizmetleri sunulmaktadır. Bu hizmetler, öğrencilerin kariyer planlamalarına destek sağlamaktadır.
+Kariyer danışmanlığı hizmetlerinden nasıl faydalanabilirim?~Kariyer danışmanlığı hizmetlerinden faydalanmak için üniversitemizin Kariyer Merkezi'ne başvurabilir veya randevu alabilirsiniz.
+Kariyer danışmanlığı hizmetleri ücretli midir?~Hayır, kariyer danışmanlığı hizmetleri öğrencilere ücretsiz olarak sunulmaktadır.
+Üniversitenizde öğrencilere yönelik burs imkanları var mı?~Evet, OMÜ'de öğrencilere yönelik çeşitli burs imkanları bulunmaktadır. Başarılı ve ihtiyaç sahibi öğrencilere burs sağlanmaktadır.
+Burs başvuruları nasıl yapılır?~Burs başvuruları, üniversitemizin belirlediği tarihlerde ve yöntemlerle yapılmaktadır. Detaylı bilgi için üniversitemizin web sitesini ziyaret edebilirsiniz.
+Burs başvurularında hangi belgeler gereklidir?~Burs başvurularında genellikle öğrenci belgesi, transkript, aile gelir durumu beyanı gibi belgeler gereklidir. Detaylı bilgi için üniversitemizin web sitesini ziyaret edebilirsiniz.
+
+
