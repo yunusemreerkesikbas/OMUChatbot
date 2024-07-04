@@ -1,16 +1,24 @@
+# docker-compose.yml
+
 version: '3.3'
 
 services:
-  mysql:
-    image: mysql:latest
-    container_name: mysql_container
+  app:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - DATABASE_URL=mysql+pymysql://chatbot_user:chatbot_db_1234@db/chatbot_db
+  db:
+    image: mysql:8.0
     environment:
       MYSQL_ROOT_PASSWORD: root_password
       MYSQL_DATABASE: chatbot_db
       MYSQL_USER: chatbot_user
       MYSQL_PASSWORD: chatbot_db_1234
-      MYSQL_CHARSET: utf8mb4
-      MYSQL_COLLATION: utf8mb4_unicode_ci
     ports:
       - "3307:3306"
     volumes:
