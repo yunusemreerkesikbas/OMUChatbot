@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
-import 'package:file_picker/file_picker.dart';
 import 'package:dio/dio.dart';
+import 'package:file_picker/file_picker.dart';
 
 class QAPage extends StatefulWidget {
   @override
@@ -15,59 +15,57 @@ class _QAPageState extends State<QAPage> {
   TextEditingController answerController = TextEditingController();
   var dio = Dio();
 
-  void getQAPairs() {
-    setState(() async {
-      try {
-        var response = await dio.get('');
-        List<dynamic> contents = json.decode(response as String);
+  @override
+  void initState() {
+    super.initState();
+    getQAPairs();
+  }
+
+  Future<void> getQAPairs() async {
+    try {
+      var response = await dio.get('');
+      List<dynamic> contents = json.decode(response.data as String);
+      setState(() {
         qaPairs = contents.map((item) {
           return {
             'question': item['soru'] as String,
             'answer': item['cevap'] as String,
           };
         }).toList();
-      } on DioException catch (e) {
-        if (e.response != null) {
-          print(e.response!.data);
-          print(e.response!.headers);
-          print(e.response!.requestOptions);
-        } else {
-          print(e.message);
-        }
+      });
+    } on DioException catch (e) {
+      if (e.response != null) {
+        print(e.response!.data);
+        print(e.response!.headers);
+        print(e.response!.requestOptions);
+      } else {
+        print(e.message);
       }
+    }
+  }
+
+  Future<void> addQAPair() async {
+    qaPairs.add({
+      'question': questionController.text,
+      'answer': answerController.text,
     });
-  }
-
-  @override
-  void initState() async {
-    getQAPairs();
-    super.initState();
-  }
-
-  void addQAPair() {
-    setState(
-      () async {
-        qaPairs.add({
-          'question': questionController.text,
-          'answer': answerController.text,
-        });
-        try {
-          var response =
-              await dio.post('https://jsonplaceholder.typicode.com/posts/1');
-          print(response.data);
-        } on DioException catch (e) {
-          if (e.response != null) {
-            print(e.response!.data);
-            print(e.response!.headers);
-            print(e.response!.requestOptions);
-          } else {
-            print(e.message);
-          }
-        }
-        questionController.clear();
-        answerController.clear();
-      },
-    );
+    try {
+      var response =
+      await dio.post('https://jsonplaceholder.typicode.com/posts/1');
+      print(response.data);
+    } on DioException catch (e) {
+      if (e.response != null) {
+        print(e.response!.data);
+        print(e.response!.headers);
+        print(e.response!.requestOptions);
+      } else {
+        print(e.message);
+      }
+    }
+    setState(() {
+      questionController.clear();
+      answerController.clear();
+    });
   }
 
   void updateQAPair(int index) {
