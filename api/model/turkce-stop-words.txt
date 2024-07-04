@@ -1,5 +1,5 @@
 nerede
-trazbzon
+trabzon
 rize
 popüler
 samsun
@@ -63,14 +63,7 @@ dolayısıyla
 dört
 en
 e
-edecek
 eden
-ederek
-edilecek
-ediliyor
-edilmesi
-ediyor
-elbette
 elli
 etti
 ettiği
@@ -160,7 +153,6 @@ un
 ün
 üzere
 vardı
-ve
 veya
 ya
 yani
