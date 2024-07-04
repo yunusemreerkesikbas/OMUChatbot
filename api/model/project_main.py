@@ -43,10 +43,17 @@ def veri_temizligi(text):
     kelimeler = [i for i in kelimeler if not i in turkish_stopwords]
     return kelimeler
 
-def update_dataset(data):
+def veri_temizligi2(text):
+    metin = re.sub("[^a-zA-ZçÇğĞıİöÖşŞüÜ]", " ", text).lower()
+    kelimeler = metin.split()
+    kelimeler = [i for i in kelimeler]
+    
+    return kelimeler
+
+def update_dataset(data, control = True):
     MAX_LEN = 0
     for i in range(len(data)):
-        kokler = veri_temizligi(data[i])
+        kokler = veri_temizligi(data[i]) if control else veri_temizligi2(data[i])
         MAX_LEN = len(kokler) if MAX_LEN < len(kokler) else MAX_LEN
         data[i] = " ".join(kokler)
     return data, MAX_LEN
@@ -54,7 +61,7 @@ def update_dataset(data):
 def building_vocab():
     _, questions, answers = data_load()
     questions_data, MAX_LEN_QUESTION = update_dataset(questions)
-    answers_data, MAX_LEN_ANSWER = update_dataset(answers)
+    answers_data, MAX_LEN_ANSWER = update_dataset(answers, False)
 
     MAX_LEN = max(MAX_LEN_ANSWER, MAX_LEN_QUESTION)
 
@@ -80,9 +87,8 @@ def building_vocab():
         vocab[token] = length_of_vocab
         length_of_vocab += 1
 
-    vocab = {k: (v if k != list(vocab.keys())[0] else vocab['<PAD>']) for k, v in vocab.items()}
+    vocab[list(vocab.items())[0][0]] = vocab['<PAD>']
     vocab['<PAD>'] = 0
-
     inv_vocab = {v: k for k, v in vocab.items()}
 
     return MAX_LEN, vocab, inv_vocab, questions_data, answers_data
@@ -133,7 +139,7 @@ def building_model():
     opt = optimizers.Adam(learning_rate=0.0125)
 
     model.compile(loss='categorical_crossentropy', metrics=['accuracy'], optimizer=opt)
-    model.fit([encoder_input, decoder_input], decoder_final_output, epochs=10)
+    model.fit([encoder_input, decoder_input], decoder_final_output, epochs=40)
 
     enc_model = Model([enc_inp], enc_states)
 
@@ -150,58 +156,60 @@ def building_model():
     return VOCAB_SIZE, enc_model, dec_model, dense
 
 def predict(prepro1, enc_model, dec_model, dense, MAX_LEN, vocab, inv_vocab):
-    soru = prepro1
-    sayac = 0
-    while sayac < 3:
-        sayac += 1
-        prepro1 = ' '.join(veri_temizligi(prepro1))
-        prepro = [prepro1]
 
-        txt = []
-        for x in prepro:
-            lst = []
-            for y in x.split():
-                try:
-                    lst.append(vocab[y])
-                except:
-                    lst.append(vocab['<OUT>'])
+    prepro1 = ' '.join(veri_temizligi(prepro1))
+    prepro = [prepro1]
 
-            txt.append(lst)
+    txt = []
+    for x in prepro:
+        lst = []
+        for y in x.split():
+            try:
+                lst.append(vocab[y])
+            except:
+                lst.append(vocab['<OUT>'])
 
-        txt = pad_sequences(txt, MAX_LEN, padding='post', truncating="post")
+        txt.append(lst)
 
-        stat = enc_model.predict(txt)
+    txt = pad_sequences(txt, MAX_LEN, padding='post', truncating="post")
+
+    stat = enc_model.predict(txt)
+    empty_target_seq = np.zeros((1, 1))
+    empty_target_seq[0, 0] = vocab['<SOS>']
+
+    stop_condition = False
+    decoded_translation = ''
+
+    while not stop_condition:
+        dec_outputs, h, c = dec_model.predict([empty_target_seq] + stat)
+        decoder_concat_input = dense(dec_outputs)
+
+        sample_word_index = np.argmax(decoder_concat_input[0, -1, :])
+        sample_word = inv_vocab[sample_word_index]
+
+        if sample_word != '<EOS>' and sample_word != '<PAD>':
+            decoded_translation += sample_word + ' '
+
+        if sample_word == '<EOS>' or len(decoded_translation.split()) > MAX_LEN:
+            stop_condition = True
+
         empty_target_seq = np.zeros((1, 1))
-        empty_target_seq[0, 0] = vocab['<SOS>']
+        empty_target_seq[0, 0] = sample_word_index
+        stat = [h, c]
 
-        stop_condition = False
-        decoded_translation = ''
-
-        while not stop_condition:
-            dec_outputs, h, c = dec_model.predict([empty_target_seq] + stat)
-            decoder_concat_input = dense(dec_outputs)
-
-            sample_word_index = np.argmax(decoder_concat_input[0, -1, :])
-            sample_word = inv_vocab[sample_word_index] + ' '
-
-            if sample_word != '<EOS> ':
-                decoded_translation += sample_word
-
-            if sample_word == '<EOS>' or len(decoded_translation.split()) > MAX_LEN:
-                stop_condition = True
-
-            empty_target_seq = np.zeros((1, 1))
-            empty_target_seq[0, 0] = sample_word_index
-            stat = [h, c]
-
-        print(f'Sen: {soru}')
-        print(f'Chatbot: {decoded_translation.title()}')
-        break
+        
+    return decoded_translation.title().strip()
 
 if __name__ == "__main__":
     _, enc_model, dec_model, dense = building_model()
     MAX_LEN, vocab, inv_vocab, _, _ = building_vocab()
+    print(MAX_LEN)
+    print(len(vocab))
+    enc_model.save('enc_model.h5')
+    dec_model.save('dec_model.h5')
 
-    # Modelleri ve verileri saklama
-    with open('models_and_data.pkl', 'wb') as f:
-        pickle.dump((enc_model, dec_model, dense, MAX_LEN, vocab, inv_vocab), f)
+    with open('storage.pkl', 'wb') as f:
+        pickle.dump((dense, MAX_LEN, vocab, inv_vocab), f)
+
+
+
