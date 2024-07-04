@@ -1,0 +1,8 @@
+numpy~=1.24.3
+keras~=2.13.1
+uvicorn~=0.29.0
+fastapi~=0.111.0
+pydantic~=2.7.1
+requests~=2.32.2
+mysql-connector-python~=8.4.0
+tensorflow~=2.13.1
