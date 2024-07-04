@@ -15,9 +15,9 @@ class _LoginPageState extends State<LoginPage> {
   final _formKey = GlobalKey<FormState>();
 
   void _login() async {
-    if(Platform.isIOS){
-      
-    }
+    // if(Platform.isIOS){
+    //
+    // }
 
     if (_formKey.currentState!.validate()) {
       SharedPreferences prefs = await SharedPreferences.getInstance();
