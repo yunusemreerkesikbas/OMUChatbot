@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import "package:view/config/general_config.dart";
@@ -13,6 +15,10 @@ class _LoginPageState extends State<LoginPage> {
   final _formKey = GlobalKey<FormState>();
 
   void _login() async {
+    if(Platform.isIOS){
+      
+    }
+
     if (_formKey.currentState!.validate()) {
       SharedPreferences prefs = await SharedPreferences.getInstance();
       String? storedEmail = prefs.getString('email');

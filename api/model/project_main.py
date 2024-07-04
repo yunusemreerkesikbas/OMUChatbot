@@ -5,12 +5,13 @@ from keras.utils import to_categorical
 from keras import optimizers
 import numpy as np
 import re
+import pickle
 
 def data_load():
     with open("/Users/metehankarabulut/Desktop/OMUChatbot/api/model/dataset.txt", encoding='utf-8') as file:
         data = file.readlines()
 
-    temp = list(map(lambda x: x.split('~'), list(map(lambda x: x.replace('\n', ''), data))))
+    temp = list(map(lambda x: x.split('~'), list(map(lambda x: x.strip(), data))))
 
     questions = list(map(lambda x: x[0], temp))
     answers = list(map(lambda x: x[1], temp))
@@ -114,10 +115,10 @@ def building_model():
 
     model = Model([enc_inp, dec_inp], dense_op)
 
-    opt = optimizers.RMSprop(learning_rate=0.0125)
+    opt = optimizers.Adam(learning_rate=0.0125)
 
     model.compile(loss='categorical_crossentropy', metrics=['accuracy'], optimizer=opt)
-    model.fit([encoder_input, decoder_input], decoder_final_output, epochs=20)
+    model.fit([encoder_input, decoder_input], decoder_final_output, epochs=10)
 
     enc_model = Model([enc_inp], enc_states)
 
@@ -133,9 +134,7 @@ def building_model():
 
     return VOCAB_SIZE, enc_model, dec_model, dense
 
-def predict(prepro1):
-    VOCAB_SIZE, enc_model, dec_model, dense = building_model()
-    MAX_LEN, vocab, inv_vocab, _, _ = building_vocab()
+def predict(prepro1, enc_model, dec_model, dense, MAX_LEN, vocab, inv_vocab):
     soru = prepro1
     sayac = 0
     while sayac < 3:
@@ -185,8 +184,9 @@ def predict(prepro1):
         break
 
 if __name__ == "__main__":
-    while True:
-        user_input = "Tarihi bir tur yapmak istediğimde nereyi gezmeliyim?"
-        if user_input.lower() in ['exit', 'quit']:
-            break
-        predict(user_input)
+    _, enc_model, dec_model, dense = building_model()
+    MAX_LEN, vocab, inv_vocab, _, _ = building_vocab()
+
+    # Modelleri ve verileri saklama
+    with open('models_and_data.pkl', 'wb') as f:
+        pickle.dump((enc_model, dec_model, dense, MAX_LEN, vocab, inv_vocab), f)

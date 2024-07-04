@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:file_picker/file_picker.dart';
+import 'package:dio/dio.dart';
 
 class QAPage extends StatefulWidget {
   @override
@@ -8,46 +9,65 @@ class QAPage extends StatefulWidget {
 }
 
 class _QAPageState extends State<QAPage> {
-  List<Map<String, String>> qaPairs = [
-    {
-      "question": "En iyi balık restoranı hangisi?",
-      "answer": "Samsun Balık Hali'ndeki restoranlar harika."
-    },
-    {
-      "question": "Sabah yürüyüşü için en güzel park neresidir?",
-      "answer": "Doğu Park"
-    },
-    {
-      "question": "Yerel bir festivale katılmak istesem ne zaman gitmeliyim?",
-      "answer": "Samsun Uluslararası Opera ve Bale Festivali zamanı."
-    },
-    {
-      "question": "Ailece gidilecek en iyi mekan neresi?",
-      "answer": "Piazza AVM ve oyun alanları."
-    },
-    {
-      "question":
-          "Tarihi ve kültürel gezi yapmak istesem nereyi ziyaret etmeliyim?",
-      "answer": "Gazi Müzesi."
-    },
-    {
-      "question": "Kahvaltı için en sevdiğin yer neresi?",
-      "answer": "Simisso Cafe."
-    }
-  ];
+  List<Map<String, String>> qaPairs = [];
 
   TextEditingController questionController = TextEditingController();
   TextEditingController answerController = TextEditingController();
+  var dio = Dio();
+
+  void getQAPairs() {
+    setState(() async {
+      try {
+        var response = await dio.get('');
+        List<dynamic> contents = json.decode(response as String);
+        qaPairs = contents.map((item) {
+          return {
+            'question': item['soru'] as String,
+            'answer': item['cevap'] as String,
+          };
+        }).toList();
+      } on DioException catch (e) {
+        if (e.response != null) {
+          print(e.response!.data);
+          print(e.response!.headers);
+          print(e.response!.requestOptions);
+        } else {
+          print(e.message);
+        }
+      }
+    });
+  }
+
+  @override
+  void initState() async {
+    getQAPairs();
+    super.initState();
+  }
 
   void addQAPair() {
-    setState(() {
-      qaPairs.add({
-        'question': questionController.text,
-        'answer': answerController.text,
-      });
-      questionController.clear();
-      answerController.clear();
-    });
+    setState(
+      () async {
+        qaPairs.add({
+          'question': questionController.text,
+          'answer': answerController.text,
+        });
+        try {
+          var response =
+              await dio.post('https://jsonplaceholder.typicode.com/posts/1');
+          print(response.data);
+        } on DioException catch (e) {
+          if (e.response != null) {
+            print(e.response!.data);
+            print(e.response!.headers);
+            print(e.response!.requestOptions);
+          } else {
+            print(e.message);
+          }
+        }
+        questionController.clear();
+        answerController.clear();
+      },
+    );
   }
 
   void updateQAPair(int index) {

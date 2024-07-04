@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => LoginPage(),
-        '/login': (context) => LoginPage(),
+        '/login': (context) => QAPage(),
         '/signup': (context) => SignupPage(),
         '/chat': (context) => ChatPage(),
         '/admin': (context) => QAPage(),
