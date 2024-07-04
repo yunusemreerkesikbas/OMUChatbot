@@ -6,17 +6,32 @@ from keras import optimizers
 import numpy as np
 import re
 import pickle
+import mysql.connector
+from pathlib import Path
+
+# Dosya yollarını belirleme
+BASE_DIR = Path(__file__).resolve().parent.parent
+STOPWORDS_PATH = BASE_DIR / "model" / "turkce-stop-words.txt"
 
 def data_load():
-    with open("/Users/metehankarabulut/Desktop/OMUChatbot/api/model/dataset.txt", encoding='utf-8') as file:
-        data = file.readlines()
+    db_connection = mysql.connector.connect(
+        host="localhost",
+        port=3307,
+        user="chatbot_user",
+        password="chatbot_db_1234",
+        database="chatbot_db",
+        charset='utf8mb4',
+        collation='utf8mb4_unicode_ci'
+    )
+    cursor = db_connection.cursor()
+    cursor.execute("SELECT question, answer FROM chatbot_data")
+    data = cursor.fetchall()
+    db_connection.close()
 
-    temp = list(map(lambda x: x.split('~'), list(map(lambda x: x.strip(), data))))
+    questions = [item[0] for item in data]
+    answers = [item[1] for item in data]
 
-    questions = list(map(lambda x: x[0], temp))
-    answers = list(map(lambda x: x[1], temp))
-
-    with open("/Users/metehankarabulut/Desktop/OMUChatbot/api/model/turkce-stop-words.txt", "r", encoding='utf-8') as file:
+    with open(STOPWORDS_PATH, "r", encoding='utf-8') as file:
         turkish_stopwords = set(file.read().replace("\n", " ").split())
 
     return turkish_stopwords, questions, answers
@@ -150,7 +165,7 @@ def predict(prepro1, enc_model, dec_model, dense, MAX_LEN, vocab, inv_vocab):
                     lst.append(vocab[y])
                 except:
                     lst.append(vocab['<OUT>'])
-            
+
             txt.append(lst)
 
         txt = pad_sequences(txt, MAX_LEN, padding='post', truncating="post")
@@ -168,19 +183,19 @@ def predict(prepro1, enc_model, dec_model, dense, MAX_LEN, vocab, inv_vocab):
 
             sample_word_index = np.argmax(decoder_concat_input[0, -1, :])
             sample_word = inv_vocab[sample_word_index] + ' '
-            
+
             if sample_word != '<EOS> ':
                 decoded_translation += sample_word
 
-            if sample_word == '<EOS> ' or len(decoded_translation.split()) > MAX_LEN:
+            if sample_word == '<EOS>' or len(decoded_translation.split()) > MAX_LEN:
                 stop_condition = True
 
             empty_target_seq = np.zeros((1, 1))
             empty_target_seq[0, 0] = sample_word_index
             stat = [h, c]
-            
-        print(f'Sen: {soru}')    
-        print(f'Chatbot: {decoded_translation.title()}')  
+
+        print(f'Sen: {soru}')
+        print(f'Chatbot: {decoded_translation.title()}')
         break
 
 if __name__ == "__main__":
