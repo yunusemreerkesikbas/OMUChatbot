@@ -13,9 +13,23 @@ from keras.models import load_model
 # FastAPI uygulamasını oluştur
 app = FastAPI()
 
-# Pydantic modelini tanımla
+# CORS yapılandırması
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Tüm kökenlere izin ver
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Pydantic modellerini tanımla
 class Question(BaseModel):
-    text: str
+    question: str
+    answer: str
+
+class User(BaseModel):
+    email: str
+    password: str
 
 @app.post("/ask")
 async def ask_question(question: Question):
@@ -59,6 +73,54 @@ async def login(user: User):
         return {"message": "Login successful"}
     else:
         raise HTTPException(status_code=400, detail="Invalid email or password")
+
+@app.get("/qa/")
+async def get_qa():
+    db = Database()
+    if db.cursor is None:
+        raise HTTPException(status_code=500, detail="Database connection failed")
+    qa_data = db.fetch_data()
+    db.close()
+    return [{"id": qa[0], "question": qa[1], "answer": qa[2]} for qa in qa_data]
+
+@app.post("/qa/")
+async def add_qa(qa: Question):
+    db = Database()
+    if db.cursor is None:
+        raise HTTPException(status_code=500, detail="Database connection failed")
+    try:
+        db.insert_data([(qa.question, qa.answer)])
+    except Exception as e:
+        db.close()
+        raise HTTPException(status_code=400, detail=str(e))
+    db.close()
+    return {"message": "Q&A pair added successfully"}
+
+@app.put("/qa/{qa_id}")
+async def update_qa(qa_id: int, qa: Question):
+    db = Database()
+    if db.cursor is None:
+        raise HTTPException(status_code=500, detail="Database connection failed")
+    try:
+        db.update_data(qa_id, qa.question, qa.answer)
+    except Exception as e:
+        db.close()
+        raise HTTPException(status_code=400, detail=str(e))
+    db.close()
+    return {"message": "Q&A pair updated successfully"}
+
+@app.delete("/qa/{qa_id}")
+async def delete_qa(qa_id: int):
+    db = Database()
+    if db.cursor is None:
+        raise HTTPException(status_code=500, detail="Database connection failed")
+    try:
+        db.delete_data(qa_id)
+    except Exception as e:
+        db.close()
+        raise HTTPException(status_code=400, detail=str(e))
+    db.close()
+    return {"message": "Q&A pair deleted successfully"}
 
 if __name__ == "__main__":
     import uvicorn
