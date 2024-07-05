@@ -1,5 +1,6 @@
 import 'dart:io';
-
+import 'dart:convert'; // Eklendi
+import 'package:http/http.dart' as http; // Eklendi
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import "package:view/config/general_config.dart";
@@ -13,24 +14,34 @@ class _LoginPageState extends State<LoginPage> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
   final _formKey = GlobalKey<FormState>();
+  String? _errorMessage;
 
   void _login() async {
-    // if(Platform.isIOS){
-    //
-    // }
-
     if (_formKey.currentState!.validate()) {
-      SharedPreferences prefs = await SharedPreferences.getInstance();
-      String? storedEmail = prefs.getString('email');
-      String? storedPassword = prefs.getString('password');
+      final url = Uri.parse('http://localhost:8000/login/');
+      final headers = {'Content-Type': 'application/json'};
+      final body = jsonEncode({
+        'email': _emailController.text,
+        'password': _passwordController.text,
+      });
 
-      if (_emailController.text == storedEmail &&
-          _passwordController.text == storedPassword) {
+      final response = await http.post(url, headers: headers, body: body);
+
+      if (response.statusCode == 200) {
+        SharedPreferences prefs = await SharedPreferences.getInstance();
         await prefs.setBool('isLoggedIn', true);
-        Navigator.pushReplacementNamed(context, '/chat');
+        var responseBody = jsonDecode(response.body);
+        if (responseBody['role'] == 'admin') {
+          Navigator.pushReplacementNamed(context, '/admin');
+        } else {
+          Navigator.pushReplacementNamed(context, '/chat');
+        }
       } else {
+        setState(() {
+          _errorMessage = 'Invalid email or password';
+        });
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Invalid email or password')),
+          SnackBar(content: Text(_errorMessage!)),
         );
       }
     }
@@ -66,11 +77,17 @@ class _LoginPageState extends State<LoginPage> {
                   children: [
                     TextConfig().loginAndSignUpText('OMU Chatbot Login'),
                     const SizedBox(height: 24),
-                    GeneralTextfieldConfig()
-                        .emailTextFormField(_emailController),
+                    GeneralTextfieldConfig().emailTextFormField(_emailController),
                     const SizedBox(height: 16),
-                    GeneralTextfieldConfig()
-                        .passwordtextFormField(_passwordController),
+                    GeneralTextfieldConfig().passwordtextFormField(_passwordController),
+                    if (_errorMessage != null) // Hata mesajı gösterimi
+                      Padding(
+                        padding: const EdgeInsets.only(top: 8.0),
+                        child: Text(
+                          _errorMessage!,
+                          style: TextStyle(color: Colors.red),
+                        ),
+                      ),
                     SizedBox(height: 16),
                     GeneralButtonConfig().loginNavigationButton(_login),
                     GeneralButtonConfig().signUpPageNavigateButton(context),
