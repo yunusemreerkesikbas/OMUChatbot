@@ -1,3 +1,5 @@
+import 'dart:convert';
+import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:view/config/general_config.dart';
@@ -11,14 +13,26 @@ class _SignupPageState extends State<SignupPage> {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
   final _formKey = GlobalKey<FormState>();
+  String? _errorMessage; // Hata mesajı için bir değişken eklendi
 
   void _signup() async {
     if (_formKey.currentState!.validate()) {
-      SharedPreferences prefs = await SharedPreferences.getInstance();
-      await prefs.setString('email', _emailController.text);
-      await prefs.setString('password', _passwordController.text);
+      final url = Uri.parse('http://localhost:8000/signup/');
+      final headers = {'Content-Type': 'application/json'};
+      final body = jsonEncode({
+        'email': _emailController.text,
+        'password': _passwordController.text,
+      });
 
-      Navigator.pushReplacementNamed(context, '/login');
+      final response = await http.post(url, headers: headers, body: body);
+
+      if (response.statusCode == 200) {
+        Navigator.pushReplacementNamed(context, '/login');
+      } else {
+        setState(() {
+          _errorMessage = 'Error during sign up'; // Hata mesajı setState ile güncellenir
+        });
+      }
     }
   }
 
@@ -72,8 +86,7 @@ class _SignupPageState extends State<SignupPage> {
                       validator: (value) {
                         if (value == null || value.isEmpty) {
                           return 'Please enter your email';
-                        } else if (!RegExp(r'^[^@]+@[^@]+\.[^@]+')
-                            .hasMatch(value)) {
+                        } else if (!RegExp(r'^[^@]+@[^@]+\.[^@]+').hasMatch(value)) {
                           return 'Please enter a valid email';
                         }
                         return null;
@@ -98,13 +111,20 @@ class _SignupPageState extends State<SignupPage> {
                         return null;
                       },
                     ),
+                    if (_errorMessage != null) // Hata mesajı gösterimi
+                      Padding(
+                        padding: const EdgeInsets.only(top: 8.0),
+                        child: Text(
+                          _errorMessage!,
+                          style: TextStyle(color: Colors.red),
+                        ),
+                      ),
                     const SizedBox(height: 16),
                     ElevatedButton(
                       onPressed: _signup,
                       child: const Text('Signup'),
                       style: ElevatedButton.styleFrom(
-                        padding: const EdgeInsets.symmetric(
-                            horizontal: 50, vertical: 15),
+                        padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(12),
                         ),

@@ -3,12 +3,12 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:file_picker/file_picker.dart';
 
-class QAPage extends StatefulWidget {
+class AdminPage extends StatefulWidget {
   @override
-  _QAPageState createState() => _QAPageState();
+  _AdminPageState createState() => _AdminPageState();
 }
 
-class _QAPageState extends State<QAPage> {
+class _AdminPageState extends State<AdminPage> {
   List<Map<String, String>> qaPairs = [];
 
   TextEditingController questionController = TextEditingController();
