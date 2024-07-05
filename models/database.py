@@ -63,7 +63,7 @@ class Database:
             print("Cursor is not connected")
             return []
         try:
-            self.cursor.execute("SELECT question, answer FROM chatbot_data")
+            self.cursor.execute("SELECT id, question, answer FROM chatbot_data")
             data = self.cursor.fetchall()
             return data
         except Error as e:
@@ -130,6 +130,28 @@ class Database:
         except Error as e:
             print(f"Error checking user: {e}")
             return False
+
+    def update_data(self, qa_id, question, answer):
+        if self.cursor is None:
+            print("Cursor is not connected")
+            return
+        try:
+            update_query = "UPDATE chatbot_data SET question = %s, answer = %s WHERE id = %s"
+            self.cursor.execute(update_query, (question, answer, qa_id))
+            self.db_connection.commit()
+        except Error as e:
+            print(f"Error updating data: {e}")
+
+    def delete_data(self, qa_id):
+        if self.cursor is None:
+            print("Cursor is not connected")
+            return
+        try:
+            delete_query = "DELETE FROM chatbot_data WHERE id = %s"
+            self.cursor.execute(delete_query, (qa_id,))
+            self.db_connection.commit()
+        except Error as e:
+            print(f"Error deleting data: {e}")
 
     def close(self):
         if self.cursor is not None:

@@ -23,13 +23,14 @@ class _AdminPageState extends State<AdminPage> {
 
   Future<void> getQAPairs() async {
     try {
-      var response = await dio.get('');
-      List<dynamic> contents = json.decode(response.data as String);
+      var response = await dio.get('http://localhost:8000/qa/');
+      List<dynamic> contents = response.data;
       setState(() {
         qaPairs = contents.map((item) {
           return {
-            'question': item['soru'] as String,
-            'answer': item['cevap'] as String,
+            'id': item['id'].toString(),
+            'question': item['question'] as String,
+            'answer': item['answer'] as String,
           };
         }).toList();
       });
@@ -45,14 +46,16 @@ class _AdminPageState extends State<AdminPage> {
   }
 
   Future<void> addQAPair() async {
-    qaPairs.add({
-      'question': questionController.text,
-      'answer': answerController.text,
-    });
     try {
-      var response =
-      await dio.post('https://jsonplaceholder.typicode.com/posts/1');
+      var response = await dio.post(
+        'http://localhost:8000/qa/',
+        data: {
+          'question': questionController.text,
+          'answer': answerController.text,
+        },
+      );
       print(response.data);
+      getQAPairs(); // Refresh list
     } on DioException catch (e) {
       if (e.response != null) {
         print(e.response!.data);
@@ -68,21 +71,42 @@ class _AdminPageState extends State<AdminPage> {
     });
   }
 
-  void updateQAPair(int index) {
-    setState(() {
-      qaPairs[index] = {
-        'question': questionController.text,
-        'answer': answerController.text,
-      };
-      questionController.clear();
-      answerController.clear();
-    });
+  Future<void> updateQAPair(int index) async {
+    try {
+      var response = await dio.put(
+        'http://localhost:8000/qa/${qaPairs[index]['id']}',
+        data: {
+          'question': questionController.text,
+          'answer': answerController.text,
+        },
+      );
+      print(response.data);
+      getQAPairs(); // Refresh list
+    } on DioException catch (e) {
+      if (e.response != null) {
+        print(e.response!.data);
+        print(e.response!.headers);
+        print(e.response!.requestOptions);
+      } else {
+        print(e.message);
+      }
+    }
   }
 
-  void deleteQAPair(int index) {
-    setState(() {
-      qaPairs.removeAt(index);
-    });
+  Future<void> deleteQAPair(int index) async {
+    try {
+      var response = await dio.delete('http://localhost:8000/qa/${qaPairs[index]['id']}');
+      print(response.data);
+      getQAPairs(); // Refresh list
+    } on DioException catch (e) {
+      if (e.response != null) {
+        print(e.response!.data);
+        print(e.response!.headers);
+        print(e.response!.requestOptions);
+      } else {
+        print(e.message);
+      }
+    }
   }
 
   Future<void> pickFile() async {
@@ -90,83 +114,83 @@ class _AdminPageState extends State<AdminPage> {
       type: FileType.custom,
       allowedExtensions: ['txt'],
     );
+    if (result != null) {
+      // Do something with the file
+    }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Q&A Manager'),
+          title: Text('Admin'),
         ),
         body: Column(
           children: <Widget>[
             SizedBox(
               height: MediaQuery.of(context).size.height * 0.6,
-              child: Expanded(
-                child: ListView.builder(
-                  itemCount: qaPairs.length,
-                  itemBuilder: (context, index) {
-                    return ListTile(
-                      title: Text(qaPairs[index]['question'] ?? ''),
-                      subtitle: Text(qaPairs[index]['answer'] ?? ''),
-                      trailing: IconButton(
-                        icon: Icon(Icons.delete),
-                        onPressed: () {
-                          deleteQAPair(index);
-                        },
-                      ),
-                      onTap: () {
-                        questionController.text =
-                            qaPairs[index]['question'] ?? '';
-                        answerController.text = qaPairs[index]['answer'] ?? '';
-                        showDialog(
-                          context: context,
-                          builder: (BuildContext context) {
-                            return AlertDialog(
-                              title: Text('Edit Q&A Pair'),
-                              content: Column(
-                                mainAxisSize: MainAxisSize.min,
-                                children: <Widget>[
-                                  TextField(
-                                    controller: questionController,
-                                    decoration: InputDecoration(
-                                      labelText: 'Question',
-                                    ),
+              child: ListView.builder(
+                itemCount: qaPairs.length,
+                itemBuilder: (context, index) {
+                  return ListTile(
+                    title: Text(qaPairs[index]['question'] ?? ''),
+                    subtitle: Text(qaPairs[index]['answer'] ?? ''),
+                    trailing: IconButton(
+                      icon: Icon(Icons.delete),
+                      onPressed: () {
+                        deleteQAPair(index);
+                      },
+                    ),
+                    onTap: () {
+                      questionController.text = qaPairs[index]['question'] ?? '';
+                      answerController.text = qaPairs[index]['answer'] ?? '';
+                      showDialog(
+                        context: context,
+                        builder: (BuildContext context) {
+                          return AlertDialog(
+                            title: Text('Edit Q&A Pair'),
+                            content: Column(
+                              mainAxisSize: MainAxisSize.min,
+                              children: <Widget>[
+                                TextField(
+                                  controller: questionController,
+                                  decoration: InputDecoration(
+                                    labelText: 'Question',
                                   ),
-                                  TextField(
-                                    controller: answerController,
-                                    decoration: InputDecoration(
-                                      labelText: 'Answer',
-                                    ),
-                                  ),
-                                ],
-                              ),
-                              actions: <Widget>[
-                                TextButton(
-                                  child: Text('Cancel'),
-                                  onPressed: () {
-                                    Navigator.of(context).pop();
-                                  },
                                 ),
-                                TextButton(
-                                  child: Text('Save'),
-                                  onPressed: () {
-                                    if (index < qaPairs.length) {
-                                      updateQAPair(index);
-                                    } else {
-                                      addQAPair();
-                                    }
-                                    Navigator.of(context).pop();
-                                  },
+                                TextField(
+                                  controller: answerController,
+                                  decoration: InputDecoration(
+                                    labelText: 'Answer',
+                                  ),
                                 ),
                               ],
-                            );
-                          },
-                        );
-                      },
-                    );
-                  },
-                ),
+                            ),
+                            actions: <Widget>[
+                              TextButton(
+                                child: Text('Cancel'),
+                                onPressed: () {
+                                  Navigator.of(context).pop();
+                                },
+                              ),
+                              TextButton(
+                                child: Text('Save'),
+                                onPressed: () {
+                                  if (index < qaPairs.length) {
+                                    updateQAPair(index);
+                                  } else {
+                                    addQAPair();
+                                  }
+                                  Navigator.of(context).pop();
+                                },
+                              ),
+                            ],
+                          );
+                        },
+                      );
+                    },
+                  );
+                },
               ),
             ),
           ],
