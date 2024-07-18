@@ -8,12 +8,68 @@ import re
 import pickle
 import mysql.connector
 from pathlib import Path
+from datetime import datetime
+from fastapi import FastAPI
+import requests
+from bs4 import BeautifulSoup
+from datetime import datetime
 
 
 # Dosya yollarını belirleme
 BASE_DIR = Path(__file__).resolve().parent.parent
 SAVED_MODEL_PATH = BASE_DIR / "model" / "saved_models"
 STOPWORDS_PATH = BASE_DIR / "model" / "turkce-stop-words.txt"
+
+
+
+
+def fetch_weather_data(city: str) -> dict:
+    url = "https://api.collectapi.com/weather/getWeather"
+    headers = {
+        'content-type': "application/json",
+        'authorization': "apikey 4kFdVg7hGAhRPpBiiyDm12:6KQ9k2DGYJmqwFtGi0oBar"
+    }
+    response = requests.get(url, headers=headers, params={"data.lang": "tr", "data.city": city})
+    data = response.json()
+    return data
+
+def update_weather_answer():
+    # Şehir adını belirleyin
+    city = "samsun"  # İstediğiniz şehir ismini buraya yazın
+    data = fetch_weather_data(city)
+    
+    if data["success"]:
+        bugun = datetime.now().strftime("%d.%m.%Y")
+        for result in data["result"]:
+            if result["date"] == bugun:
+                temperature = result["degree"]
+                description = result["description"]
+                answer = f"Günün sıcaklığı {temperature} °C, durum: {description}."
+                update_db_answer(answer)
+                break
+    else:
+        print("Hata: API'den veri alınamadı.")
+
+
+def update_db_answer(answer: str):
+    db_connection = mysql.connector.connect(
+        host="localhost",
+        port=3307,
+        user="chatbot_user",
+        password="chatbot_db_1234",
+        database="chatbot_db",
+        charset='utf8mb4',
+        collation='utf8mb4_unicode_ci'
+    )
+    cursor = db_connection.cursor()
+    cursor.execute("""
+        UPDATE chatbot_data
+        SET answer = %s
+        WHERE question = "Bugün hava nasıl?"
+    """, (answer,))
+    db_connection.commit()
+    db_connection.close()
+
 
 def data_load():
     db_connection = mysql.connector.connect(
@@ -203,6 +259,7 @@ def predict(prepro1, enc_model, dec_model, dense, MAX_LEN, vocab, inv_vocab):
     return decoded_translation.title().strip()
 
 if __name__ == "__main__":
+    update_weather_answer()
     _, enc_model, dec_model, dense = building_model()
     MAX_LEN, vocab, inv_vocab, _, _ = building_vocab()
     print(MAX_LEN)
