@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:file_picker/file_picker.dart';
+import 'package:view/const/project_utilities.dart';
 
 class AdminPage extends StatefulWidget {
+  const AdminPage({super.key});
+
   @override
   _AdminPageState createState() => _AdminPageState();
 }
@@ -23,7 +26,7 @@ class _AdminPageState extends State<AdminPage> {
 
   Future<void> getQAPairs() async {
     try {
-      var response = await dio.get('http://localhost:8000/qa/');
+      var response = await dio.get('${ProjectUtilities.portName}/qa/');
       List<dynamic> contents = response.data;
       setState(() {
         qaPairs = contents.map((item) {
@@ -48,7 +51,7 @@ class _AdminPageState extends State<AdminPage> {
   Future<void> addQAPair() async {
     try {
       var response = await dio.post(
-        'http://localhost:8000/qa/',
+        '${ProjectUtilities.portName}/qa/',
         data: {
           'question': questionController.text,
           'answer': answerController.text,
@@ -74,7 +77,7 @@ class _AdminPageState extends State<AdminPage> {
   Future<void> updateQAPair(int index) async {
     try {
       var response = await dio.put(
-        'http://localhost:8000/qa/${qaPairs[index]['id']}',
+        '${ProjectUtilities.portName}/qa/${qaPairs[index]['id']}',
         data: {
           'question': questionController.text,
           'answer': answerController.text,
@@ -95,7 +98,7 @@ class _AdminPageState extends State<AdminPage> {
 
   Future<void> deleteQAPair(int index) async {
     try {
-      var response = await dio.delete('http://localhost:8000/qa/${qaPairs[index]['id']}');
+      var response = await dio.delete('${ProjectUtilities.portName}/qa/del/${qaPairs[index]['id']}');
       print(response.data);
       getQAPairs(); // Refresh list
     } on DioException catch (e) {
@@ -123,7 +126,7 @@ class _AdminPageState extends State<AdminPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Admin'),
+          title: const Text('Admin'),
         ),
         body: Column(
           children: <Widget>[
@@ -136,7 +139,7 @@ class _AdminPageState extends State<AdminPage> {
                     title: Text(qaPairs[index]['question'] ?? ''),
                     subtitle: Text(qaPairs[index]['answer'] ?? ''),
                     trailing: IconButton(
-                      icon: Icon(Icons.delete),
+                      icon: const Icon(Icons.delete),
                       onPressed: () {
                         deleteQAPair(index);
                       },
@@ -148,19 +151,19 @@ class _AdminPageState extends State<AdminPage> {
                         context: context,
                         builder: (BuildContext context) {
                           return AlertDialog(
-                            title: Text('Edit Q&A Pair'),
+                            title: const Text('Edit Q&A Pair'),
                             content: Column(
                               mainAxisSize: MainAxisSize.min,
                               children: <Widget>[
                                 TextField(
                                   controller: questionController,
-                                  decoration: InputDecoration(
+                                  decoration: const InputDecoration(
                                     labelText: 'Question',
                                   ),
                                 ),
                                 TextField(
                                   controller: answerController,
-                                  decoration: InputDecoration(
+                                  decoration: const InputDecoration(
                                     labelText: 'Answer',
                                   ),
                                 ),
@@ -168,13 +171,13 @@ class _AdminPageState extends State<AdminPage> {
                             ),
                             actions: <Widget>[
                               TextButton(
-                                child: Text('Cancel'),
+                                child: const Text('Cancel'),
                                 onPressed: () {
                                   Navigator.of(context).pop();
                                 },
                               ),
                               TextButton(
-                                child: Text('Save'),
+                                child: const Text('Save'),
                                 onPressed: () {
                                   if (index < qaPairs.length) {
                                     updateQAPair(index);
@@ -202,7 +205,7 @@ class _AdminPageState extends State<AdminPage> {
               padding: const EdgeInsets.only(right: 5),
               child: FloatingActionButton(
                 onPressed: pickFile,
-                child: Icon(Icons.file_upload),
+                child: const Icon(Icons.file_upload),
               ),
             ),
             FloatingActionButton(
@@ -213,19 +216,19 @@ class _AdminPageState extends State<AdminPage> {
                   context: context,
                   builder: (BuildContext context) {
                     return AlertDialog(
-                      title: Text('Add Q&A Pair'),
+                      title: const Text('Add Q&A Pair'),
                       content: Column(
                         mainAxisSize: MainAxisSize.min,
                         children: <Widget>[
                           TextField(
                             controller: questionController,
-                            decoration: InputDecoration(
+                            decoration: const InputDecoration(
                               labelText: 'Question',
                             ),
                           ),
                           TextField(
                             controller: answerController,
-                            decoration: InputDecoration(
+                            decoration: const InputDecoration(
                               labelText: 'Answer',
                             ),
                           ),
@@ -233,13 +236,13 @@ class _AdminPageState extends State<AdminPage> {
                       ),
                       actions: <Widget>[
                         TextButton(
-                          child: Text('Cancel'),
+                          child: const Text('Cancel'),
                           onPressed: () {
                             Navigator.of(context).pop();
                           },
                         ),
                         TextButton(
-                          child: Text('Add'),
+                          child: const Text('Add'),
                           onPressed: () {
                             addQAPair();
                             Navigator.of(context).pop();
@@ -251,7 +254,7 @@ class _AdminPageState extends State<AdminPage> {
                 );
               },
               tooltip: 'Add Q&A Pair',
-              child: Icon(Icons.add),
+              child: const Icon(Icons.add),
             ),
           ],
         ));

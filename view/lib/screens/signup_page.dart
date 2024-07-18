@@ -3,6 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:view/config/general_config.dart';
+import 'package:view/const/project_utilities.dart';
 
 class SignupPage extends StatefulWidget {
   @override
@@ -17,7 +18,7 @@ class _SignupPageState extends State<SignupPage> {
 
   void _signup() async {
     if (_formKey.currentState!.validate()) {
-      final url = Uri.parse('http://localhost:8000/signup/');
+      final url = Uri.parse('${ProjectUtilities.portName}/signup/');
       final headers = {'Content-Type': 'application/json'};
       final body = jsonEncode({
         'email': _emailController.text,

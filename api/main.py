@@ -1,14 +1,15 @@
+from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import OAuth2PasswordRequestForm
 from pydantic import BaseModel
 import pickle
-import numpy as np
-from keras.utils import pad_sequences
-import re
-from api.model.project_main import predict
-from models.database import Database, User
+from model.project_main import predict
+from database import Database, User
 from keras.models import load_model
+
+BASE_DIR = Path(__file__).resolve().parent
+SAVED_MODEL_PATH = BASE_DIR / "model" / "saved_models"
 
 # FastAPI uygulamasını oluştur
 app = FastAPI()
@@ -22,6 +23,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+class AskQuestion(BaseModel):
+    text: str
+
 # Pydantic modellerini tanımla
 class Question(BaseModel):
     question: str
@@ -32,16 +36,18 @@ class User(BaseModel):
     password: str
 
 @app.post("/ask")
-async def ask_question(question: Question):
-    enc_model2 = load_model('/home/enoca2/Desktop/OMUChatbot/api/model/enc_model.h5')
-    dec_model2 = load_model('/home/enoca2/Desktop/OMUChatbot/api/model/dec_model.h5')
+async def ask_question(question: AskQuestion):
 
-    with open('/home/enoca2/Desktop/OMUChatbot/api/model/storage.pkl', 'rb') as f:
+    print(SAVED_MODEL_PATH)
+    print("girmedi ************************************************************************")
+    enc_model2 = load_model(SAVED_MODEL_PATH / 'enc_model.h5')
+    dec_model2 = load_model(SAVED_MODEL_PATH / 'dec_model.h5')
+
+    with open(SAVED_MODEL_PATH / 'storage.pkl', 'rb') as f:
         dense2, MAX_LEN2, vocab2, inv_vocab2 = pickle.load(f)
 
     answer = predict(question.text, enc_model2, dec_model2, dense2, MAX_LEN2, vocab2, inv_vocab2)
-
-    return {"question": question.text, "answer": answer}
+    return {"question": question.text, "answer": str(answer)}
 
 @app.get("/test-cors/")
 async def test_cors():
@@ -109,7 +115,7 @@ async def update_qa(qa_id: int, qa: Question):
     db.close()
     return {"message": "Q&A pair updated successfully"}
 
-@app.delete("/qa/{qa_id}")
+@app.delete("/qa/del/{qa_id}")
 async def delete_qa(qa_id: int):
     db = Database()
     if db.cursor is None:
@@ -123,5 +129,6 @@ async def delete_qa(qa_id: int):
     return {"message": "Q&A pair deleted successfully"}
 
 if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)
+    pass
+#     import uvicorn
+#     uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)

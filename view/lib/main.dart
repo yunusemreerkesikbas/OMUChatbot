@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:view/screens/admin_page.dart';
 import 'screens/chat_page.dart';
 import 'screens/login_page.dart';
 import 'screens/signup_page.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -23,8 +24,8 @@ class MyApp extends StatelessWidget {
         '/': (context) => LoginPage(),
         '/login': (context) => LoginPage(),
         '/signup': (context) => SignupPage(),
-        '/chat': (context) => ChatPage(),
-        '/admin': (context) => AdminPage(),
+        '/chat': (context) => const ChatPage(),
+        '/admin': (context) => const AdminPage(),
       },
     );
   }
