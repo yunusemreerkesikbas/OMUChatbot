@@ -73,11 +73,13 @@ async def login(user: User):
     if db.cursor is None:
         raise HTTPException(status_code=500, detail="Database connection failed")
     db.create_user_table()
-    user_exists = db.check_user(user.email, user.password)
-    db.close()
-    if user_exists:
-        return {"message": "Login successful"}
+    user_data = db.get_user(user.email)
+    if user_data and db.check_user(user.email, user.password):
+        role = "admin" if user_data['role'] == 'admin' else 'user'
+        db.close()
+        return {"message": "Login successful", "role": role}
     else:
+        db.close()
         raise HTTPException(status_code=400, detail="Invalid email or password")
 
 @app.get("/qa/")

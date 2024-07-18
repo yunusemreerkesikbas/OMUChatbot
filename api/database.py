@@ -107,10 +107,10 @@ class Database:
             print("Cursor is not connected")
             return None
         try:
-            self.cursor.execute("SELECT email, password FROM users WHERE email = %s", (email,))
+            self.cursor.execute("SELECT email, password, role FROM users WHERE email = %s", (email,))
             result = self.cursor.fetchone()
             if result:
-                return {"email": result[0], "password": result[1]}
+                return {"email": result[0], "password": result[1], "role": result[2]}
             return None
         except Error as e:
             print(f"Error getting user: {e}")
@@ -152,6 +152,20 @@ class Database:
             self.db_connection.commit()
         except Error as e:
             print(f"Error deleting data: {e}")
+
+    def get_user_role(self, email, password):
+        if self.cursor is None:
+            print("Cursor is not connected")
+            return None
+        try:
+            self.cursor.execute("SELECT email, password, role FROM users WHERE email = %s", (email,))
+            result = self.cursor.fetchone()
+            if result and bcrypt.checkpw(password.encode('utf-8'), result[1].encode('utf-8')):
+                return {"email": result[0], "role": result[2]}
+            return None
+        except Error as e:
+            print(f"Error getting user role: {e}")
+            return None
 
     def close(self):
         if self.cursor is not None:

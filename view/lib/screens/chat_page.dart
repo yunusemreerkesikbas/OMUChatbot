@@ -16,6 +16,7 @@ class _ChatPageState extends State<ChatPage> {
   final TextEditingController _controller = TextEditingController();
   List<Map<String, String>> messages = [];
   bool _isLoading = false;
+  String role = 'user';
 
   @override
   void initState() {
@@ -26,10 +27,17 @@ class _ChatPageState extends State<ChatPage> {
   Future<void> _checkLoginStatus() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     bool? isLoggedIn = prefs.getBool('isLoggedIn');
+    role = prefs.getString('role') ?? 'user';
 
     if (isLoggedIn == null || !isLoggedIn) {
       Navigator.pushReplacementNamed(context, '/login');
     }
+  }
+
+  Future<void> _signOut() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    await prefs.clear();
+    Navigator.pushReplacementNamed(context, '/login');
   }
 
   String cleanResponse(String response) {
@@ -107,7 +115,22 @@ class _ChatPageState extends State<ChatPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Chatbot'),
+        title: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            IconButton(
+              icon: const Icon(Icons.logout),
+              onPressed: _signOut,
+            ),
+            if (role == 'admin')
+              IconButton(
+                icon: const Icon(Icons.admin_panel_settings),
+                onPressed: () {
+                  Navigator.pushReplacementNamed(context, role == 'admin' ? '/admin' : '/chat');
+                },
+              ),
+          ],
+        ),
         centerTitle: true,
       ),
       body: Center(
