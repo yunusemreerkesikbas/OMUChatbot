@@ -4,8 +4,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import OAuth2PasswordRequestForm
 from pydantic import BaseModel
 import pickle
-from model.project_main import predict
-from database import Database, User
+from api.model.project_main import predict
+from api.database import Database, User
 from keras.models import load_model
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -129,6 +129,49 @@ async def delete_qa(qa_id: int):
         raise HTTPException(status_code=400, detail=str(e))
     db.close()
     return {"message": "Q&A pair deleted successfully"}
+
+@app.get("/users/")
+async def get_users():
+    db = Database()
+    if db.cursor is None:
+        raise HTTPException(status_code=500, detail="Database connection failed")
+    db.create_user_table()
+    try:
+        db.cursor.execute("SELECT id, email, role FROM users")
+        users = db.cursor.fetchall()
+    except Exception as e:
+        db.close()
+        raise HTTPException(status_code=400, detail=str(e))
+    db.close()
+    return [{"id": user[0], "email": user[1], "role": user[2]} for user in users]
+
+@app.post("/users/")
+async def add_user(user: User):
+    db = Database()
+    if db.cursor is None:
+        raise HTTPException(status_code=500, detail="Database connection failed")
+    db.create_user_table()
+    try:
+        db.insert_user(user.email, user.password)
+    except Exception as e:
+        db.close()
+        raise HTTPException(status_code=400, detail=str(e))
+    db.close()
+    return {"message": "User added successfully"}
+
+@app.delete("/users/del/{user_id}")
+async def delete_user(user_id: int):
+    db = Database()
+    if db.cursor is None:
+        raise HTTPException(status_code=500, detail="Database connection failed")
+    try:
+        db.cursor.execute("DELETE FROM users WHERE id = %s", (user_id,))
+        db.db_connection.commit()
+    except Exception as e:
+        db.close()
+        raise HTTPException(status_code=400, detail=str(e))
+    db.close()
+    return {"message": "User deleted successfully"}
 
 if __name__ == "__main__":
     pass
