@@ -85,26 +85,26 @@ class _ChatPageState extends State<ChatPage> {
           children: [
             isUserMessage
                 ? Text(
-                    message,
-                    style: const TextStyle(color: Colors.white),
-                  )
+              message,
+              style: const TextStyle(color: Colors.white),
+            )
                 : message == 'loading'
-                    ? const SizedBox(
-                        height: 20,
-                        width: 20,
-                        child: CircularProgressIndicator(
-                          strokeWidth: 2.0,
-                        ),
-                      ) // Show spinner
-                    : Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            message,
-                            style: const TextStyle(color: Colors.black),
-                          ),
-                        ],
-                      ),
+                ? const SizedBox(
+              height: 20,
+              width: 20,
+              child: CircularProgressIndicator(
+                strokeWidth: 2.0,
+              ),
+            ) // Show spinner
+                : Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  message,
+                  style: const TextStyle(color: Colors.black),
+                ),
+              ],
+            ),
           ],
         ),
       ),
@@ -126,9 +126,22 @@ class _ChatPageState extends State<ChatPage> {
               IconButton(
                 icon: const Icon(Icons.admin_panel_settings),
                 onPressed: () {
-                  Navigator.pushReplacementNamed(context, role == 'admin' ? '/admin' : '/chat');
+                  Navigator.pushReplacementNamed(context, '/admin');
                 },
               ),
+            if (role == 'admin')
+              IconButton(
+                icon: const Icon(Icons.people),
+                onPressed: () {
+                  Navigator.pushReplacementNamed(context, '/users');
+                },
+              ),
+            IconButton(
+              icon: const Icon(Icons.chat),
+              onPressed: () {
+                Navigator.pushReplacementNamed(context, '/chat');
+              },
+            ),
           ],
         ),
         centerTitle: true,

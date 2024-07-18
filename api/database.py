@@ -209,6 +209,46 @@ class Database:
         except Error as e:
             print(f"Error inserting admin user: {e}")
 
+    def get_all_users(self):
+        if self.cursor is None:
+            print("Cursor is not connected")
+            return []
+        try:
+            self.cursor.execute("SELECT id, email, role FROM users")
+            users = self.cursor.fetchall()
+            return [{"id": user[0], "email": user[1], "role": user[2]} for user in users]
+        except Error as e:
+            print(f"Error fetching users: {e}")
+            return []
+
+    def add_user(self, email, password):
+        if self.cursor is None:
+            print("Cursor is not connected")
+            return False
+        try:
+            hashed_password = bcrypt.hashpw(password.encode('utf-8'), bcrypt.gensalt()).decode('utf-8')
+            insert_query = "INSERT INTO users (email, password) VALUES (%s, %s)"
+            self.cursor.execute(insert_query, (email, hashed_password))
+            self.db_connection.commit()
+            return True
+        except mysql.connector.IntegrityError:
+            raise Exception("Email already exists")
+        except Error as e:
+            print(f"Error inserting user: {e}")
+            return False
+
+    def delete_user(self, user_id):
+        if self.cursor is None:
+            print("Cursor is not connected")
+            return False
+        try:
+            self.cursor.execute("DELETE FROM users WHERE id = %s", (user_id,))
+            self.db_connection.commit()
+            return True
+        except Error as e:
+            print(f"Error deleting user: {e}")
+            return False
+
 # Veritabanı işlemlerini gerçekleştir
 if __name__ == "__main__":
     dataset_path = "/home/enoca2/Desktop/OMUChatbot/api/model/dataset.txt"

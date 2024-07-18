@@ -18,6 +18,7 @@ class _AdminPageState extends State<AdminPage> {
   TextEditingController questionController = TextEditingController();
   TextEditingController answerController = TextEditingController();
   var dio = Dio();
+  bool isAdmin = false;
 
   @override
   void initState() {
@@ -29,7 +30,11 @@ class _AdminPageState extends State<AdminPage> {
   Future<void> _checkAdminAccess() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
     String? role = prefs.getString('role');
-    if (role != 'admin') {
+    if (role == 'admin') {
+      setState(() {
+        isAdmin = true;
+      });
+    } else {
       Navigator.pushReplacementNamed(context, '/access-denied');
     }
   }
@@ -142,19 +147,34 @@ class _AdminPageState extends State<AdminPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Admin'),
-          actions: [
-            IconButton(
-              icon: const Icon(Icons.logout),
-              onPressed: _signOut,
-            ),
-            IconButton(
-              icon: const Icon(Icons.chat),
-              onPressed: () {
-                Navigator.pushReplacementNamed(context, '/chat');
-              },
-            ),
-          ],
+          title: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              IconButton(
+                icon: const Icon(Icons.logout),
+                onPressed: _signOut,
+              ),
+              IconButton(
+                icon: const Icon(Icons.admin_panel_settings),
+                onPressed: () {
+                  Navigator.pushReplacementNamed(context, '/admin');
+                },
+              ),
+              IconButton(
+                icon: const Icon(Icons.people),
+                onPressed: () {
+                  Navigator.pushReplacementNamed(context, '/users');
+                },
+              ),
+              IconButton(
+                icon: const Icon(Icons.chat),
+                onPressed: () {
+                  Navigator.pushReplacementNamed(context, '/chat');
+                },
+              ),
+            ],
+          ),
+          centerTitle: true,
         ),
         body: Column(
           children: <Widget>[

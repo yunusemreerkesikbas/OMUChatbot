@@ -5,6 +5,7 @@ import 'screens/chat_page.dart';
 import 'screens/login_page.dart';
 import 'screens/signup_page.dart';
 import 'screens/access_denied_page.dart';
+import 'screens/users_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -37,6 +38,7 @@ class MyApp extends StatelessWidget {
         '/signup': (context) => SignupPage(),
         '/chat': (context) => ChatPage(),
         '/admin': (context) => AdminPage(),
+        '/users': (context) => UsersPage(),
         '/access-denied': (context) => AccessDeniedPage(),
       },
     );
