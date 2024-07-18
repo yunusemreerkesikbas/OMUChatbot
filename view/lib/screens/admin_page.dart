@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:view/const/project_utilities.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class AdminPage extends StatefulWidget {
   const AdminPage({super.key});
@@ -21,7 +22,16 @@ class _AdminPageState extends State<AdminPage> {
   @override
   void initState() {
     super.initState();
+    _checkAdminAccess();
     getQAPairs();
+  }
+
+  Future<void> _checkAdminAccess() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    String? role = prefs.getString('role');
+    if (role != 'admin') {
+      Navigator.pushReplacementNamed(context, '/access-denied');
+    }
   }
 
   Future<void> getQAPairs() async {
@@ -122,11 +132,29 @@ class _AdminPageState extends State<AdminPage> {
     }
   }
 
+  Future<void> _signOut() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    await prefs.clear();
+    Navigator.pushReplacementNamed(context, '/login');
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
           title: const Text('Admin'),
+          actions: [
+            IconButton(
+              icon: const Icon(Icons.logout),
+              onPressed: _signOut,
+            ),
+            IconButton(
+              icon: const Icon(Icons.chat),
+              onPressed: () {
+                Navigator.pushReplacementNamed(context, '/chat');
+              },
+            ),
+          ],
         ),
         body: Column(
           children: <Widget>[
