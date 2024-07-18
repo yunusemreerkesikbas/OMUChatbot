@@ -2,16 +2,13 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:file_picker/file_picker.dart';
-import 'package:view/const/project_utilities.dart';
 
-class AdminPage extends StatefulWidget {
-  const AdminPage({super.key});
-
+class QAPage extends StatefulWidget {
   @override
-  _AdminPageState createState() => _AdminPageState();
+  _QAPageState createState() => _QAPageState();
 }
 
-class _AdminPageState extends State<AdminPage> {
+class _QAPageState extends State<QAPage> {
   List<Map<String, String>> qaPairs = [];
 
   TextEditingController questionController = TextEditingController();
@@ -26,14 +23,13 @@ class _AdminPageState extends State<AdminPage> {
 
   Future<void> getQAPairs() async {
     try {
-      var response = await dio.get('${ProjectUtilities.portName}/qa/');
-      List<dynamic> contents = response.data;
+      var response = await dio.get('');
+      List<dynamic> contents = json.decode(response.data as String);
       setState(() {
         qaPairs = contents.map((item) {
           return {
-            'id': item['id'].toString(),
-            'question': item['question'] as String,
-            'answer': item['answer'] as String,
+            'question': item['soru'] as String,
+            'answer': item['cevap'] as String,
           };
         }).toList();
       });
@@ -49,16 +45,14 @@ class _AdminPageState extends State<AdminPage> {
   }
 
   Future<void> addQAPair() async {
+    qaPairs.add({
+      'question': questionController.text,
+      'answer': answerController.text,
+    });
     try {
-      var response = await dio.post(
-        '${ProjectUtilities.portName}/qa/',
-        data: {
-          'question': questionController.text,
-          'answer': answerController.text,
-        },
-      );
+      var response =
+      await dio.post('https://jsonplaceholder.typicode.com/posts/1');
       print(response.data);
-      getQAPairs(); // Refresh list
     } on DioException catch (e) {
       if (e.response != null) {
         print(e.response!.data);
@@ -74,42 +68,21 @@ class _AdminPageState extends State<AdminPage> {
     });
   }
 
-  Future<void> updateQAPair(int index) async {
-    try {
-      var response = await dio.put(
-        '${ProjectUtilities.portName}/qa/${qaPairs[index]['id']}',
-        data: {
-          'question': questionController.text,
-          'answer': answerController.text,
-        },
-      );
-      print(response.data);
-      getQAPairs(); // Refresh list
-    } on DioException catch (e) {
-      if (e.response != null) {
-        print(e.response!.data);
-        print(e.response!.headers);
-        print(e.response!.requestOptions);
-      } else {
-        print(e.message);
-      }
-    }
+  void updateQAPair(int index) {
+    setState(() {
+      qaPairs[index] = {
+        'question': questionController.text,
+        'answer': answerController.text,
+      };
+      questionController.clear();
+      answerController.clear();
+    });
   }
 
-  Future<void> deleteQAPair(int index) async {
-    try {
-      var response = await dio.delete('${ProjectUtilities.portName}/qa/del/${qaPairs[index]['id']}');
-      print(response.data);
-      getQAPairs(); // Refresh list
-    } on DioException catch (e) {
-      if (e.response != null) {
-        print(e.response!.data);
-        print(e.response!.headers);
-        print(e.response!.requestOptions);
-      } else {
-        print(e.message);
-      }
-    }
+  void deleteQAPair(int index) {
+    setState(() {
+      qaPairs.removeAt(index);
+    });
   }
 
   Future<void> pickFile() async {
@@ -117,83 +90,83 @@ class _AdminPageState extends State<AdminPage> {
       type: FileType.custom,
       allowedExtensions: ['txt'],
     );
-    if (result != null) {
-      // Do something with the file
-    }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Admin'),
+          title: Text('Q&A Manager'),
         ),
         body: Column(
           children: <Widget>[
             SizedBox(
               height: MediaQuery.of(context).size.height * 0.6,
-              child: ListView.builder(
-                itemCount: qaPairs.length,
-                itemBuilder: (context, index) {
-                  return ListTile(
-                    title: Text(qaPairs[index]['question'] ?? ''),
-                    subtitle: Text(qaPairs[index]['answer'] ?? ''),
-                    trailing: IconButton(
-                      icon: const Icon(Icons.delete),
-                      onPressed: () {
-                        deleteQAPair(index);
-                      },
-                    ),
-                    onTap: () {
-                      questionController.text = qaPairs[index]['question'] ?? '';
-                      answerController.text = qaPairs[index]['answer'] ?? '';
-                      showDialog(
-                        context: context,
-                        builder: (BuildContext context) {
-                          return AlertDialog(
-                            title: const Text('Edit Q&A Pair'),
-                            content: Column(
-                              mainAxisSize: MainAxisSize.min,
-                              children: <Widget>[
-                                TextField(
-                                  controller: questionController,
-                                  decoration: const InputDecoration(
-                                    labelText: 'Question',
+              child: Expanded(
+                child: ListView.builder(
+                  itemCount: qaPairs.length,
+                  itemBuilder: (context, index) {
+                    return ListTile(
+                      title: Text(qaPairs[index]['question'] ?? ''),
+                      subtitle: Text(qaPairs[index]['answer'] ?? ''),
+                      trailing: IconButton(
+                        icon: Icon(Icons.delete),
+                        onPressed: () {
+                          deleteQAPair(index);
+                        },
+                      ),
+                      onTap: () {
+                        questionController.text =
+                            qaPairs[index]['question'] ?? '';
+                        answerController.text = qaPairs[index]['answer'] ?? '';
+                        showDialog(
+                          context: context,
+                          builder: (BuildContext context) {
+                            return AlertDialog(
+                              title: Text('Edit Q&A Pair'),
+                              content: Column(
+                                mainAxisSize: MainAxisSize.min,
+                                children: <Widget>[
+                                  TextField(
+                                    controller: questionController,
+                                    decoration: InputDecoration(
+                                      labelText: 'Question',
+                                    ),
                                   ),
+                                  TextField(
+                                    controller: answerController,
+                                    decoration: InputDecoration(
+                                      labelText: 'Answer',
+                                    ),
+                                  ),
+                                ],
+                              ),
+                              actions: <Widget>[
+                                TextButton(
+                                  child: Text('Cancel'),
+                                  onPressed: () {
+                                    Navigator.of(context).pop();
+                                  },
                                 ),
-                                TextField(
-                                  controller: answerController,
-                                  decoration: const InputDecoration(
-                                    labelText: 'Answer',
-                                  ),
+                                TextButton(
+                                  child: Text('Save'),
+                                  onPressed: () {
+                                    if (index < qaPairs.length) {
+                                      updateQAPair(index);
+                                    } else {
+                                      addQAPair();
+                                    }
+                                    Navigator.of(context).pop();
+                                  },
                                 ),
                               ],
-                            ),
-                            actions: <Widget>[
-                              TextButton(
-                                child: const Text('Cancel'),
-                                onPressed: () {
-                                  Navigator.of(context).pop();
-                                },
-                              ),
-                              TextButton(
-                                child: const Text('Save'),
-                                onPressed: () {
-                                  if (index < qaPairs.length) {
-                                    updateQAPair(index);
-                                  } else {
-                                    addQAPair();
-                                  }
-                                  Navigator.of(context).pop();
-                                },
-                              ),
-                            ],
-                          );
-                        },
-                      );
-                    },
-                  );
-                },
+                            );
+                          },
+                        );
+                      },
+                    );
+                  },
+                ),
               ),
             ),
           ],
@@ -205,7 +178,7 @@ class _AdminPageState extends State<AdminPage> {
               padding: const EdgeInsets.only(right: 5),
               child: FloatingActionButton(
                 onPressed: pickFile,
-                child: const Icon(Icons.file_upload),
+                child: Icon(Icons.file_upload),
               ),
             ),
             FloatingActionButton(
@@ -216,19 +189,19 @@ class _AdminPageState extends State<AdminPage> {
                   context: context,
                   builder: (BuildContext context) {
                     return AlertDialog(
-                      title: const Text('Add Q&A Pair'),
+                      title: Text('Add Q&A Pair'),
                       content: Column(
                         mainAxisSize: MainAxisSize.min,
                         children: <Widget>[
                           TextField(
                             controller: questionController,
-                            decoration: const InputDecoration(
+                            decoration: InputDecoration(
                               labelText: 'Question',
                             ),
                           ),
                           TextField(
                             controller: answerController,
-                            decoration: const InputDecoration(
+                            decoration: InputDecoration(
                               labelText: 'Answer',
                             ),
                           ),
@@ -236,13 +209,13 @@ class _AdminPageState extends State<AdminPage> {
                       ),
                       actions: <Widget>[
                         TextButton(
-                          child: const Text('Cancel'),
+                          child: Text('Cancel'),
                           onPressed: () {
                             Navigator.of(context).pop();
                           },
                         ),
                         TextButton(
-                          child: const Text('Add'),
+                          child: Text('Add'),
                           onPressed: () {
                             addQAPair();
                             Navigator.of(context).pop();
@@ -254,7 +227,7 @@ class _AdminPageState extends State<AdminPage> {
                 );
               },
               tooltip: 'Add Q&A Pair',
-              child: const Icon(Icons.add),
+              child: Icon(Icons.add),
             ),
           ],
         ));

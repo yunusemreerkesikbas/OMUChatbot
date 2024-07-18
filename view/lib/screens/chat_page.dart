@@ -3,11 +3,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-import 'package:view/const/project_utilities.dart';
-
 class ChatPage extends StatefulWidget {
-  const ChatPage({super.key});
-
   @override
   _ChatPageState createState() => _ChatPageState();
 }
@@ -42,9 +38,10 @@ class _ChatPageState extends State<ChatPage> {
       messages.add({'question': question, 'response': 'loading'}); // Add loading state
     });
 
-    final url = Uri.parse('${ProjectUtilities.portName}/ask');
+    final url = Uri.parse('http://localhost:8000/ask/');
     final headers = {
-      'Content-Type': 'application/json; charset=UTF-8',
+      'Content-Type': 'application/json',
+      'Accept': '*/*',
     };
     final body = jsonEncode({'text': question});
 
@@ -66,8 +63,8 @@ class _ChatPageState extends State<ChatPage> {
     return Align(
       alignment: isUserMessage ? Alignment.centerRight : Alignment.centerLeft,
       child: Container(
-        padding: const EdgeInsets.all(10),
-        margin: const EdgeInsets.symmetric(vertical: 5),
+        padding: EdgeInsets.all(10),
+        margin: EdgeInsets.symmetric(vertical: 5),
         decoration: BoxDecoration(
           color: isUserMessage ? Colors.blue : Colors.grey[300],
           borderRadius: BorderRadius.circular(15),
@@ -77,31 +74,50 @@ class _ChatPageState extends State<ChatPage> {
           children: [
             isUserMessage
                 ? Text(
-                    message,
-                    style: const TextStyle(color: Colors.white),
-                  )
+              message,
+              style: TextStyle(color: Colors.white),
+            )
                 : message == 'loading'
-                    ? const SizedBox(
-                        height: 20,
-                        width: 20,
-                        child: CircularProgressIndicator(
-                          strokeWidth: 2.0,
-                        ),
-                      ) // Show spinner
-                    : Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
-                            message,
-                            style: const TextStyle(color: Colors.black),
-                          ),
-                        ],
-                      ),
+                ? SizedBox(
+              height: 20,
+              width: 20,
+              child: CircularProgressIndicator(
+                strokeWidth: 2.0,
+              ),
+            ) // Show spinner
+                : Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  message,
+                  style: TextStyle(color: Colors.black),
+                ),
+                SizedBox(height: 5),
+                Row(
+                  children: [
+                    Text('Bu değerlendirme faydalı oldu mu?'),
+                    IconButton(
+                      icon: Icon(Icons.thumb_up, color: Colors.green),
+                      onPressed: () {
+                        // Like button action
+                      },
+                    ),
+                    IconButton(
+                      icon: Icon(Icons.thumb_down, color: Colors.red),
+                      onPressed: () {
+                        // Dislike button action
+                      },
+                    ),
+                  ],
+                ),
+              ],
+            ),
           ],
         ),
       ),
     );
   }
+
 
   @override
   Widget build(BuildContext context) {
@@ -115,7 +131,7 @@ class _ChatPageState extends State<ChatPage> {
           width: 600,
           decoration: BoxDecoration(
             image: DecorationImage(
-              image: const AssetImage('assets/omu.jpg'), // OMÜ logosu yolu
+              image: AssetImage('assets/omu.jpg'), // OMÜ logosu yolu
               fit: BoxFit.cover,
               colorFilter: ColorFilter.mode(
                 Colors.black.withOpacity(0.1),
@@ -134,15 +150,16 @@ class _ChatPageState extends State<ChatPage> {
                       return Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          _buildMessageBubble('You: ${messages[index]['question']}', true),
-                          _buildMessageBubble('${messages[index]['response']}', false),
+                          _buildMessageBubble(
+                              'You: ${messages[index]['question']}', true),
+                          _buildMessageBubble(
+                              '${messages[index]['response']}', false),
                         ],
                       );
                     },
                   ),
                 ),
               ),
-              messages.isNotEmpty ? CustomRow(message: messages[messages.length - 1]) : const SizedBox.shrink(),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Row(
@@ -150,13 +167,13 @@ class _ChatPageState extends State<ChatPage> {
                     Expanded(
                       child: TextField(
                         controller: _controller,
-                        decoration: const InputDecoration(
+                        decoration: InputDecoration(
                           hintText: 'Enter your message...',
                           border: OutlineInputBorder(),
                         ),
                         onSubmitted: (value) {
                           if (value.isNotEmpty) {
-                            _sendRequest(value.toString());
+                            _sendRequest(value);
                             _controller.clear();
                           }
                         },
@@ -164,7 +181,7 @@ class _ChatPageState extends State<ChatPage> {
                     ),
                     const SizedBox(width: 8),
                     IconButton(
-                      icon: const Icon(Icons.send),
+                      icon: Icon(Icons.send),
                       onPressed: () {
                         if (_controller.text.isNotEmpty) {
                           _sendRequest(_controller.text);
@@ -178,88 +195,6 @@ class _ChatPageState extends State<ChatPage> {
             ],
           ),
         ),
-      ),
-    );
-  }
-}
-
-class CustomRow extends StatefulWidget {
-  const CustomRow({
-    super.key,
-    required this.message,
-  });
-
-  final Map<String, String> message;
-
-  @override
-  State<CustomRow> createState() => _CustomRowState();
-}
-
-class _CustomRowState extends State<CustomRow> {
-  bool isThumbsUpClicked = false;
-  bool isThumbsDownClicked = false;
-  String _text = 'Bu değerlendirme faydalı oldu mu?';
-
-  Future<void> _addUnsuccessfulQuestion(String question) async {
-    final url = Uri.parse('${ProjectUtilities.portName}/qa/');
-    final headers = {
-      'Content-Type': 'application/json; charset=UTF-8',
-    };
-    final body = jsonEncode({'question': question, 'answer': '---'});
-
-    try {
-      final response = await http.post(url, headers: headers, body: body);
-      if (!(response.statusCode == 200)) {
-        _showSnackBar("Lütfen Tekrar Deneyiniz");
-      } else {
-        _showSnackBar('Şikayetiniz tarafımıza iletilmiştir.');
-      }
-    } catch (e) {
-      print(e.toString());
-    }
-  }
-
-  void _showSnackBar(String message) {
-    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-      content: Text(message),
-      duration: const Duration(seconds: 2),
-    ));
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    var width = MediaQuery.of(context).size.width;
-    var height = MediaQuery.of(context).size.height;
-    return Container(
-      height: height * 0.05,
-      width: width * 0.97,
-      decoration: ShapeDecoration(
-          color: Colors.transparent,
-          shape: RoundedRectangleBorder(
-              borderRadius: const BorderRadius.all(Radius.circular(15)),
-              side: BorderSide(color: Colors.grey.shade600, width: 1.5, strokeAlign: BorderSide.strokeAlignCenter))),
-      child: Row(
-        mainAxisSize: MainAxisSize.max,
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: [
-          Text(
-            _text,
-            style: const TextStyle(fontSize: 16),
-            textAlign: TextAlign.center,
-          ),
-          IconButton(
-            icon: const Icon(Icons.thumb_up, color: Colors.green),
-            onPressed: () {
-              _showSnackBar('Bizi tercih ettiğiniz için teşekkür ederiz');
-            },
-          ),
-          IconButton(
-            icon: const Icon(Icons.thumb_down, color: Colors.red),
-            onPressed: () {
-              _addUnsuccessfulQuestion(widget.message.values.first.toString());
-            },
-          ),
-        ],
       ),
     );
   }

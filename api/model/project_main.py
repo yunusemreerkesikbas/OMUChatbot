@@ -1,4 +1,4 @@
-from keras.preprocessing.sequence import pad_sequences
+from keras.utils import pad_sequences
 from keras.models import Model
 from keras.layers import Dense, Embedding, LSTM, Input
 from keras.utils import to_categorical
@@ -9,15 +9,13 @@ import pickle
 import mysql.connector
 from pathlib import Path
 
-
 # Dosya yollarını belirleme
 BASE_DIR = Path(__file__).resolve().parent.parent
-SAVED_MODEL_PATH = BASE_DIR / "model" / "saved_models"
 STOPWORDS_PATH = BASE_DIR / "model" / "turkce-stop-words.txt"
 
 def data_load():
     db_connection = mysql.connector.connect(
-        host="127.0.0.1",
+        host="localhost",
         port=3307,
         user="chatbot_user",
         password="chatbot_db_1234",
@@ -141,7 +139,7 @@ def building_model():
     opt = optimizers.Adam(learning_rate=0.0125)
 
     model.compile(loss='categorical_crossentropy', metrics=['accuracy'], optimizer=opt)
-    model.fit([encoder_input, decoder_input], decoder_final_output, epochs=10)
+    model.fit([encoder_input, decoder_input], decoder_final_output, epochs=40)
 
     enc_model = Model([enc_inp], enc_states)
 
@@ -207,10 +205,10 @@ if __name__ == "__main__":
     MAX_LEN, vocab, inv_vocab, _, _ = building_vocab()
     print(MAX_LEN)
     print(len(vocab))
-    enc_model.save(SAVED_MODEL_PATH / 'enc_model.h5')
-    dec_model.save(SAVED_MODEL_PATH / 'dec_model.h5')
+    enc_model.save('enc_model.h5')
+    dec_model.save('dec_model.h5')
 
-    with open(SAVED_MODEL_PATH / 'storage.pkl', 'wb') as f:
+    with open('storage.pkl', 'wb') as f:
         pickle.dump((dense, MAX_LEN, vocab, inv_vocab), f)
 
 
